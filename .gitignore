@@ -1,0 +1,24 @@
+# Model weights: kept locally, published on the Hugging Face Hub
+/hf/models/
+
+# Run outputs and caches
+/runs/
+/outputs/
+/work/
+*.log
+*.pkl
+*.pickle
+*.safetensors
+*.bin
+checkpoint*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+unsloth_compiled_cache/
+
+# Local settings and secrets
+.env
+*.env
+!*.env.example
+paths.local.yaml

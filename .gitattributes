@@ -1,0 +1,4 @@
+# Keep data files byte for byte (the review sheets use CRLF line endings, as the csv module writes them).
+*.csv -text
+*.jsonl -text
+*.json -text
