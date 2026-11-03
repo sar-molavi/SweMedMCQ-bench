@@ -1,0 +1,51 @@
+control_id,has_error,which_error,severity,comment
+C0101,y,"""hjärtfrekvens 126 bpm"": English abbreviation bpm left; Swedish uses /min or slag/min",minor,"""bpm"" English unit abbreviation; otherwise faithful."
+C0102,n,,,Faithful translation; terminology and numbers correct.
+C0103,n,,,Faithful translation; terminology and numbers correct.
+C0104,n,,,Faithful translation; terminology and numbers correct.
+C0105,y,"""5 % Chloroxylene"": English chemical name left untranslated (kloroxylenol)",minor,"Option D keeps English ""Chloroxylene""; rest correct."
+C0106,n,,,Faithful translation; terminology and numbers correct.
+C0107,n,,,Faithful translation; terminology and numbers correct.
+C0108,n,,,Faithful translation; terminology and numbers correct.
+C0109,n,,,Faithful translation; terminology and numbers correct.
+C0110,n,,,"Faithful; Gamekeeper's thumb is used in Swedish; ""sannolikt"" vs ""most likely"" immaterial."
+C0111,n,,,Faithful; p-values kept as source.
+C0112,n,,,Faithful translation; terminology and numbers correct.
+C0113,n,,,Faithful translation; terminology and numbers correct.
+C0114,n,,,Faithful translation; terminology and numbers correct.
+C0115,n,,,"Faithful; vänstersidig facialispares, nedsatt smärtkänsel correct."
+C0116,n,,,Faithful translation; terminology and numbers correct.
+C0117,n,,,Faithful translation; terminology and numbers correct.
+C0118,n,,,Faithful translation; terminology and numbers correct.
+C0119,n,,,Faithful; ronki acceptable for wheezes.
+C0120,n,,,Numbers and units preserved; terms correct.
+C0121,n,,,Faithful translation; terminology and numbers correct.
+C0122,n,,,Faithful translation; terminology and numbers correct.
+C0123,n,,,Faithful translation; terminology and numbers correct.
+C0124,y,"""Amiodarone"": English spelling, Swedish INN is amiodaron",minor,Option C drug name not in Swedish INN spelling.
+C0125,n,,,Faithful translation; terminology and numbers correct.
+C0126,n,,,Faithful translation; terminology and numbers correct.
+C0127,n,,,Faithful translation; terminology and numbers correct.
+C0128,n,,,Faithful translation; terminology and numbers correct.
+C0129,y,"""diastas recti"": hybrid calque; established Swedish term is rektusdiastas",minor,Option H term unidiomatic; meaning recoverable.
+C0130,n,,,Faithful translation; terminology and numbers correct.
+C0131,n,,,Faithful translation; terminology and numbers correct.
+C0132,n,,,Faithful translation; terminology and numbers correct.
+C0133,y,"""Patientens sjukdomshistoria är betydelsefull för hypertoni"": calque of ""significant for""; should be e.g. ""Patienten har hypertoni""",minor,Unidiomatic calque in history sentence; meaning understandable.
+C0134,n,,,Faithful translation; terminology and numbers correct.
+C0135,n,,,Faithful translation; terminology and numbers correct.
+C0136,n,,,Faithful translation; terminology and numbers correct.
+C0137,n,,,Faithful translation; terminology and numbers correct.
+C0138,n,,,Faithful translation; terminology and numbers correct.
+C0139,y,"""övre centrala zon"": wrong definite adjective form in indefinite phrase (övre central zon); not parallel with other options",minor,Option A inflection error; meaning intact.
+C0140,n,,,Faithful translation; terminology and numbers correct.
+C0141,n,,,Faithful translation; terminology and numbers correct.
+C0142,n,,,"""sympatisk"" sensibly renders source typo ""synthetic""; otherwise faithful."
+C0143,n,,,Faithful translation; terminology and numbers correct.
+C0144,n,,,Faithful translation; terminology and numbers correct.
+C0145,y,"""konfoundering"": non-standard hybrid spelling; Swedish uses confounding/störfaktorer",minor,"""konfoundering"" (twice) is not established Swedish."
+C0146,n,,,Faithful translation; terminology and numbers correct.
+C0147,y,"""elektrokardiogram (ECG)"": Swedish abbreviation is EKG",minor,ECG kept instead of Swedish EKG.
+C0148,y,"""Buspirone"": English spelling, Swedish INN is buspiron",minor,Option C drug name not in Swedish INN spelling.
+C0149,n,,,Faithful translation; terminology and numbers correct.
+C0150,n,,,"""fungerande nodulus"" understandable; meaning preserved."

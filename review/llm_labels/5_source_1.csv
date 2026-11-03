@@ -1,0 +1,56 @@
+item_id,issue_real,answer_still_unambiguous,comment
+S0001,y,y,"'Occulomotor' typo; trigeminocardiac reflex via trigeminal nerve, C correct."
+S0002,y,n,"Stem truncated at 'Rho', remainder pushed into option E; key A (polycythemia) wrong, RhD antibodies (G) is correct."
+S0003,y,y,'Gamteocyte' typo for gametocyte; hypnozoite clearly correct.
+S0004,y,y,'Aspaic acid' typo for aspartic acid; arginine positively charged at physiological pH.
+S0005,y,y,"Run-on stem without punctuation, still understandable; complete hemogram is best first investigation."
+S0006,y,y,'coccidionnycosis' misspelled; pseudohyphae and chlamydospores indicate candidiasis.
+S0007,y,y,Stem is a fragment 'Feed forward mechanism..' but intent clear; anticipatory salivation is feedforward.
+S0008,y,y,'hea rate'/'hea beat' typos in distractors; D is correct APGAR expansion.
+S0009,y,y,"'foified' typo for fortified; health education is health promotion, not specific protection."
+S0010,y,y,"Option '259' garbled; mean minus 2 SD gives 28, only plausible option as written."
+S0011,y,y,'Corlicospinal' typo; lateral spinothalamic tract carries pain and temperature.
+S0012,y,y,"'Material' typo for maternal in A and B; chorionic villus biopsy is diagnostic, D correct."
+S0013,y,y,'H lar' typo for hilar; waxing-waning jaundice with double-duct sign fits periampullary carcinoma.
+S0014,y,y,'detion' and '10P' garbled; stem asks population range but key uses mean +/-2 SE; C only computable option.
+S0015,y,y,'aerial' typo for arterial; polypoidal choroidal vasculopathy does not cause optic atrophy.
+S0016,y,y,'which pa' and 'Myentric' typos; slow waves originate in interstitial cells of Cajal.
+S0017,y,y,'soft plate' typo for palate (also 'RubeLlla'); vesicles on soft palate/pharynx = herpangina.
+S0018,y,y,"'Following a A' (RTA) and 'Sta'/'mid' garbled; PRBC first, platelets at room temperature still best."
+S0019,y,y,"'Her daughter' inconsistent with neonate as subject; physiologic withdrawal bleeding, reassurance correct."
+S0020,y,y,"Options B and D duplicated 'Upper 1st premolar'; lower first premolar lingual cusp is non-functional, A unaffected."
+S0021,y,y,'Autoinnoculation' misspelled; papilloma (HPV) shows autoinoculation.
+S0022,y,y,Stem has redundant trailing 'is'; crater is most common osseous defect.
+S0023,y,y,'bladderv' typo in distractor; stroke causes uninhibited neurogenic bladder.
+S0024,n,y,"'Dale' is the eponym (Dale's vasomotor reversal), not garbled 'dilation'; only lowercase. B correct."
+S0025,y,y,Many nonexistent fibre types (III-VII) as padding; claim that IIX is nonstandard is false. IIb is a near-synonym but IIx best.
+S0026,y,y,'tectorial ligaments' and 'transverse...membranes' sloppy wording; does not change keyed option I.
+S0027,y,y,'Corona]' stray bracket; sagittal synostosis causes scaphocephaly.
+S0028,n,y,Not contradictory: OA with distal TEF plus duodenal atresia gives double bubble; urgent TEF ligation correct.
+S0029,y,n,"Options corrupted to dates ('3-Jan','10-May','15-Oct'); keyed option C unreadable as written. Claim on D wrong."
+S0030,y,y,"'children aged admitted' missing age value; abstract states QT changes increased arrhythmia, yes."
+S0031,y,y,"Stem 'Kroll designed' is a fragment; Krol's RPI clasp system, A correct."
+S0032,n,y,"'do not break' describes tense bullae of bullous pemphigoid, not 'blanch'; linear IgG correct."
+S0033,y,y,'Bacteroids' misspelling of Bacteroides; still correct keyed answer.
+S0034,y,y,'aerial' typo for arterial; low pCO2 with pH 7.45 = compensated respiratory alkalosis.
+S0035,y,y,'acts which of' missing 'with'/'via'; heparin acts through antithrombin III.
+S0036,y,y,"'trapezium muscle' misnomer for trapezius; each trapezius is triangular, though 'Trapezium' option is a tempting distractor."
+S0037,n,y,"Option E is a deliberately false distractor, not a source error; F correct."
+S0038,y,y,'leve' and 'polyglonal' typos in distractors; osteolytic lesions correct.
+S0039,y,y,"'Solicocephaly' nonexistent (maybe scoliocephaly, a plagiocephaly synonym); plagiocephaly still best."
+S0040,y,y,'hearing toss inosto' garbled; noise-induced hearing loss affects outer hair cells.
+S0041,y,y,'Pick out odd drugs...are' ungrammatical; amoxicillin is the odd one out.
+S0042,n,y,"Sentence-completion stem; options complete 'to the'. Probing depth to apical penetration of probe, D correct."
+S0043,y,y,"'III. Hypothesis' lacks name; key D excludes III, so answer unaffected."
+S0044,y,y,'Vescicovaginal' misspelled; stress incontinence from urethral hypermobility correct.
+S0045,n,n,"'flexor' is intentional (antagonist hamstrings). Reciprocal inhibition is Ia -> interneuron -> alpha (H), so key E wrong."
+S0046,y,y,'21-year-old old' duplicated word; psychosis beyond mood episodes = schizoaffective.
+S0047,y,y,'Coisone' garbled cortisol; among options cortisol best (DHEA-S not offered).
+S0048,y,y,"'detecting N. gonorrhoeae in penicillin' reversed; meant penicillinase detection, nitrocefin correct."
+S0049,y,n,'half detected (sensitivity 37%)' and '74.4% (49%)' inconsistent; yes vs maybe is debatable.
+S0050,y,n,"'coex' typo. Brown fat is interscapular, so scapula contains it; subcutaneous tissue (B) better answer."
+S0051,y,y,'factor 4 Leiden' should be factor V; near-syncope on micturition = situational syncope.
+S0052,y,n,"Option B garbled ('but any relation'); also F (no jaundice, raised ammonia) is true for Reye, competing with I."
+S0053,y,y,'dries mucous membranes' typo for dry; Sjogren carries non-Hodgkin lymphoma risk.
+S0054,y,y,"'Tofacitinab' misspelled; tofacitinib avoided given age, CV disease, dyslipidemia."
+S0055,y,y,Stem asks 'shape' while giving shape; options are crystal types; notched plates = cholesterol.

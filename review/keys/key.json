@@ -1,0 +1,5763 @@
+{
+  "seed": 20261006,
+  "strata_mode": "tier",
+  "strata_sizes": {
+    "tier2/high": 605,
+    "tier2/medium": 246,
+    "tier1": 212
+  },
+  "inclusion_prob": {
+    "tier1": 0.18867924528301888,
+    "tier2/high": 0.1884297520661157,
+    "tier2/medium": 0.18699186991869918
+  },
+  "pairwise": {
+    "P0001": {
+      "prompt_id": "medxpertqa-r_Text-1840",
+      "stratum": "tier1",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "drug",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0002": {
+      "prompt_id": "medmcqa_5ba07589-bec7-4600-b1a2-93beb50dbc17",
+      "stratum": "tier1",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "drug",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0003": {
+      "prompt_id": "mmlu-pro_6373",
+      "stratum": "tier1",
+      "refined": "B",
+      "level": "deterministic",
+      "edit_class": "units",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0004": {
+      "prompt_id": "medqa_614",
+      "stratum": "tier1",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "drug",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0005": {
+      "prompt_id": "mmlu_12422",
+      "stratum": "tier1",
+      "refined": "A",
+      "level": "deterministic",
+      "edit_class": "units",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0006": {
+      "prompt_id": "medxpertqa-r_Text-2134",
+      "stratum": "tier1",
+      "refined": "A",
+      "level": "deterministic",
+      "edit_class": "units",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0007": {
+      "prompt_id": "medqa_144",
+      "stratum": "tier1",
+      "refined": "B",
+      "level": "deterministic",
+      "edit_class": "units",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0008": {
+      "prompt_id": "mmlu_12374",
+      "stratum": "tier1",
+      "refined": "B",
+      "level": "deterministic",
+      "edit_class": "units",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0009": {
+      "prompt_id": "medxpertqa-r_Text-442",
+      "stratum": "tier1",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "drug",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0010": {
+      "prompt_id": "medqa_364",
+      "stratum": "tier1",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "drug",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0011": {
+      "prompt_id": "medxpertqa-r_Text-220",
+      "stratum": "tier1",
+      "refined": "A",
+      "level": "deterministic",
+      "edit_class": "units",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0012": {
+      "prompt_id": "medxpertqa-r_Text-998",
+      "stratum": "tier1",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "drug",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0013": {
+      "prompt_id": "mmlu_12375",
+      "stratum": "tier1",
+      "refined": "A",
+      "level": "deterministic",
+      "edit_class": "units",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0014": {
+      "prompt_id": "mmlu-pro_6804",
+      "stratum": "tier1",
+      "refined": "B",
+      "level": "deterministic",
+      "edit_class": "units",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0015": {
+      "prompt_id": "medxpertqa-r_Text-352",
+      "stratum": "tier1",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "drug",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0016": {
+      "prompt_id": "mmlu_12317",
+      "stratum": "tier1",
+      "refined": "A",
+      "level": "deterministic",
+      "edit_class": "units",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0017": {
+      "prompt_id": "mmlu_12318",
+      "stratum": "tier1",
+      "refined": "A",
+      "level": "deterministic",
+      "edit_class": "units",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0018": {
+      "prompt_id": "medbullets_68",
+      "stratum": "tier1",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "drug",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0019": {
+      "prompt_id": "medmcqa_a8a11df7-227b-4010-9298-061ea082634d",
+      "stratum": "tier1",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "drug",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0020": {
+      "prompt_id": "medbullets_152",
+      "stratum": "tier1",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "drug",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0021": {
+      "prompt_id": "medqa_414",
+      "stratum": "tier1",
+      "refined": "B",
+      "level": "deterministic",
+      "edit_class": "units",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0022": {
+      "prompt_id": "medmcqa_c29d1c1e-6e29-44f7-8057-35ff7101d0df",
+      "stratum": "tier1",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "drug",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0023": {
+      "prompt_id": "mmlu_779",
+      "stratum": "tier1",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "drug",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0024": {
+      "prompt_id": "medqa_530",
+      "stratum": "tier1",
+      "refined": "A",
+      "level": "deterministic",
+      "edit_class": "units",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0025": {
+      "prompt_id": "medxpertqa-r_Text-1724",
+      "stratum": "tier1",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "drug",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0026": {
+      "prompt_id": "medxpertqa-r_Text-589",
+      "stratum": "tier1",
+      "refined": "A",
+      "level": "deterministic",
+      "edit_class": "units",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0027": {
+      "prompt_id": "medxpertqa-r_Text-1452",
+      "stratum": "tier1",
+      "refined": "B",
+      "level": "deterministic",
+      "edit_class": "units",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0028": {
+      "prompt_id": "medqa_90",
+      "stratum": "tier1",
+      "refined": "A",
+      "level": "deterministic",
+      "edit_class": "units",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0029": {
+      "prompt_id": "medqa_231",
+      "stratum": "tier1",
+      "refined": "B",
+      "level": "deterministic",
+      "edit_class": "units",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0030": {
+      "prompt_id": "medbullets_126",
+      "stratum": "tier1",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "drug",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0031": {
+      "prompt_id": "medmcqa_604ef1a2-7595-4718-9f8c-12292063e19f",
+      "stratum": "tier1",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "drug",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0032": {
+      "prompt_id": "medqa_1196",
+      "stratum": "tier1",
+      "refined": "A",
+      "level": "deterministic",
+      "edit_class": "units",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0033": {
+      "prompt_id": "medxpertqa-r_Text-1954",
+      "stratum": "tier1",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "drug",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0034": {
+      "prompt_id": "medmcqa_e1463062-cae7-4994-8ab7-8ccaf975cdc6",
+      "stratum": "tier1",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "drug",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0035": {
+      "prompt_id": "medqa_217",
+      "stratum": "tier1",
+      "refined": "B",
+      "level": "deterministic",
+      "edit_class": "units",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0036": {
+      "prompt_id": "medmcqa_d4c4bf0d-08ef-47e6-b8e2-e530082fa63a",
+      "stratum": "tier1",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "drug",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0037": {
+      "prompt_id": "medqa_1204",
+      "stratum": "tier1",
+      "refined": "B",
+      "level": "deterministic",
+      "edit_class": "units",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0038": {
+      "prompt_id": "mmlu-pro_6105",
+      "stratum": "tier1",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "drug",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0039": {
+      "prompt_id": "medxpertqa-r_Text-1664",
+      "stratum": "tier1",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "drug",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0040": {
+      "prompt_id": "medmcqa_1b7a2a1c-6321-4541-b649-7db8418c38da",
+      "stratum": "tier1",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "drug",
+      "tier": "tier1",
+      "reference": "layer3"
+    },
+    "P0041": {
+      "prompt_id": "medexqa_112_biomedical_engineer",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0042": {
+      "prompt_id": "medmcqa_7983c1d8-d7ec-4426-82d8-c0bdc1568aa9",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0043": {
+      "prompt_id": "medxpertqa-u_Text-2215",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "term_a",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0044": {
+      "prompt_id": "medmcqa_114fa1dd-9f36-4b84-9f6a-68303bc63931",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0045": {
+      "prompt_id": "medqa_139",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0046": {
+      "prompt_id": "medxpertqa-r_Text-1212",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0047": {
+      "prompt_id": "medmcqa_b94ab925-4f2a-4e60-b42b-9f21acb848df",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0048": {
+      "prompt_id": "medxpertqa-r_Text-643",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0049": {
+      "prompt_id": "mmlu-pro_6707",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0050": {
+      "prompt_id": "medqa_577",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0051": {
+      "prompt_id": "medqa_1076",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0052": {
+      "prompt_id": "medxpertqa-r_Text-2445",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0053": {
+      "prompt_id": "medqa_552",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "drug",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0054": {
+      "prompt_id": "medexqa_17_biomedical_engineer",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0055": {
+      "prompt_id": "mmlu_1365",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "term_a",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0056": {
+      "prompt_id": "mmlu_12218",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0057": {
+      "prompt_id": "afrimedqa_3c2ae2375fea3480edd4d92eecff4e1d05db43a92e7b9c98e1591f283a2daaab",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "term_a",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0058": {
+      "prompt_id": "medqa_77",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0059": {
+      "prompt_id": "medqa_380",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0060": {
+      "prompt_id": "medmcqa_7ea6d180-f468-404f-9ee3-0c68a55b7e51",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0061": {
+      "prompt_id": "pubmedqa_27338535",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "term_a",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0062": {
+      "prompt_id": "medexqa_222_clinical_laboratory_scientist",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0063": {
+      "prompt_id": "medxpertqa-u_Text-1113",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "term_a",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0064": {
+      "prompt_id": "mmlu_12220",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0065": {
+      "prompt_id": "medqa_1167",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0066": {
+      "prompt_id": "pubmedqa_24476003",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0067": {
+      "prompt_id": "medxpertqa-u_Text-1747",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0068": {
+      "prompt_id": "medxpertqa-r_Text-2333",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0069": {
+      "prompt_id": "medmcqa_a97ea051-7425-4f6f-b909-c32f3801a91f",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0070": {
+      "prompt_id": "pubmedqa_12484580",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0071": {
+      "prompt_id": "medxpertqa-r_Text-1978",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0072": {
+      "prompt_id": "medexqa_176_clinical_laboratory_scientist",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "term_a",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0073": {
+      "prompt_id": "medxpertqa-r_Text-1707",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0074": {
+      "prompt_id": "medxpertqa-r_Text-1436",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0075": {
+      "prompt_id": "mmlu-pro_6688",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0076": {
+      "prompt_id": "medqa_174",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0077": {
+      "prompt_id": "mmlu_12226",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0078": {
+      "prompt_id": "medqa_1020",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0079": {
+      "prompt_id": "pubmedqa_20602784",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0080": {
+      "prompt_id": "medexqa_38_biomedical_engineer",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "term_a",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0081": {
+      "prompt_id": "medmcqa_c8d2885b-1529-4575-abcd-b8afdfb64512",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0082": {
+      "prompt_id": "medmcqa_a2c8fb9f-f775-4508-8e72-8ac484406ba6",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0083": {
+      "prompt_id": "mmlu-pro_6106",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0084": {
+      "prompt_id": "medexqa_13_biomedical_engineer",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0085": {
+      "prompt_id": "pubmedqa_11146778",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0086": {
+      "prompt_id": "medmcqa_8dd0ea2a-17d4-497d-93a1-a6704930a0db",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "term_a",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0087": {
+      "prompt_id": "mmlu_12189",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0088": {
+      "prompt_id": "medqa_597",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0089": {
+      "prompt_id": "pubmedqa_21658267",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0090": {
+      "prompt_id": "medxpertqa-r_Text-162",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0091": {
+      "prompt_id": "medmcqa_e6ffb56f-8545-4c0a-ba5f-2f5294d6a544",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0092": {
+      "prompt_id": "pubmedqa_17940352",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0093": {
+      "prompt_id": "medmcqa_2c98bee7-541d-4bef-a8f8-49ffdb6e2213",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0094": {
+      "prompt_id": "medmcqa_3588f845-135e-4167-8455-ecc975821b3a",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "term_a",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0095": {
+      "prompt_id": "medmcqa_18a9bc7e-60fc-43e9-a7b0-7549ec785817",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0096": {
+      "prompt_id": "medxpertqa-u_Text-400",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0097": {
+      "prompt_id": "medmcqa_a3254f11-cbb8-4b34-b1fa-db125225541f",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "term_a",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0098": {
+      "prompt_id": "mmlu-pro_6257",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0099": {
+      "prompt_id": "medqa_1237",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0100": {
+      "prompt_id": "medqa_447",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0101": {
+      "prompt_id": "medqa_865",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0102": {
+      "prompt_id": "medmcqa_8c5568c4-2a9d-4a89-97ba-ce39ee127ceb",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0103": {
+      "prompt_id": "mmlu_134",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0104": {
+      "prompt_id": "medmcqa_38810794-2735-4239-b36f-d9a509a2997f",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0105": {
+      "prompt_id": "medxpertqa-u_Text-1247",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0106": {
+      "prompt_id": "medqa_127",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0107": {
+      "prompt_id": "medbullets_289",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0108": {
+      "prompt_id": "medxpertqa-r_Text-89",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "term_a",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0109": {
+      "prompt_id": "medbullets_14",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0110": {
+      "prompt_id": "medxpertqa-u_Text-962",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0111": {
+      "prompt_id": "medmcqa_908f179d-9296-4cc3-8cd5-d3e59e24d232",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0112": {
+      "prompt_id": "medxpertqa-r_Text-426",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0113": {
+      "prompt_id": "medmcqa_a3912f88-1e01-46ed-9f13-544c1a36fbb5",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0114": {
+      "prompt_id": "mmlu-pro_6504",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0115": {
+      "prompt_id": "medmcqa_17ac8fd0-4e2e-41f5-8a01-93d34668a77e",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0116": {
+      "prompt_id": "medxpertqa-u_Text-2016",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0117": {
+      "prompt_id": "pubmedqa_23949294",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "term_a",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0118": {
+      "prompt_id": "medxpertqa-r_Text-191",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0119": {
+      "prompt_id": "mmlu_12171",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "term_a",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0120": {
+      "prompt_id": "pubmedqa_26215326",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0121": {
+      "prompt_id": "pubmedqa_11977907",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0122": {
+      "prompt_id": "medxpertqa-u_Text-1188",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "term_a",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0123": {
+      "prompt_id": "mmlu-pro_6778",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0124": {
+      "prompt_id": "mmlu_12315",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0125": {
+      "prompt_id": "medxpertqa-u_Text-76",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0126": {
+      "prompt_id": "medxpertqa-r_Text-250",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0127": {
+      "prompt_id": "medexqa_79_clinical_psychologist",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0128": {
+      "prompt_id": "medxpertqa-r_Text-1400",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0129": {
+      "prompt_id": "medxpertqa-u_Text-1287",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0130": {
+      "prompt_id": "medmcqa_16533187-64d0-47f9-be71-dba4d56615fe",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0131": {
+      "prompt_id": "medqa_381",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0132": {
+      "prompt_id": "pubmedqa_16403186",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "term_a",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0133": {
+      "prompt_id": "medmcqa_6ec7c97f-5287-46e6-82ec-75ded2b07a1c",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0134": {
+      "prompt_id": "medmcqa_5dd40005-ebc1-4136-9b9b-70705d09e384",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0135": {
+      "prompt_id": "medxpertqa-u_Text-636",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0136": {
+      "prompt_id": "pubmedqa_22236315",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0137": {
+      "prompt_id": "medqa_341",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0138": {
+      "prompt_id": "medxpertqa-r_Text-713",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0139": {
+      "prompt_id": "medxpertqa-u_Text-684",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0140": {
+      "prompt_id": "medmcqa_e8aa61af-a6f5-49ed-a221-93765caf901f",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "term_a",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0141": {
+      "prompt_id": "pubmedqa_18319270",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0142": {
+      "prompt_id": "mmlu_685",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0143": {
+      "prompt_id": "medqa_69",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0144": {
+      "prompt_id": "medqa_428",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0145": {
+      "prompt_id": "medexqa_91_biomedical_engineer",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0146": {
+      "prompt_id": "medqa_516",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "term_a",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0147": {
+      "prompt_id": "medmcqa_22692368-7cae-4241-a34d-430e1f2d6322",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0148": {
+      "prompt_id": "medqa_757",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0149": {
+      "prompt_id": "medbullets_13",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0150": {
+      "prompt_id": "mmlu_1274",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0151": {
+      "prompt_id": "medqa_791",
+      "stratum": "tier2/high",
+      "refined": "B",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0152": {
+      "prompt_id": "afrimedqa_a7ee602bfd80746f73e7ce59d70ab8900b0d7ebe40241007d2d050e27b823d25",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0153": {
+      "prompt_id": "mmlu_232",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0154": {
+      "prompt_id": "medmcqa_406b5b4f-9ad4-42c0-9669-12d038df4ac8",
+      "stratum": "tier2/high",
+      "refined": "A",
+      "level": "high",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0155": {
+      "prompt_id": "medxpertqa-r_Text-2091",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "term_a",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0156": {
+      "prompt_id": "medxpertqa-r_Text-1109",
+      "stratum": "tier2/medium",
+      "refined": "B",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0157": {
+      "prompt_id": "medxpertqa-r_Text-1006",
+      "stratum": "tier2/medium",
+      "refined": "B",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0158": {
+      "prompt_id": "medqa_551",
+      "stratum": "tier2/medium",
+      "refined": "B",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0159": {
+      "prompt_id": "medxpertqa-u_Text-2112",
+      "stratum": "tier2/medium",
+      "refined": "B",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0160": {
+      "prompt_id": "medxpertqa-r_Text-724",
+      "stratum": "tier2/medium",
+      "refined": "B",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0161": {
+      "prompt_id": "medmcqa_24ba87cd-83d3-4768-b6fa-c246bde2b821",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0162": {
+      "prompt_id": "medxpertqa-u_Text-1768",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0163": {
+      "prompt_id": "medxpertqa-u_Text-315",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0164": {
+      "prompt_id": "medmcqa_5dd3fc6a-7e12-4899-a250-102f79d9a7fd",
+      "stratum": "tier2/medium",
+      "refined": "B",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0165": {
+      "prompt_id": "medqa_340",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0166": {
+      "prompt_id": "medbullets_193",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0167": {
+      "prompt_id": "medqa_958",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0168": {
+      "prompt_id": "pubmedqa_21164063",
+      "stratum": "tier2/medium",
+      "refined": "B",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0169": {
+      "prompt_id": "medexqa_144_occupational_therapist",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0170": {
+      "prompt_id": "medxpertqa-r_Text-2038",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0171": {
+      "prompt_id": "medxpertqa-r_Text-1080",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0172": {
+      "prompt_id": "medbullets_89",
+      "stratum": "tier2/medium",
+      "refined": "B",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0173": {
+      "prompt_id": "medqa_1229",
+      "stratum": "tier2/medium",
+      "refined": "B",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0174": {
+      "prompt_id": "medqa_145",
+      "stratum": "tier2/medium",
+      "refined": "B",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0175": {
+      "prompt_id": "medxpertqa-r_Text-1965",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0176": {
+      "prompt_id": "medxpertqa-u_Text-798",
+      "stratum": "tier2/medium",
+      "refined": "B",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0177": {
+      "prompt_id": "pubmedqa_7497757",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0178": {
+      "prompt_id": "medxpertqa-r_Text-117",
+      "stratum": "tier2/medium",
+      "refined": "B",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0179": {
+      "prompt_id": "medxpertqa-r_Text-1669",
+      "stratum": "tier2/medium",
+      "refined": "B",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0180": {
+      "prompt_id": "medxpertqa-r_Text-1879",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0181": {
+      "prompt_id": "medqa_1052",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0182": {
+      "prompt_id": "medxpertqa-r_Text-751",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0183": {
+      "prompt_id": "medxpertqa-u_Text-1987",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0184": {
+      "prompt_id": "mmlu_506",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "term_a",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0185": {
+      "prompt_id": "medxpertqa-r_Text-2098",
+      "stratum": "tier2/medium",
+      "refined": "B",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0186": {
+      "prompt_id": "medmcqa_2e4dea82-5bec-438e-a674-0f317e467e70",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0187": {
+      "prompt_id": "medxpertqa-r_Text-1928",
+      "stratum": "tier2/medium",
+      "refined": "B",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0188": {
+      "prompt_id": "medmcqa_4d992bbe-1bd9-417f-b08b-4a1c22095439",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0189": {
+      "prompt_id": "medqa_874",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0190": {
+      "prompt_id": "medxpertqa-u_Text-1438",
+      "stratum": "tier2/medium",
+      "refined": "B",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0191": {
+      "prompt_id": "medxpertqa-u_Text-90",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0192": {
+      "prompt_id": "medexqa_46_clinical_psychologist",
+      "stratum": "tier2/medium",
+      "refined": "B",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0193": {
+      "prompt_id": "medmcqa_9c46b53f-f0bc-4e3b-9b2e-9e9595bc38c8",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0194": {
+      "prompt_id": "medxpertqa-u_Text-2252",
+      "stratum": "tier2/medium",
+      "refined": "B",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0195": {
+      "prompt_id": "pubmedqa_18274917",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0196": {
+      "prompt_id": "medqa_584",
+      "stratum": "tier2/medium",
+      "refined": "B",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0197": {
+      "prompt_id": "medbullets_58",
+      "stratum": "tier2/medium",
+      "refined": "B",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0198": {
+      "prompt_id": "medxpertqa-r_Text-363",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0199": {
+      "prompt_id": "medqa_1258",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    },
+    "P0200": {
+      "prompt_id": "medxpertqa-r_Text-1572",
+      "stratum": "tier2/medium",
+      "refined": "A",
+      "level": "medium",
+      "edit_class": "llm_edit",
+      "tier": "tier2",
+      "reference": "layer4a_auto"
+    }
+  },
+  "findings": {
+    "F00001": {
+      "prompt_id": "medexqa_13_biomedical_engineer",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00002": {
+      "prompt_id": "medexqa_17_biomedical_engineer",
+      "finding_id": "r1-f6",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00003": {
+      "prompt_id": "medexqa_38_biomedical_engineer",
+      "finding_id": "r1-o6",
+      "status": "accepted",
+      "source": "obligation",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00004": {
+      "prompt_id": "medexqa_91_biomedical_engineer",
+      "finding_id": "r1-f2",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00005": {
+      "prompt_id": "medexqa_176_clinical_laboratory_scientist",
+      "finding_id": "r1-o2",
+      "status": "accepted",
+      "source": "obligation",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00006": {
+      "prompt_id": "medexqa_222_clinical_laboratory_scientist",
+      "finding_id": "r1-f2",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00007": {
+      "prompt_id": "medexqa_46_clinical_psychologist",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00008": {
+      "prompt_id": "medexqa_79_clinical_psychologist",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00009": {
+      "prompt_id": "medexqa_144_occupational_therapist",
+      "finding_id": "r1-l3",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00010": {
+      "prompt_id": "medexqa_144_occupational_therapist",
+      "finding_id": "r1-l4",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00011": {
+      "prompt_id": "mmlu-pro_6105",
+      "finding_id": "r1-d1",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00012": {
+      "prompt_id": "mmlu-pro_6105",
+      "finding_id": "r1-d2",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00013": {
+      "prompt_id": "mmlu-pro_6106",
+      "finding_id": "r1-f5",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00014": {
+      "prompt_id": "mmlu-pro_6257",
+      "finding_id": "r1-f5",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00015": {
+      "prompt_id": "mmlu-pro_6373",
+      "finding_id": "r1-u3",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00016": {
+      "prompt_id": "mmlu-pro_6504",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "accuracy/mistranslation",
+      "severity": "critical",
+      "route": "ACCURACY"
+    },
+    "F00017": {
+      "prompt_id": "mmlu-pro_6688",
+      "finding_id": "r1-f2",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00018": {
+      "prompt_id": "mmlu-pro_6707",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00019": {
+      "prompt_id": "mmlu-pro_6778",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00020": {
+      "prompt_id": "mmlu-pro_6804",
+      "finding_id": "r1-u2",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00021": {
+      "prompt_id": "afrimedqa_a7ee602bfd80746f73e7ce59d70ab8900b0d7ebe40241007d2d050e27b823d25",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00022": {
+      "prompt_id": "afrimedqa_a7ee602bfd80746f73e7ce59d70ab8900b0d7ebe40241007d2d050e27b823d25",
+      "finding_id": "r1-l2",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00023": {
+      "prompt_id": "afrimedqa_a7ee602bfd80746f73e7ce59d70ab8900b0d7ebe40241007d2d050e27b823d25",
+      "finding_id": "r1-l4",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00024": {
+      "prompt_id": "afrimedqa_3c2ae2375fea3480edd4d92eecff4e1d05db43a92e7b9c98e1591f283a2daaab",
+      "finding_id": "r1-f2",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00025": {
+      "prompt_id": "afrimedqa_3c2ae2375fea3480edd4d92eecff4e1d05db43a92e7b9c98e1591f283a2daaab",
+      "finding_id": "r1-f3",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00026": {
+      "prompt_id": "mmlu_134",
+      "finding_id": "r1-f3",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00027": {
+      "prompt_id": "mmlu_232",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00028": {
+      "prompt_id": "mmlu_506",
+      "finding_id": "r1-f3",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00029": {
+      "prompt_id": "mmlu_685",
+      "finding_id": "r1-f2",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00030": {
+      "prompt_id": "mmlu_779",
+      "finding_id": "r1-d1",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00031": {
+      "prompt_id": "mmlu_779",
+      "finding_id": "r1-d2",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00032": {
+      "prompt_id": "mmlu_1274",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "qwen",
+      "category": "accuracy/mistranslation",
+      "severity": "major",
+      "route": "ACCURACY"
+    },
+    "F00033": {
+      "prompt_id": "mmlu_1365",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00034": {
+      "prompt_id": "mmlu_12171",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00035": {
+      "prompt_id": "mmlu_12171",
+      "finding_id": "r1-f2",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00036": {
+      "prompt_id": "mmlu_12189",
+      "finding_id": "r1-n1",
+      "status": "accepted",
+      "source": "numbers",
+      "category": "accuracy/omission",
+      "severity": "critical",
+      "route": "ACCURACY"
+    },
+    "F00037": {
+      "prompt_id": "mmlu_12189",
+      "finding_id": "r1-n2",
+      "status": "accepted",
+      "source": "numbers",
+      "category": "accuracy/omission",
+      "severity": "critical",
+      "route": "ACCURACY"
+    },
+    "F00038": {
+      "prompt_id": "mmlu_12218",
+      "finding_id": "r1-f2",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00039": {
+      "prompt_id": "mmlu_12220",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00040": {
+      "prompt_id": "mmlu_12226",
+      "finding_id": "r1-u3",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00041": {
+      "prompt_id": "mmlu_12226",
+      "finding_id": "r1-f9",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00042": {
+      "prompt_id": "mmlu_12315",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00043": {
+      "prompt_id": "mmlu_12317",
+      "finding_id": "r1-u2",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00044": {
+      "prompt_id": "mmlu_12318",
+      "finding_id": "r1-u2",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00045": {
+      "prompt_id": "mmlu_12374",
+      "finding_id": "r1-u2",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00046": {
+      "prompt_id": "mmlu_12375",
+      "finding_id": "r1-u2",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00047": {
+      "prompt_id": "mmlu_12422",
+      "finding_id": "r1-u5",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00048": {
+      "prompt_id": "medqa_69",
+      "finding_id": "r1-l2",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00049": {
+      "prompt_id": "medqa_77",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "accuracy/mistranslation",
+      "severity": "major",
+      "route": "ACCURACY"
+    },
+    "F00050": {
+      "prompt_id": "medqa_90",
+      "finding_id": "r1-u5",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00051": {
+      "prompt_id": "medqa_127",
+      "finding_id": "r1-f2",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00052": {
+      "prompt_id": "medqa_127",
+      "finding_id": "r1-l3",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00053": {
+      "prompt_id": "medqa_127",
+      "finding_id": "r1-l4",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00054": {
+      "prompt_id": "medqa_139",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "accuracy/mistranslation",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00055": {
+      "prompt_id": "medqa_144",
+      "finding_id": "r1-u2",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00056": {
+      "prompt_id": "medqa_145",
+      "finding_id": "r1-u2",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00057": {
+      "prompt_id": "medqa_145",
+      "finding_id": "r1-s5",
+      "status": "accepted",
+      "source": "spelling",
+      "category": "fluency/spelling",
+      "severity": "minor",
+      "route": "DET"
+    },
+    "F00058": {
+      "prompt_id": "medqa_174",
+      "finding_id": "r1-l1",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00059": {
+      "prompt_id": "medqa_217",
+      "finding_id": "r1-u2",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00060": {
+      "prompt_id": "medqa_231",
+      "finding_id": "r1-u2",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00061": {
+      "prompt_id": "medqa_340",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "ACCURACY"
+    },
+    "F00062": {
+      "prompt_id": "medqa_340",
+      "finding_id": "r1-d3",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00063": {
+      "prompt_id": "medqa_341",
+      "finding_id": "r1-f3",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00064": {
+      "prompt_id": "medqa_364",
+      "finding_id": "r1-d1",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00065": {
+      "prompt_id": "medqa_380",
+      "finding_id": "r1-d2",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00066": {
+      "prompt_id": "medqa_380",
+      "finding_id": "r1-d3",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00067": {
+      "prompt_id": "medqa_380",
+      "finding_id": "r1-f8",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00068": {
+      "prompt_id": "medqa_381",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00069": {
+      "prompt_id": "medqa_414",
+      "finding_id": "r1-u2",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00070": {
+      "prompt_id": "medqa_516",
+      "finding_id": "r1-f2",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00071": {
+      "prompt_id": "medqa_530",
+      "finding_id": "r1-u2",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00072": {
+      "prompt_id": "medqa_551",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00073": {
+      "prompt_id": "medqa_552",
+      "finding_id": "r1-d1",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00074": {
+      "prompt_id": "medqa_577",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "accuracy/mistranslation",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00075": {
+      "prompt_id": "medqa_584",
+      "finding_id": "r1-f4",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00076": {
+      "prompt_id": "medqa_584",
+      "finding_id": "r2-f9",
+      "status": "accepted",
+      "source": "qwen",
+      "category": "accuracy/mistranslation",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00077": {
+      "prompt_id": "medqa_597",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "accuracy/mistranslation",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00078": {
+      "prompt_id": "medqa_614",
+      "finding_id": "r1-d1",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00079": {
+      "prompt_id": "medqa_757",
+      "finding_id": "r1-f2",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00080": {
+      "prompt_id": "medqa_757",
+      "finding_id": "r2-f6",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00081": {
+      "prompt_id": "medqa_791",
+      "finding_id": "r1-f5",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00082": {
+      "prompt_id": "medqa_865",
+      "finding_id": "r1-l3",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00083": {
+      "prompt_id": "medqa_874",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "qwen",
+      "category": "accuracy/mistranslation",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00084": {
+      "prompt_id": "medqa_958",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "qwen",
+      "category": "accuracy/mistranslation",
+      "severity": "major",
+      "route": "ACCURACY"
+    },
+    "F00085": {
+      "prompt_id": "medqa_1052",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00086": {
+      "prompt_id": "medqa_1052",
+      "finding_id": "r1-l3",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00087": {
+      "prompt_id": "medqa_1052",
+      "finding_id": "r1-l4",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00088": {
+      "prompt_id": "medqa_1076",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "ACCURACY"
+    },
+    "F00089": {
+      "prompt_id": "medqa_1076",
+      "finding_id": "r1-f2",
+      "status": "accepted",
+      "source": "qwen",
+      "category": "accuracy/mistranslation",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00090": {
+      "prompt_id": "medqa_1167",
+      "finding_id": "r1-u2",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00091": {
+      "prompt_id": "medqa_1167",
+      "finding_id": "r1-f7",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00092": {
+      "prompt_id": "medqa_1196",
+      "finding_id": "r1-u2",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00093": {
+      "prompt_id": "medqa_1204",
+      "finding_id": "r1-u2",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00094": {
+      "prompt_id": "medqa_1229",
+      "finding_id": "r1-f3",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00095": {
+      "prompt_id": "medqa_1237",
+      "finding_id": "r1-u2",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00096": {
+      "prompt_id": "medqa_1237",
+      "finding_id": "r1-f7",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "critical",
+      "route": "GRAMMAR"
+    },
+    "F00097": {
+      "prompt_id": "medqa_1237",
+      "finding_id": "r2-f9",
+      "status": "accepted",
+      "source": "qwen",
+      "category": "accuracy/omission",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00098": {
+      "prompt_id": "medqa_1258",
+      "finding_id": "r1-u2",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00099": {
+      "prompt_id": "medqa_1258",
+      "finding_id": "r1-s5",
+      "status": "accepted",
+      "source": "spelling",
+      "category": "fluency/spelling",
+      "severity": "minor",
+      "route": "DET"
+    },
+    "F00100": {
+      "prompt_id": "medqa_1258",
+      "finding_id": "r2-f9",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00101": {
+      "prompt_id": "medxpertqa-u_Text-76",
+      "finding_id": "r1-f7",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00102": {
+      "prompt_id": "medxpertqa-u_Text-90",
+      "finding_id": "r1-f6",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00103": {
+      "prompt_id": "medxpertqa-u_Text-315",
+      "finding_id": "r1-l2",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00104": {
+      "prompt_id": "medxpertqa-u_Text-400",
+      "finding_id": "r1-f4",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00105": {
+      "prompt_id": "medxpertqa-u_Text-636",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "accuracy/addition",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00106": {
+      "prompt_id": "medxpertqa-u_Text-684",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00107": {
+      "prompt_id": "medxpertqa-u_Text-798",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00108": {
+      "prompt_id": "medxpertqa-u_Text-962",
+      "finding_id": "r1-f2",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00109": {
+      "prompt_id": "medxpertqa-u_Text-962",
+      "finding_id": "r1-l3",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00110": {
+      "prompt_id": "medxpertqa-u_Text-962",
+      "finding_id": "r1-l4",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00111": {
+      "prompt_id": "medxpertqa-u_Text-1113",
+      "finding_id": "r1-f2",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00112": {
+      "prompt_id": "medxpertqa-u_Text-1188",
+      "finding_id": "r1-d1",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00113": {
+      "prompt_id": "medxpertqa-u_Text-1188",
+      "finding_id": "r1-d2",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00114": {
+      "prompt_id": "medxpertqa-u_Text-1188",
+      "finding_id": "r1-d3",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00115": {
+      "prompt_id": "medxpertqa-u_Text-1188",
+      "finding_id": "r1-d4",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00116": {
+      "prompt_id": "medxpertqa-u_Text-1188",
+      "finding_id": "r1-f5",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00117": {
+      "prompt_id": "medxpertqa-u_Text-1188",
+      "finding_id": "r1-o8",
+      "status": "accepted",
+      "source": "obligation",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00118": {
+      "prompt_id": "medxpertqa-u_Text-1247",
+      "finding_id": "r1-f2",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00119": {
+      "prompt_id": "medxpertqa-u_Text-1287",
+      "finding_id": "r1-f11",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00120": {
+      "prompt_id": "medxpertqa-u_Text-1438",
+      "finding_id": "r1-f6",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00121": {
+      "prompt_id": "medxpertqa-u_Text-1768",
+      "finding_id": "r1-f3",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00122": {
+      "prompt_id": "medxpertqa-u_Text-1987",
+      "finding_id": "r1-l2",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00123": {
+      "prompt_id": "medxpertqa-u_Text-2016",
+      "finding_id": "r1-f4",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00124": {
+      "prompt_id": "medxpertqa-u_Text-2112",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00125": {
+      "prompt_id": "medxpertqa-u_Text-2215",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "minor",
+      "route": "TERM-A"
+    },
+    "F00126": {
+      "prompt_id": "medxpertqa-u_Text-2252",
+      "finding_id": "r1-f4",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00127": {
+      "prompt_id": "medxpertqa-u_Text-2252",
+      "finding_id": "r1-f5",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00128": {
+      "prompt_id": "medxpertqa-u_Text-2252",
+      "finding_id": "r1-l7",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00129": {
+      "prompt_id": "medxpertqa-u_Text-2252",
+      "finding_id": "r1-l8",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00130": {
+      "prompt_id": "medmcqa_38810794-2735-4239-b36f-d9a509a2997f",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "accuracy/mistranslation",
+      "severity": "critical",
+      "route": "ACCURACY"
+    },
+    "F00131": {
+      "prompt_id": "medmcqa_e8aa61af-a6f5-49ed-a221-93765caf901f",
+      "finding_id": "r1-l1",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00132": {
+      "prompt_id": "medmcqa_2e4dea82-5bec-438e-a674-0f317e467e70",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00133": {
+      "prompt_id": "medmcqa_17ac8fd0-4e2e-41f5-8a01-93d34668a77e",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "accuracy/mistranslation",
+      "severity": "major",
+      "route": "ACCURACY"
+    },
+    "F00134": {
+      "prompt_id": "medmcqa_e1463062-cae7-4994-8ab7-8ccaf975cdc6",
+      "finding_id": "r1-d1",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00135": {
+      "prompt_id": "medmcqa_e1463062-cae7-4994-8ab7-8ccaf975cdc6",
+      "finding_id": "r1-d2",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00136": {
+      "prompt_id": "medmcqa_c8d2885b-1529-4575-abcd-b8afdfb64512",
+      "finding_id": "r1-l2",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00137": {
+      "prompt_id": "medmcqa_7ea6d180-f468-404f-9ee3-0c68a55b7e51",
+      "finding_id": "r1-l2",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00138": {
+      "prompt_id": "medmcqa_c29d1c1e-6e29-44f7-8057-35ff7101d0df",
+      "finding_id": "r1-d2",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00139": {
+      "prompt_id": "medmcqa_8dd0ea2a-17d4-497d-93a1-a6704930a0db",
+      "finding_id": "r1-o2",
+      "status": "accepted",
+      "source": "obligation",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00140": {
+      "prompt_id": "medmcqa_8dd0ea2a-17d4-497d-93a1-a6704930a0db",
+      "finding_id": "r1-o3",
+      "status": "accepted",
+      "source": "obligation",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00141": {
+      "prompt_id": "medmcqa_2c98bee7-541d-4bef-a8f8-49ffdb6e2213",
+      "finding_id": "r1-f3",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00142": {
+      "prompt_id": "medmcqa_2c98bee7-541d-4bef-a8f8-49ffdb6e2213",
+      "finding_id": "r1-f4",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00143": {
+      "prompt_id": "medmcqa_9c46b53f-f0bc-4e3b-9b2e-9e9595bc38c8",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00144": {
+      "prompt_id": "medmcqa_604ef1a2-7595-4718-9f8c-12292063e19f",
+      "finding_id": "r1-d1",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00145": {
+      "prompt_id": "medmcqa_a97ea051-7425-4f6f-b909-c32f3801a91f",
+      "finding_id": "r1-f4",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00146": {
+      "prompt_id": "medmcqa_908f179d-9296-4cc3-8cd5-d3e59e24d232",
+      "finding_id": "r1-f3",
+      "status": "accepted",
+      "source": "qwen",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00147": {
+      "prompt_id": "medmcqa_5dd3fc6a-7e12-4899-a250-102f79d9a7fd",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00148": {
+      "prompt_id": "medmcqa_3588f845-135e-4167-8455-ecc975821b3a",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00149": {
+      "prompt_id": "medmcqa_e6ffb56f-8545-4c0a-ba5f-2f5294d6a544",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00150": {
+      "prompt_id": "medmcqa_e6ffb56f-8545-4c0a-ba5f-2f5294d6a544",
+      "finding_id": "r1-l2",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00151": {
+      "prompt_id": "medmcqa_8c5568c4-2a9d-4a89-97ba-ce39ee127ceb",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "accuracy/addition",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00152": {
+      "prompt_id": "medmcqa_a2c8fb9f-f775-4508-8e72-8ac484406ba6",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00153": {
+      "prompt_id": "medmcqa_a2c8fb9f-f775-4508-8e72-8ac484406ba6",
+      "finding_id": "r1-l2",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00154": {
+      "prompt_id": "medmcqa_a2c8fb9f-f775-4508-8e72-8ac484406ba6",
+      "finding_id": "r2-f11",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00155": {
+      "prompt_id": "medmcqa_5ba07589-bec7-4600-b1a2-93beb50dbc17",
+      "finding_id": "r1-d1",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00156": {
+      "prompt_id": "medmcqa_114fa1dd-9f36-4b84-9f6a-68303bc63931",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "accuracy/mistranslation",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00157": {
+      "prompt_id": "medmcqa_5dd40005-ebc1-4136-9b9b-70705d09e384",
+      "finding_id": "r1-f3",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00158": {
+      "prompt_id": "medmcqa_a8a11df7-227b-4010-9298-061ea082634d",
+      "finding_id": "r1-d2",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00159": {
+      "prompt_id": "medmcqa_6ec7c97f-5287-46e6-82ec-75ded2b07a1c",
+      "finding_id": "r1-f5",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00160": {
+      "prompt_id": "medmcqa_d4c4bf0d-08ef-47e6-b8e2-e530082fa63a",
+      "finding_id": "r1-d1",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00161": {
+      "prompt_id": "medmcqa_4d992bbe-1bd9-417f-b08b-4a1c22095439",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "qwen",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00162": {
+      "prompt_id": "medmcqa_24ba87cd-83d3-4768-b6fa-c246bde2b821",
+      "finding_id": "r1-l2",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00163": {
+      "prompt_id": "medmcqa_b94ab925-4f2a-4e60-b42b-9f21acb848df",
+      "finding_id": "r1-f3",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00164": {
+      "prompt_id": "medmcqa_7983c1d8-d7ec-4426-82d8-c0bdc1568aa9",
+      "finding_id": "r1-f5",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00165": {
+      "prompt_id": "medmcqa_a3254f11-cbb8-4b34-b1fa-db125225541f",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00166": {
+      "prompt_id": "medmcqa_22692368-7cae-4241-a34d-430e1f2d6322",
+      "finding_id": "r1-f2",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00167": {
+      "prompt_id": "medmcqa_22692368-7cae-4241-a34d-430e1f2d6322",
+      "finding_id": "r1-f3",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00168": {
+      "prompt_id": "medmcqa_22692368-7cae-4241-a34d-430e1f2d6322",
+      "finding_id": "r1-f4",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00169": {
+      "prompt_id": "medmcqa_22692368-7cae-4241-a34d-430e1f2d6322",
+      "finding_id": "r1-f5",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00170": {
+      "prompt_id": "medmcqa_16533187-64d0-47f9-be71-dba4d56615fe",
+      "finding_id": "r1-f2",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00171": {
+      "prompt_id": "medmcqa_a3912f88-1e01-46ed-9f13-544c1a36fbb5",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00172": {
+      "prompt_id": "medmcqa_1b7a2a1c-6321-4541-b649-7db8418c38da",
+      "finding_id": "r1-d2",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00173": {
+      "prompt_id": "medmcqa_18a9bc7e-60fc-43e9-a7b0-7549ec785817",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00174": {
+      "prompt_id": "medxpertqa-r_Text-89",
+      "finding_id": "r1-o3",
+      "status": "accepted",
+      "source": "obligation",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00175": {
+      "prompt_id": "medxpertqa-r_Text-89",
+      "finding_id": "r1-o5",
+      "status": "accepted",
+      "source": "obligation",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00176": {
+      "prompt_id": "medxpertqa-r_Text-117",
+      "finding_id": "r1-f8",
+      "status": "accepted",
+      "source": "qwen",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00177": {
+      "prompt_id": "medxpertqa-r_Text-162",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "ACCURACY"
+    },
+    "F00178": {
+      "prompt_id": "medxpertqa-r_Text-162",
+      "finding_id": "r1-f2",
+      "status": "accepted",
+      "source": "qwen",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "ACCURACY"
+    },
+    "F00179": {
+      "prompt_id": "medxpertqa-r_Text-220",
+      "finding_id": "r1-u2",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00180": {
+      "prompt_id": "medxpertqa-r_Text-250",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "qwen",
+      "category": "accuracy/mistranslation",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00181": {
+      "prompt_id": "medxpertqa-r_Text-352",
+      "finding_id": "r1-d1",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00182": {
+      "prompt_id": "medxpertqa-r_Text-363",
+      "finding_id": "r1-f2",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00183": {
+      "prompt_id": "medxpertqa-r_Text-426",
+      "finding_id": "r1-f3",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00184": {
+      "prompt_id": "medxpertqa-r_Text-442",
+      "finding_id": "r1-d1",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00185": {
+      "prompt_id": "medxpertqa-r_Text-589",
+      "finding_id": "r1-u3",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00186": {
+      "prompt_id": "medxpertqa-r_Text-643",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "accuracy/mistranslation",
+      "severity": "major",
+      "route": "ACCURACY"
+    },
+    "F00187": {
+      "prompt_id": "medxpertqa-r_Text-643",
+      "finding_id": "r1-u3",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00188": {
+      "prompt_id": "medxpertqa-r_Text-713",
+      "finding_id": "r1-f9",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00189": {
+      "prompt_id": "medxpertqa-r_Text-724",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00190": {
+      "prompt_id": "medxpertqa-r_Text-724",
+      "finding_id": "r1-f13",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00191": {
+      "prompt_id": "medxpertqa-r_Text-751",
+      "finding_id": "r1-d2",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00192": {
+      "prompt_id": "medxpertqa-r_Text-751",
+      "finding_id": "r1-l5",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00193": {
+      "prompt_id": "medxpertqa-r_Text-998",
+      "finding_id": "r1-d1",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00194": {
+      "prompt_id": "medxpertqa-r_Text-998",
+      "finding_id": "r1-d2",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00195": {
+      "prompt_id": "medxpertqa-r_Text-998",
+      "finding_id": "r1-d3",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00196": {
+      "prompt_id": "medxpertqa-r_Text-998",
+      "finding_id": "r1-d4",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00197": {
+      "prompt_id": "medxpertqa-r_Text-998",
+      "finding_id": "r1-d5",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00198": {
+      "prompt_id": "medxpertqa-r_Text-1006",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00199": {
+      "prompt_id": "medxpertqa-r_Text-1006",
+      "finding_id": "r1-l6",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00200": {
+      "prompt_id": "medxpertqa-r_Text-1006",
+      "finding_id": "r1-l7",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00201": {
+      "prompt_id": "medxpertqa-r_Text-1080",
+      "finding_id": "r1-d1",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00202": {
+      "prompt_id": "medxpertqa-r_Text-1080",
+      "finding_id": "r1-l2",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00203": {
+      "prompt_id": "medxpertqa-r_Text-1080",
+      "finding_id": "r1-f8",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00204": {
+      "prompt_id": "medxpertqa-r_Text-1109",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00205": {
+      "prompt_id": "medxpertqa-r_Text-1212",
+      "finding_id": "r1-l7",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00206": {
+      "prompt_id": "medxpertqa-r_Text-1400",
+      "finding_id": "r1-f3",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00207": {
+      "prompt_id": "medxpertqa-r_Text-1436",
+      "finding_id": "r1-f4",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00208": {
+      "prompt_id": "medxpertqa-r_Text-1452",
+      "finding_id": "r1-u3",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00209": {
+      "prompt_id": "medxpertqa-r_Text-1572",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "qwen",
+      "category": "accuracy/mistranslation",
+      "severity": "major",
+      "route": "ACCURACY"
+    },
+    "F00210": {
+      "prompt_id": "medxpertqa-r_Text-1664",
+      "finding_id": "r1-d1",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00211": {
+      "prompt_id": "medxpertqa-r_Text-1669",
+      "finding_id": "r1-f3",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00212": {
+      "prompt_id": "medxpertqa-r_Text-1707",
+      "finding_id": "r1-f8",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00213": {
+      "prompt_id": "medxpertqa-r_Text-1724",
+      "finding_id": "r1-d2",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00214": {
+      "prompt_id": "medxpertqa-r_Text-1840",
+      "finding_id": "r1-d2",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00215": {
+      "prompt_id": "medxpertqa-r_Text-1840",
+      "finding_id": "r1-d3",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00216": {
+      "prompt_id": "medxpertqa-r_Text-1879",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "qwen",
+      "category": "accuracy/mistranslation",
+      "severity": "major",
+      "route": "ACCURACY"
+    },
+    "F00217": {
+      "prompt_id": "medxpertqa-r_Text-1928",
+      "finding_id": "r1-l1",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00218": {
+      "prompt_id": "medxpertqa-r_Text-1954",
+      "finding_id": "r1-d1",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00219": {
+      "prompt_id": "medxpertqa-r_Text-1954",
+      "finding_id": "r1-d2",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00220": {
+      "prompt_id": "medxpertqa-r_Text-1965",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "qwen",
+      "category": "accuracy/mistranslation",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00221": {
+      "prompt_id": "medxpertqa-r_Text-1978",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "accuracy/addition",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00222": {
+      "prompt_id": "medxpertqa-r_Text-2038",
+      "finding_id": "r1-f3",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00223": {
+      "prompt_id": "medxpertqa-r_Text-2091",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00224": {
+      "prompt_id": "medxpertqa-r_Text-2098",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00225": {
+      "prompt_id": "medxpertqa-r_Text-2098",
+      "finding_id": "r2-f13",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00226": {
+      "prompt_id": "medxpertqa-r_Text-2134",
+      "finding_id": "r1-u1",
+      "status": "accepted",
+      "source": "units",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "DET"
+    },
+    "F00227": {
+      "prompt_id": "medxpertqa-r_Text-2333",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "accuracy/omission",
+      "severity": "major",
+      "route": "ACCURACY"
+    },
+    "F00228": {
+      "prompt_id": "medxpertqa-r_Text-2445",
+      "finding_id": "r1-f2",
+      "status": "accepted",
+      "source": "qwen",
+      "category": "accuracy/omission",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00229": {
+      "prompt_id": "pubmedqa_11146778",
+      "finding_id": "r1-f16",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00230": {
+      "prompt_id": "pubmedqa_11146778",
+      "finding_id": "r2-f19",
+      "status": "accepted",
+      "source": "qwen",
+      "category": "accuracy/mistranslation",
+      "severity": "major",
+      "route": "ACCURACY"
+    },
+    "F00231": {
+      "prompt_id": "pubmedqa_11977907",
+      "finding_id": "r1-l2",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00232": {
+      "prompt_id": "pubmedqa_20602784",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "accuracy/mistranslation",
+      "severity": "major",
+      "route": "ACCURACY"
+    },
+    "F00233": {
+      "prompt_id": "pubmedqa_20602784",
+      "finding_id": "r1-f2",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "accuracy/mistranslation",
+      "severity": "major",
+      "route": "ACCURACY"
+    },
+    "F00234": {
+      "prompt_id": "pubmedqa_20602784",
+      "finding_id": "r1-f9",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00235": {
+      "prompt_id": "pubmedqa_26215326",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00236": {
+      "prompt_id": "pubmedqa_21658267",
+      "finding_id": "r1-f2",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00237": {
+      "prompt_id": "pubmedqa_23949294",
+      "finding_id": "r1-f3",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00238": {
+      "prompt_id": "pubmedqa_12484580",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "qwen",
+      "category": "accuracy/mistranslation",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00239": {
+      "prompt_id": "pubmedqa_24476003",
+      "finding_id": "r1-f9",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00240": {
+      "prompt_id": "pubmedqa_24476003",
+      "finding_id": "r1-f10",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00241": {
+      "prompt_id": "pubmedqa_27338535",
+      "finding_id": "r1-o26",
+      "status": "accepted",
+      "source": "obligation",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00242": {
+      "prompt_id": "pubmedqa_18319270",
+      "finding_id": "r1-f4",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00243": {
+      "prompt_id": "pubmedqa_18274917",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "qwen",
+      "category": "accuracy/mistranslation",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00244": {
+      "prompt_id": "pubmedqa_18274917",
+      "finding_id": "r1-f3",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00245": {
+      "prompt_id": "pubmedqa_18274917",
+      "finding_id": "r1-l4",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00246": {
+      "prompt_id": "pubmedqa_21164063",
+      "finding_id": "r1-f3",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00247": {
+      "prompt_id": "pubmedqa_22236315",
+      "finding_id": "r1-f7",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00248": {
+      "prompt_id": "pubmedqa_16403186",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00249": {
+      "prompt_id": "pubmedqa_7497757",
+      "finding_id": "r1-l4",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00250": {
+      "prompt_id": "pubmedqa_7497757",
+      "finding_id": "r1-l5",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00251": {
+      "prompt_id": "pubmedqa_7497757",
+      "finding_id": "r1-l6",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00252": {
+      "prompt_id": "pubmedqa_17940352",
+      "finding_id": "r1-f3",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00253": {
+      "prompt_id": "medbullets_13",
+      "finding_id": "r1-f2",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00254": {
+      "prompt_id": "medbullets_14",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "accuracy/addition",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00255": {
+      "prompt_id": "medbullets_58",
+      "finding_id": "r1-l2",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00256": {
+      "prompt_id": "medbullets_68",
+      "finding_id": "r1-d2",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00257": {
+      "prompt_id": "medbullets_89",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "accuracy/mistranslation",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00258": {
+      "prompt_id": "medbullets_126",
+      "finding_id": "r1-d1",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00259": {
+      "prompt_id": "medbullets_193",
+      "finding_id": "r1-f3",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00260": {
+      "prompt_id": "medbullets_289",
+      "finding_id": "r1-f2",
+      "status": "accepted",
+      "source": "qwen",
+      "category": "accuracy/mistranslation",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00261": {
+      "prompt_id": "medexqa_112_biomedical_engineer",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00262": {
+      "prompt_id": "medqa_428",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "accuracy/omission",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00263": {
+      "prompt_id": "medqa_447",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00264": {
+      "prompt_id": "medqa_447",
+      "finding_id": "r1-l2",
+      "status": "accepted",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00265": {
+      "prompt_id": "medqa_1020",
+      "finding_id": "r1-f2",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00266": {
+      "prompt_id": "medxpertqa-u_Text-1747",
+      "finding_id": "r1-f3",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00267": {
+      "prompt_id": "medmcqa_406b5b4f-9ad4-42c0-9669-12d038df4ac8",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "accuracy/mistranslation",
+      "severity": "major",
+      "route": "ACCURACY"
+    },
+    "F00268": {
+      "prompt_id": "medxpertqa-r_Text-191",
+      "finding_id": "r1-f1",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "minor",
+      "route": "TERM-A"
+    },
+    "F00269": {
+      "prompt_id": "medxpertqa-r_Text-191",
+      "finding_id": "r1-f32",
+      "status": "accepted",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00270": {
+      "prompt_id": "medbullets_152",
+      "finding_id": "r1-d1",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00271": {
+      "prompt_id": "medbullets_152",
+      "finding_id": "r1-d2",
+      "status": "accepted",
+      "source": "drug",
+      "category": "terminology",
+      "severity": "major",
+      "route": "DRUG"
+    },
+    "F00272": {
+      "prompt_id": "medmcqa_ef7dd5a4-386f-45e2-aa47-b2e9835f7169",
+      "finding_id": "r1-f6",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00273": {
+      "prompt_id": "pubmedqa_18507507",
+      "finding_id": "r1-f2",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00274": {
+      "prompt_id": "mmlu-pro_6801",
+      "finding_id": "r1-l3",
+      "status": "dismissed",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00275": {
+      "prompt_id": "medxpertqa-r_Text-1725",
+      "finding_id": "r1-f3",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00276": {
+      "prompt_id": "mmlu-pro_6744",
+      "finding_id": "r1-f1",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00277": {
+      "prompt_id": "medexqa_79_occupational_therapist",
+      "finding_id": "r1-f2",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00278": {
+      "prompt_id": "mmlu_532",
+      "finding_id": "r1-f1",
+      "status": "rejected_by_judges",
+      "source": "gptoss",
+      "category": "accuracy/mistranslation",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00279": {
+      "prompt_id": "medmcqa_6b3b112c-3f6a-4f33-afe6-421e410a1700",
+      "finding_id": "r1-f2",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00280": {
+      "prompt_id": "medxpertqa-r_Text-997",
+      "finding_id": "r2-f9",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00281": {
+      "prompt_id": "medmcqa_5d0bb1e6-fa95-47e6-811e-abeb5a025ce6",
+      "finding_id": "r1-f1",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "accuracy/mistranslation",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00282": {
+      "prompt_id": "mmlu_12394",
+      "finding_id": "r1-f2",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00283": {
+      "prompt_id": "medxpertqa-r_Text-924",
+      "finding_id": "r1-f4",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00284": {
+      "prompt_id": "pubmedqa_10173769",
+      "finding_id": "r1-l9",
+      "status": "dismissed",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00285": {
+      "prompt_id": "medqa_268",
+      "finding_id": "r1-o1",
+      "status": "dismissed",
+      "source": "obligation",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00286": {
+      "prompt_id": "medmcqa_3910b505-b026-4089-ae49-4f8481208a75",
+      "finding_id": "r1-f1",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "accuracy/mistranslation",
+      "severity": "major",
+      "route": "ACCURACY"
+    },
+    "F00287": {
+      "prompt_id": "medxpertqa-r_Text-1260",
+      "finding_id": "r1-f4",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00288": {
+      "prompt_id": "medmcqa_764694a9-132d-4eec-ba26-4a74eb003e0e",
+      "finding_id": "r1-f2",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00289": {
+      "prompt_id": "medxpertqa-r_Text-1261",
+      "finding_id": "r1-f2",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00290": {
+      "prompt_id": "medqa_967",
+      "finding_id": "r1-f10",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00291": {
+      "prompt_id": "medxpertqa-r_Text-4",
+      "finding_id": "r1-f2",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00292": {
+      "prompt_id": "medqa_591",
+      "finding_id": "r1-f1",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "accuracy/addition",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00293": {
+      "prompt_id": "medqa_476",
+      "finding_id": "r1-f2",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00294": {
+      "prompt_id": "mmlu_12185",
+      "finding_id": "r1-f9",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00295": {
+      "prompt_id": "medxpertqa-r_Text-259",
+      "finding_id": "r1-f6",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00296": {
+      "prompt_id": "medxpertqa-r_Text-2206",
+      "finding_id": "r1-f14",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00297": {
+      "prompt_id": "medmcqa_e96f4302-770c-4b98-a01a-cae2bd1dfea0",
+      "finding_id": "r1-f4",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00298": {
+      "prompt_id": "medxpertqa-r_Text-864",
+      "finding_id": "r1-f1",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00299": {
+      "prompt_id": "medbullets_129",
+      "finding_id": "r1-l3",
+      "status": "dismissed",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00300": {
+      "prompt_id": "medmcqa_f61e8ed7-4156-466d-a4eb-57ae2dedb0c8",
+      "finding_id": "r1-f7",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00301": {
+      "prompt_id": "medxpertqa-r_Text-651",
+      "finding_id": "r1-f3",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00302": {
+      "prompt_id": "medqa_553",
+      "finding_id": "r1-f1",
+      "status": "dismissed",
+      "source": "qwen",
+      "category": "accuracy/mistranslation",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00303": {
+      "prompt_id": "mmlu_12273",
+      "finding_id": "r1-f2",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00304": {
+      "prompt_id": "medmcqa_c1368e96-1d20-4847-9cb0-8cd53b314859",
+      "finding_id": "r1-f5",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00305": {
+      "prompt_id": "medxpertqa-r_Text-462",
+      "finding_id": "r1-f1",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00306": {
+      "prompt_id": "mmlu_12403",
+      "finding_id": "r1-f5",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00307": {
+      "prompt_id": "medxpertqa-r_Text-555",
+      "finding_id": "r1-f5",
+      "status": "rejected_by_judges",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00308": {
+      "prompt_id": "medexqa_13_clinical_laboratory_scientist",
+      "finding_id": "r1-f2",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00309": {
+      "prompt_id": "medxpertqa-u_Text-953",
+      "finding_id": "r1-f4",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00310": {
+      "prompt_id": "medmcqa_8af7d0f2-0e2b-4c59-b8bd-4e3c9ebdceac",
+      "finding_id": "r1-f9",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00311": {
+      "prompt_id": "medxpertqa-r_Text-1651",
+      "finding_id": "r1-f5",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00312": {
+      "prompt_id": "medxpertqa-u_Text-1773",
+      "finding_id": "r1-f1",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "accuracy/mistranslation",
+      "severity": "major",
+      "route": "ACCURACY"
+    },
+    "F00313": {
+      "prompt_id": "medxpertqa-r_Text-1986",
+      "finding_id": "r1-f14",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00314": {
+      "prompt_id": "medqa_417",
+      "finding_id": "r1-f11",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00315": {
+      "prompt_id": "medxpertqa-r_Text-1074",
+      "finding_id": "r1-f9",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00316": {
+      "prompt_id": "medqa_749",
+      "finding_id": "r1-f2",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00317": {
+      "prompt_id": "medmcqa_aac3f7a9-9821-4f19-a131-0f6661d13562",
+      "finding_id": "r1-f2",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00318": {
+      "prompt_id": "medxpertqa-u_Text-1832",
+      "finding_id": "r1-f3",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00319": {
+      "prompt_id": "medxpertqa-r_Text-358",
+      "finding_id": "r1-f3",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00320": {
+      "prompt_id": "medqa_1114",
+      "finding_id": "r1-f7",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00321": {
+      "prompt_id": "medbullets_264",
+      "finding_id": "r1-f2",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00322": {
+      "prompt_id": "medqa_881",
+      "finding_id": "r1-f9",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00323": {
+      "prompt_id": "medmcqa_a3eaeae1-9e64-4d66-9168-3e49814f51a5",
+      "finding_id": "r1-f11",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00324": {
+      "prompt_id": "medxpertqa-r_Text-689",
+      "finding_id": "r1-l7",
+      "status": "dismissed",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00325": {
+      "prompt_id": "medmcqa_4bed11d9-70fd-4592-941c-6ba056318752",
+      "finding_id": "r1-s1",
+      "status": "dismissed",
+      "source": "spelling",
+      "category": "fluency/spelling",
+      "severity": "minor",
+      "route": "DET"
+    },
+    "F00326": {
+      "prompt_id": "medmcqa_5814145c-8aed-4f7e-abf1-ba410ab7e2cb",
+      "finding_id": "r1-f2",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00327": {
+      "prompt_id": "medxpertqa-u_Text-458",
+      "finding_id": "r1-f5",
+      "status": "rejected_by_judges",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00328": {
+      "prompt_id": "pubmedqa_24799031",
+      "finding_id": "r1-f1",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "accuracy/mistranslation",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00329": {
+      "prompt_id": "medqa_488",
+      "finding_id": "r1-f2",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00330": {
+      "prompt_id": "medxpertqa-u_Text-1179",
+      "finding_id": "r1-f7",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00331": {
+      "prompt_id": "medbullets_215",
+      "finding_id": "r1-l2",
+      "status": "dismissed",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00332": {
+      "prompt_id": "pubmedqa_12040336",
+      "finding_id": "r1-l4",
+      "status": "dismissed",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00333": {
+      "prompt_id": "medxpertqa-u_Text-2221",
+      "finding_id": "r1-f4",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00334": {
+      "prompt_id": "pubmedqa_19130332",
+      "finding_id": "r1-f4",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00335": {
+      "prompt_id": "medxpertqa-u_Text-2311",
+      "finding_id": "r1-f2",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00336": {
+      "prompt_id": "mmlu_12366",
+      "finding_id": "r1-f6",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00337": {
+      "prompt_id": "medmcqa_ddce2d66-dfaa-4e23-99be-8bec0fa85bbd",
+      "finding_id": "r1-f1",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "accuracy/mistranslation",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00338": {
+      "prompt_id": "mmlu_12309",
+      "finding_id": "r2-f14",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": ""
+    },
+    "F00339": {
+      "prompt_id": "pubmedqa_16735905",
+      "finding_id": "r1-l4",
+      "status": "dismissed",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00340": {
+      "prompt_id": "mmlu_502",
+      "finding_id": "r1-f2",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00341": {
+      "prompt_id": "medmcqa_44796bcd-ae11-44de-94da-6bcb502fcad6",
+      "finding_id": "r1-l5",
+      "status": "dismissed",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00342": {
+      "prompt_id": "medmcqa_ba4a3d15-f1cf-4072-b836-ecf2785657e3",
+      "finding_id": "r1-l1",
+      "status": "dismissed",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00343": {
+      "prompt_id": "mmlu-pro_6043",
+      "finding_id": "r1-o3",
+      "status": "dismissed",
+      "source": "obligation",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00344": {
+      "prompt_id": "medxpertqa-r_Text-2105",
+      "finding_id": "r1-f5",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00345": {
+      "prompt_id": "medqa_928",
+      "finding_id": "r1-f3",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00346": {
+      "prompt_id": "mmlu-pro_6559",
+      "finding_id": "r1-f2",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00347": {
+      "prompt_id": "medqa_1219",
+      "finding_id": "r2-f6",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00348": {
+      "prompt_id": "medqa_865",
+      "finding_id": "r2-f8",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00349": {
+      "prompt_id": "medxpertqa-r_Text-549",
+      "finding_id": "r1-f3",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00350": {
+      "prompt_id": "medqa_594",
+      "finding_id": "r1-f1",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "accuracy/mistranslation",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00351": {
+      "prompt_id": "mmlu_12301",
+      "finding_id": "r1-f2",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00352": {
+      "prompt_id": "medexqa_320_clinical_laboratory_scientist",
+      "finding_id": "r1-f3",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "accuracy/addition",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00353": {
+      "prompt_id": "medmcqa_07549da1-d7ff-4fc2-85a0-a27023bbb810",
+      "finding_id": "r1-f3",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00354": {
+      "prompt_id": "medxpertqa-u_Text-2393",
+      "finding_id": "r1-f2",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00355": {
+      "prompt_id": "medxpertqa-r_Text-2015",
+      "finding_id": "r1-f3",
+      "status": "rejected_by_judges",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00356": {
+      "prompt_id": "medxpertqa-r_Text-1901",
+      "finding_id": "r1-f2",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00357": {
+      "prompt_id": "medexqa_12_speech_pathologist",
+      "finding_id": "r1-f1",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00358": {
+      "prompt_id": "medmcqa_3e2e85ff-abd6-4b35-bab8-b5fe0b78bdd9",
+      "finding_id": "r1-f1",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "accuracy/mistranslation",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00359": {
+      "prompt_id": "mmlu_12225",
+      "finding_id": "r1-f4",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00360": {
+      "prompt_id": "medxpertqa-r_Text-1955",
+      "finding_id": "r1-f22",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00361": {
+      "prompt_id": "mmlu_12271",
+      "finding_id": "r1-l5",
+      "status": "dismissed",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00362": {
+      "prompt_id": "medmcqa_88082d18-5e7b-4c2a-81fa-b91139c7276d",
+      "finding_id": "r1-f1",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00363": {
+      "prompt_id": "pubmedqa_23422012",
+      "finding_id": "r1-l2",
+      "status": "dismissed",
+      "source": "leakage",
+      "category": "terminology",
+      "severity": "major",
+      "route": "TERM-A"
+    },
+    "F00364": {
+      "prompt_id": "mmlu_1222",
+      "finding_id": "r1-f1",
+      "status": "dismissed",
+      "source": "qwen",
+      "category": "accuracy/addition",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00365": {
+      "prompt_id": "medmcqa_a95f4998-4d5f-43c4-ba66-78e1a1cb8b57",
+      "finding_id": "r1-f2",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "accuracy/mistranslation",
+      "severity": "major",
+      "route": "ACCURACY"
+    },
+    "F00366": {
+      "prompt_id": "medxpertqa-u_Text-815",
+      "finding_id": "r1-f5",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00367": {
+      "prompt_id": "medmcqa_ee31cc18-91fd-4582-a3e8-5311e85521b3",
+      "finding_id": "r1-f3",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/spelling",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00368": {
+      "prompt_id": "mmlu-pro_6185",
+      "finding_id": "r1-f3",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "fluency/grammar",
+      "severity": "major",
+      "route": "GRAMMAR"
+    },
+    "F00369": {
+      "prompt_id": "medmcqa_0e84d442-cf46-4dde-a0dc-42f862dd171f",
+      "finding_id": "r1-f3",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "terminology",
+      "severity": "major",
+      "route": "LEAK"
+    },
+    "F00370": {
+      "prompt_id": "mmlu-pro_6313",
+      "finding_id": "r2-f11",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "accuracy/omission",
+      "severity": "minor",
+      "route": "ACCURACY"
+    },
+    "F00371": {
+      "prompt_id": "medxpertqa-r_Text-1635",
+      "finding_id": "r1-f1",
+      "status": "dismissed",
+      "source": "gptoss",
+      "category": "accuracy/mistranslation",
+      "severity": "major",
+      "route": "ACCURACY"
+    }
+  },
+  "control": {
+    "C0001": {
+      "prompt_id": "medxpertqa-r_Text-1556",
+      "stratum": "clean"
+    },
+    "C0002": {
+      "prompt_id": "medxpertqa-r_Text-2202",
+      "stratum": "disputed"
+    },
+    "C0003": {
+      "prompt_id": "medqa_449",
+      "stratum": "clean"
+    },
+    "C0004": {
+      "prompt_id": "medxpertqa-r_Text-1308",
+      "stratum": "disputed"
+    },
+    "C0005": {
+      "prompt_id": "medxpertqa-r_Text-762",
+      "stratum": "disputed"
+    },
+    "C0006": {
+      "prompt_id": "medmcqa_b63d8163-5256-417b-8736-bc123eea66b1",
+      "stratum": "clean"
+    },
+    "C0007": {
+      "prompt_id": "medqa_1112",
+      "stratum": "clean"
+    },
+    "C0008": {
+      "prompt_id": "medbullets_107",
+      "stratum": "clean"
+    },
+    "C0009": {
+      "prompt_id": "medmcqa_6b388442-3d94-4203-903b-a1f4e1e0be7e",
+      "stratum": "disputed"
+    },
+    "C0010": {
+      "prompt_id": "medmcqa_e7173db8-8f12-46b3-a2e8-86eaa2574855",
+      "stratum": "clean"
+    },
+    "C0011": {
+      "prompt_id": "medmcqa_f5f3cd4b-3180-4f0e-b585-d681407b89d0",
+      "stratum": "clean"
+    },
+    "C0012": {
+      "prompt_id": "medxpertqa-r_Text-307",
+      "stratum": "disputed"
+    },
+    "C0013": {
+      "prompt_id": "mmlu-pro_6248",
+      "stratum": "clean"
+    },
+    "C0014": {
+      "prompt_id": "mmlu-pro_6071",
+      "stratum": "disputed"
+    },
+    "C0015": {
+      "prompt_id": "medmcqa_43bdf667-7532-42d6-b875-c2c06f6b9d3a",
+      "stratum": "clean"
+    },
+    "C0016": {
+      "prompt_id": "afrimedqa_1c835ab2206ca5528d60a5262ff7c6a954fdb7c81ac911378eff72eaccfcd6c1",
+      "stratum": "disputed"
+    },
+    "C0017": {
+      "prompt_id": "medmcqa_f6bd6944-8c47-4037-8871-10855371a4c2",
+      "stratum": "disputed"
+    },
+    "C0018": {
+      "prompt_id": "mmlu_848",
+      "stratum": "clean"
+    },
+    "C0019": {
+      "prompt_id": "medqa_75",
+      "stratum": "clean"
+    },
+    "C0020": {
+      "prompt_id": "medexqa_20_speech_pathologist",
+      "stratum": "clean"
+    },
+    "C0021": {
+      "prompt_id": "mmlu_12373",
+      "stratum": "clean"
+    },
+    "C0022": {
+      "prompt_id": "medmcqa_65981270-0578-4774-8c79-e11a22df3497",
+      "stratum": "clean"
+    },
+    "C0023": {
+      "prompt_id": "medmcqa_35fb00cb-9acc-4177-8873-c3915a142c99",
+      "stratum": "clean"
+    },
+    "C0024": {
+      "prompt_id": "mmlu-pro_6311",
+      "stratum": "clean"
+    },
+    "C0025": {
+      "prompt_id": "medqa_441",
+      "stratum": "disputed"
+    },
+    "C0026": {
+      "prompt_id": "medmcqa_e8109ada-ec65-4e42-ad7f-588f47d7c8d8",
+      "stratum": "clean"
+    },
+    "C0027": {
+      "prompt_id": "mmlu_1263",
+      "stratum": "clean"
+    },
+    "C0028": {
+      "prompt_id": "medexqa_69_speech_pathologist",
+      "stratum": "disputed"
+    },
+    "C0029": {
+      "prompt_id": "mmlu-pro_6111",
+      "stratum": "disputed"
+    },
+    "C0030": {
+      "prompt_id": "medqa_1231",
+      "stratum": "clean"
+    },
+    "C0031": {
+      "prompt_id": "medexqa_176_occupational_therapist",
+      "stratum": "clean"
+    },
+    "C0032": {
+      "prompt_id": "mmlu-pro_6561",
+      "stratum": "clean"
+    },
+    "C0033": {
+      "prompt_id": "medmcqa_747359d5-2ce7-439e-b229-d04381853421",
+      "stratum": "clean"
+    },
+    "C0034": {
+      "prompt_id": "mmlu_166",
+      "stratum": "clean"
+    },
+    "C0035": {
+      "prompt_id": "mmlu_7320",
+      "stratum": "clean"
+    },
+    "C0036": {
+      "prompt_id": "medmcqa_44f185f0-7a8e-406c-a33a-b2d7d54e7a25",
+      "stratum": "clean"
+    },
+    "C0037": {
+      "prompt_id": "mmlu-pro_6786",
+      "stratum": "clean"
+    },
+    "C0038": {
+      "prompt_id": "medmcqa_1fbd609b-f47b-451c-abbd-a33c4e0e96a6",
+      "stratum": "clean"
+    },
+    "C0039": {
+      "prompt_id": "medxpertqa-r_Text-2345",
+      "stratum": "clean"
+    },
+    "C0040": {
+      "prompt_id": "medmcqa_96eca5a9-adfb-4895-8b2a-0b96ffc801fc",
+      "stratum": "disputed"
+    },
+    "C0041": {
+      "prompt_id": "medmcqa_594d2b69-4fb8-4ae5-a4e6-c8f6597a1922",
+      "stratum": "clean"
+    },
+    "C0042": {
+      "prompt_id": "medmcqa_f0e43051-15d7-4c2a-ba6e-daa8a5e30c11",
+      "stratum": "clean"
+    },
+    "C0043": {
+      "prompt_id": "medxpertqa-u_Text-2140",
+      "stratum": "disputed"
+    },
+    "C0044": {
+      "prompt_id": "medmcqa_92b73e84-c02c-43db-8ddc-a5b7954ae6ab",
+      "stratum": "disputed"
+    },
+    "C0045": {
+      "prompt_id": "mmlu-pro_6109",
+      "stratum": "clean"
+    },
+    "C0046": {
+      "prompt_id": "pubmedqa_10490564",
+      "stratum": "clean"
+    },
+    "C0047": {
+      "prompt_id": "medmcqa_a318b5cf-a25d-4860-878c-e1d0295fa46f",
+      "stratum": "clean"
+    },
+    "C0048": {
+      "prompt_id": "medqa_1174",
+      "stratum": "clean"
+    },
+    "C0049": {
+      "prompt_id": "pubmedqa_24014276",
+      "stratum": "disputed"
+    },
+    "C0050": {
+      "prompt_id": "medxpertqa-r_Text-14",
+      "stratum": "disputed"
+    },
+    "C0051": {
+      "prompt_id": "medxpertqa-r_Text-727",
+      "stratum": "clean"
+    },
+    "C0052": {
+      "prompt_id": "mmlu-pro_6052",
+      "stratum": "clean"
+    },
+    "C0053": {
+      "prompt_id": "medxpertqa-r_Text-942",
+      "stratum": "clean"
+    },
+    "C0054": {
+      "prompt_id": "medexqa_10_speech_pathologist",
+      "stratum": "clean"
+    },
+    "C0055": {
+      "prompt_id": "medqa_647",
+      "stratum": "disputed"
+    },
+    "C0056": {
+      "prompt_id": "medxpertqa-u_Text-247",
+      "stratum": "disputed"
+    },
+    "C0057": {
+      "prompt_id": "medxpertqa-r_Text-1735",
+      "stratum": "disputed"
+    },
+    "C0058": {
+      "prompt_id": "mmlu_881",
+      "stratum": "disputed"
+    },
+    "C0059": {
+      "prompt_id": "medmcqa_773c79b5-7250-4c25-84d0-93a163291d85",
+      "stratum": "clean"
+    },
+    "C0060": {
+      "prompt_id": "medqa_1181",
+      "stratum": "clean"
+    },
+    "C0061": {
+      "prompt_id": "medmcqa_6ab3241e-4c52-470e-8977-aeaf0f54e17a",
+      "stratum": "clean"
+    },
+    "C0062": {
+      "prompt_id": "pubmedqa_23347337",
+      "stratum": "clean"
+    },
+    "C0063": {
+      "prompt_id": "medxpertqa-r_Text-1607",
+      "stratum": "clean"
+    },
+    "C0064": {
+      "prompt_id": "medbullets_6",
+      "stratum": "clean"
+    },
+    "C0065": {
+      "prompt_id": "medbullets_183",
+      "stratum": "clean"
+    },
+    "C0066": {
+      "prompt_id": "medqa_439",
+      "stratum": "disputed"
+    },
+    "C0067": {
+      "prompt_id": "medqa_460",
+      "stratum": "clean"
+    },
+    "C0068": {
+      "prompt_id": "medxpertqa-r_Text-2177",
+      "stratum": "clean"
+    },
+    "C0069": {
+      "prompt_id": "medxpertqa-u_Text-2362",
+      "stratum": "disputed"
+    },
+    "C0070": {
+      "prompt_id": "medexqa_20_occupational_therapist",
+      "stratum": "clean"
+    },
+    "C0071": {
+      "prompt_id": "medmcqa_1c25695e-3dfc-4f00-815a-7c6dfa0478fc",
+      "stratum": "clean"
+    },
+    "C0072": {
+      "prompt_id": "medmcqa_65c68635-397b-4ed9-b4a3-8e798c91613e",
+      "stratum": "clean"
+    },
+    "C0073": {
+      "prompt_id": "medmcqa_b3aa72de-f85c-407f-892b-9dae7d953417",
+      "stratum": "disputed"
+    },
+    "C0074": {
+      "prompt_id": "medxpertqa-r_Text-1246",
+      "stratum": "clean"
+    },
+    "C0075": {
+      "prompt_id": "mmlu_12255",
+      "stratum": "disputed"
+    },
+    "C0076": {
+      "prompt_id": "medqa_529",
+      "stratum": "disputed"
+    },
+    "C0077": {
+      "prompt_id": "medexqa_51_speech_pathologist",
+      "stratum": "clean"
+    },
+    "C0078": {
+      "prompt_id": "mmlu-pro_6280",
+      "stratum": "disputed"
+    },
+    "C0079": {
+      "prompt_id": "mmlu_1298",
+      "stratum": "clean"
+    },
+    "C0080": {
+      "prompt_id": "medmcqa_b807b86e-b050-49cb-9d49-a57279ab77b2",
+      "stratum": "clean"
+    },
+    "C0081": {
+      "prompt_id": "medmcqa_3146c248-2dd4-4888-99c9-bafda2fa1ec7",
+      "stratum": "clean"
+    },
+    "C0082": {
+      "prompt_id": "medexqa_72_clinical_psychologist",
+      "stratum": "clean"
+    },
+    "C0083": {
+      "prompt_id": "medmcqa_175a37d0-a4ea-4c5e-b1c1-bf1fec51d2bc",
+      "stratum": "disputed"
+    },
+    "C0084": {
+      "prompt_id": "mmlu_750",
+      "stratum": "clean"
+    },
+    "C0085": {
+      "prompt_id": "medexqa_114_clinical_laboratory_scientist",
+      "stratum": "clean"
+    },
+    "C0086": {
+      "prompt_id": "mmlu-pro_6316",
+      "stratum": "clean"
+    },
+    "C0087": {
+      "prompt_id": "medmcqa_b9558853-1ef8-40c5-93a0-4514d251569f",
+      "stratum": "clean"
+    },
+    "C0088": {
+      "prompt_id": "pubmedqa_24191126",
+      "stratum": "clean"
+    },
+    "C0089": {
+      "prompt_id": "medxpertqa-u_Text-2032",
+      "stratum": "clean"
+    },
+    "C0090": {
+      "prompt_id": "medmcqa_3b566437-e44a-4c6a-a0e1-973042e5819c",
+      "stratum": "disputed"
+    },
+    "C0091": {
+      "prompt_id": "medxpertqa-r_Text-1916",
+      "stratum": "disputed"
+    },
+    "C0092": {
+      "prompt_id": "medbullets_117",
+      "stratum": "clean"
+    },
+    "C0093": {
+      "prompt_id": "medqa_1055",
+      "stratum": "disputed"
+    },
+    "C0094": {
+      "prompt_id": "medxpertqa-u_Text-2143",
+      "stratum": "disputed"
+    },
+    "C0095": {
+      "prompt_id": "medmcqa_965fa6a2-969e-4b51-bdb7-934a02c809f6",
+      "stratum": "clean"
+    },
+    "C0096": {
+      "prompt_id": "medmcqa_91aa0a58-78a7-4c75-ae0b-5dc0ada32999",
+      "stratum": "disputed"
+    },
+    "C0097": {
+      "prompt_id": "medxpertqa-r_Text-2282",
+      "stratum": "disputed"
+    },
+    "C0098": {
+      "prompt_id": "medmcqa_66a1d601-967b-47ee-af15-a78c983eb8c4",
+      "stratum": "clean"
+    },
+    "C0099": {
+      "prompt_id": "medmcqa_9bf68fe9-789d-4021-aaf4-d39fa49b302c",
+      "stratum": "disputed"
+    },
+    "C0100": {
+      "prompt_id": "mmlu_12435",
+      "stratum": "clean"
+    },
+    "C0101": {
+      "prompt_id": "medxpertqa-r_Text-2219",
+      "stratum": "clean"
+    },
+    "C0102": {
+      "prompt_id": "mmlu_703",
+      "stratum": "clean"
+    },
+    "C0103": {
+      "prompt_id": "medmcqa_3d2b968e-f973-423f-a0e9-1aab41489e9f",
+      "stratum": "clean"
+    },
+    "C0104": {
+      "prompt_id": "mmlu_143",
+      "stratum": "disputed"
+    },
+    "C0105": {
+      "prompt_id": "medmcqa_ced0e6e7-048a-467e-aa7e-e10def9ebb5e",
+      "stratum": "clean"
+    },
+    "C0106": {
+      "prompt_id": "medxpertqa-u_Text-1412",
+      "stratum": "clean"
+    },
+    "C0107": {
+      "prompt_id": "medexqa_62_clinical_laboratory_scientist",
+      "stratum": "clean"
+    },
+    "C0108": {
+      "prompt_id": "mmlu-pro_6074",
+      "stratum": "clean"
+    },
+    "C0109": {
+      "prompt_id": "medexqa_10_biomedical_engineer",
+      "stratum": "clean"
+    },
+    "C0110": {
+      "prompt_id": "medxpertqa-r_Text-333",
+      "stratum": "disputed"
+    },
+    "C0111": {
+      "prompt_id": "pubmedqa_12098035",
+      "stratum": "clean"
+    },
+    "C0112": {
+      "prompt_id": "medxpertqa-r_Text-1764",
+      "stratum": "clean"
+    },
+    "C0113": {
+      "prompt_id": "mmlu_877",
+      "stratum": "clean"
+    },
+    "C0114": {
+      "prompt_id": "medmcqa_51234bc7-9170-45cc-8494-837fe23af441",
+      "stratum": "clean"
+    },
+    "C0115": {
+      "prompt_id": "medxpertqa-r_Text-668",
+      "stratum": "disputed"
+    },
+    "C0116": {
+      "prompt_id": "medqa_1212",
+      "stratum": "disputed"
+    },
+    "C0117": {
+      "prompt_id": "medxpertqa-u_Text-1569",
+      "stratum": "clean"
+    },
+    "C0118": {
+      "prompt_id": "medmcqa_6f9ebf7c-17e8-470e-9f14-99a0c17a368c",
+      "stratum": "clean"
+    },
+    "C0119": {
+      "prompt_id": "medxpertqa-r_Text-735",
+      "stratum": "disputed"
+    },
+    "C0120": {
+      "prompt_id": "medxpertqa-r_Text-1241",
+      "stratum": "clean"
+    },
+    "C0121": {
+      "prompt_id": "medmcqa_2f009ec1-ddb0-4dc5-a0e1-b46ab022a5fa",
+      "stratum": "clean"
+    },
+    "C0122": {
+      "prompt_id": "medxpertqa-r_Text-2165",
+      "stratum": "disputed"
+    },
+    "C0123": {
+      "prompt_id": "medexqa_80_occupational_therapist",
+      "stratum": "clean"
+    },
+    "C0124": {
+      "prompt_id": "medqa_1130",
+      "stratum": "disputed"
+    },
+    "C0125": {
+      "prompt_id": "medexqa_316_clinical_laboratory_scientist",
+      "stratum": "clean"
+    },
+    "C0126": {
+      "prompt_id": "medexqa_367_clinical_laboratory_scientist",
+      "stratum": "clean"
+    },
+    "C0127": {
+      "prompt_id": "mmlu-pro_6622",
+      "stratum": "clean"
+    },
+    "C0128": {
+      "prompt_id": "medmcqa_e1a006e0-911e-407d-93d5-ce39ae7f6137",
+      "stratum": "disputed"
+    },
+    "C0129": {
+      "prompt_id": "medxpertqa-r_Text-671",
+      "stratum": "clean"
+    },
+    "C0130": {
+      "prompt_id": "medmcqa_93b42b71-45b2-4314-9bb5-b71c362c50cf",
+      "stratum": "clean"
+    },
+    "C0131": {
+      "prompt_id": "medmcqa_ec39111c-8207-4aed-8e4c-e81e104c3f79",
+      "stratum": "disputed"
+    },
+    "C0132": {
+      "prompt_id": "medmcqa_95835bf6-f013-4b4e-9a46-c3f046eeca17",
+      "stratum": "disputed"
+    },
+    "C0133": {
+      "prompt_id": "medbullets_55",
+      "stratum": "clean"
+    },
+    "C0134": {
+      "prompt_id": "medxpertqa-r_Text-1061",
+      "stratum": "clean"
+    },
+    "C0135": {
+      "prompt_id": "medmcqa_50ca6bfb-4e53-40a0-a3a6-14cb2e92d6ab",
+      "stratum": "clean"
+    },
+    "C0136": {
+      "prompt_id": "medqa_115",
+      "stratum": "disputed"
+    },
+    "C0137": {
+      "prompt_id": "medmcqa_07cbc168-01c1-4cb2-8cec-de6c18b9d29d",
+      "stratum": "clean"
+    },
+    "C0138": {
+      "prompt_id": "medmcqa_7f2895f8-0a13-45fc-bfd1-a3d5b7fbb121",
+      "stratum": "clean"
+    },
+    "C0139": {
+      "prompt_id": "medxpertqa-u_Text-600",
+      "stratum": "disputed"
+    },
+    "C0140": {
+      "prompt_id": "medmcqa_97028381-fe2a-4c81-9f67-b3125061d7ae",
+      "stratum": "clean"
+    },
+    "C0141": {
+      "prompt_id": "medxpertqa-r_Text-408",
+      "stratum": "clean"
+    },
+    "C0142": {
+      "prompt_id": "medmcqa_930d4945-04ef-4c32-9c9d-279e8226f852",
+      "stratum": "clean"
+    },
+    "C0143": {
+      "prompt_id": "medxpertqa-u_Text-1733",
+      "stratum": "disputed"
+    },
+    "C0144": {
+      "prompt_id": "afrimedqa_98d6c0aa783e5d5e72b97432c5f0d50f57fb29ef3628a17404e98bffd56d0eed",
+      "stratum": "clean"
+    },
+    "C0145": {
+      "prompt_id": "pubmedqa_27643961",
+      "stratum": "clean"
+    },
+    "C0146": {
+      "prompt_id": "mmlu-pro_6026",
+      "stratum": "clean"
+    },
+    "C0147": {
+      "prompt_id": "medqa_611",
+      "stratum": "clean"
+    },
+    "C0148": {
+      "prompt_id": "medqa_970",
+      "stratum": "disputed"
+    },
+    "C0149": {
+      "prompt_id": "medxpertqa-r_Text-132",
+      "stratum": "disputed"
+    },
+    "C0150": {
+      "prompt_id": "mmlu_503",
+      "stratum": "disputed"
+    }
+  },
+  "control_strata": {
+    "clean": 8676,
+    "disputed": 624
+  }
+}

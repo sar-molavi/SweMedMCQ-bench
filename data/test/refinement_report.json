@@ -1,0 +1,888 @@
+{
+  "n_items": 10363,
+  "n_results": 10363,
+  "status_counts": {
+    "refined": 1063,
+    "clean": 6968,
+    "mechanical_only": 1708,
+    "disputed_minor": 614,
+    "disputed_critical": 10
+  },
+  "status_by_dataset": {
+    "afrimedqa": {
+      "clean": 119,
+      "mechanical_only": 41,
+      "disputed_minor": 8,
+      "refined": 6
+    },
+    "medbullets": {
+      "mechanical_only": 178,
+      "disputed_minor": 24,
+      "clean": 63,
+      "refined": 42,
+      "disputed_critical": 1
+    },
+    "medexqa": {
+      "refined": 47,
+      "clean": 865,
+      "disputed_minor": 13,
+      "mechanical_only": 10
+    },
+    "medmcqa": {
+      "clean": 2447,
+      "disputed_minor": 147,
+      "refined": 156,
+      "mechanical_only": 63,
+      "disputed_critical": 3
+    },
+    "medqa": {
+      "refined": 229,
+      "mechanical_only": 285,
+      "clean": 668,
+      "disputed_minor": 90,
+      "disputed_critical": 1
+    },
+    "medxpertqa-r": {
+      "clean": 700,
+      "mechanical_only": 695,
+      "refined": 271,
+      "disputed_minor": 193,
+      "disputed_critical": 2
+    },
+    "medxpertqa-u": {
+      "clean": 291,
+      "mechanical_only": 176,
+      "disputed_minor": 45,
+      "refined": 77
+    },
+    "mmlu": {
+      "clean": 928,
+      "disputed_minor": 28,
+      "refined": 81,
+      "mechanical_only": 51,
+      "disputed_critical": 1
+    },
+    "mmlu-pro": {
+      "clean": 674,
+      "refined": 61,
+      "mechanical_only": 48,
+      "disputed_minor": 34,
+      "disputed_critical": 1
+    },
+    "pubmedqa": {
+      "mechanical_only": 161,
+      "disputed_minor": 32,
+      "refined": 93,
+      "clean": 213,
+      "disputed_critical": 1
+    }
+  },
+  "stop_reasons": {
+    "converged": 8895,
+    "nothing_new": 1243,
+    "max_rounds": 225
+  },
+  "rounds_used": {
+    "2": 1676,
+    "1": 8152,
+    "3": 535
+  },
+  "findings": {
+    "total": 29909,
+    "by_source_status": {
+      "corrupt": {
+        "rejected_by_judges": 2,
+        "open": 1
+      },
+      "drug": {
+        "resolved": 179,
+        "open": 126,
+        "ungrounded": 3,
+        "rejected_by_judges": 8
+      },
+      "gender": {
+        "dismissed": 30,
+        "ungrounded": 3,
+        "resolved": 2,
+        "rejected_by_judges": 10
+      },
+      "gptoss": {
+        "resolved": 762,
+        "dismissed": 11422,
+        "reported": 3938,
+        "open": 817,
+        "ungrounded": 1798,
+        "rejected_by_judges": 706,
+        "vetoed": 409
+      },
+      "leakage": {
+        "dismissed": 2402,
+        "rejected_by_judges": 235,
+        "open": 81,
+        "ungrounded": 669,
+        "resolved": 182
+      },
+      "numbers": {
+        "dismissed": 85,
+        "resolved": 3
+      },
+      "obligation": {
+        "reported": 4773,
+        "ungrounded": 105,
+        "rejected_by_judges": 45,
+        "dismissed": 98,
+        "resolved": 42,
+        "open": 5
+      },
+      "qwen": {
+        "resolved": 89,
+        "reported": 98,
+        "open": 21,
+        "dismissed": 328,
+        "ungrounded": 49,
+        "rejected_by_judges": 72
+      },
+      "spelling": {
+        "rejected_by_judges": 55,
+        "ungrounded": 2,
+        "dismissed": 100,
+        "open": 9,
+        "resolved": 5
+      },
+      "units": {
+        "resolved": 138,
+        "open": 2
+      }
+    },
+    "by_category_status": {
+      "accuracy/addition": {
+        "dismissed": 290,
+        "ungrounded": 25,
+        "vetoed": 2,
+        "resolved": 46,
+        "rejected_by_judges": 16,
+        "open": 3
+      },
+      "accuracy/mistranslation": {
+        "resolved": 121,
+        "rejected_by_judges": 95,
+        "dismissed": 1199,
+        "ungrounded": 137,
+        "open": 27,
+        "vetoed": 8
+      },
+      "accuracy/omission": {
+        "resolved": 176,
+        "dismissed": 442,
+        "ungrounded": 63,
+        "rejected_by_judges": 53,
+        "open": 13
+      },
+      "fluency/grammar": {
+        "dismissed": 5170,
+        "resolved": 247,
+        "rejected_by_judges": 231,
+        "ungrounded": 352,
+        "open": 45,
+        "vetoed": 4
+      },
+      "fluency/spelling": {
+        "dismissed": 4693,
+        "open": 666,
+        "ungrounded": 853,
+        "rejected_by_judges": 183,
+        "resolved": 151,
+        "reported": 13
+      },
+      "source_issue": {
+        "reported": 516,
+        "ungrounded": 19
+      },
+      "terminology": {
+        "resolved": 661,
+        "dismissed": 2671,
+        "reported": 8280,
+        "ungrounded": 1180,
+        "rejected_by_judges": 555,
+        "open": 308,
+        "vetoed": 395
+      }
+    },
+    "by_severity": {
+      "critical": 525,
+      "major": 25654,
+      "minor": 3730
+    },
+    "llm_ungrounded_rate_pct": 9.01,
+    "dismissal_rate_pct": 79.55,
+    "by_route_status": {
+      "ACCURACY": {
+        "resolved": 205,
+        "rejected_by_judges": 164,
+        "dismissed": 1912,
+        "open": 41,
+        "ungrounded": 39
+      },
+      "DET": {
+        "resolved": 145,
+        "rejected_by_judges": 65,
+        "dismissed": 127,
+        "open": 11
+      },
+      "DRUG": {
+        "resolved": 179,
+        "open": 126,
+        "ungrounded": 1,
+        "rejected_by_judges": 8
+      },
+      "GRAMMAR": {
+        "dismissed": 9673,
+        "open": 702,
+        "resolved": 391,
+        "rejected_by_judges": 349,
+        "ungrounded": 3
+      },
+      "LEAK": {
+        "dismissed": 1637,
+        "rejected_by_judges": 398,
+        "open": 133,
+        "ungrounded": 79,
+        "resolved": 317
+      },
+      "PROTECTED": {
+        "vetoed": 27
+      },
+      "REPORTED": {
+        "reported": 797
+      },
+      "SV-NOEVIDENCE": {
+        "reported": 8012
+      },
+      "TERM-A": {
+        "dismissed": 786,
+        "rejected_by_judges": 149,
+        "resolved": 165,
+        "open": 49,
+        "ungrounded": 18
+      }
+    },
+    "accuracy_confirmations": {
+      "gptoss=confirm|qwen=3/3": 235,
+      "gptoss=confirm|qwen=-": 168,
+      "gptoss=dismiss|qwen=-": 906,
+      "gptoss=confirm|qwen=2/3": 111,
+      "gptoss=confirm|qwen=1/3": 164,
+      "gptoss=confirm|qwen=0/3": 773,
+      "gptoss=none|qwen=-": 1
+    },
+    "accuracy_support": {
+      "gptoss": 1596,
+      "gptoss+qwen": 209,
+      "qwen": 469,
+      "code": 87
+    }
+  },
+  "decoys": {
+    "n": 3803,
+    "false_confirm_rate_pct": 0.74,
+    "by_model_kind": {
+      "gptoss/accuracy": {
+        "n": 983,
+        "confirm": 0,
+        "confirm_not_low": 0,
+        "false_confirm_rate_pct": 0.0
+      },
+      "gptoss/terminology": {
+        "n": 979,
+        "confirm": 28,
+        "confirm_not_low": 28,
+        "false_confirm_rate_pct": 2.86
+      },
+      "qwen/accuracy": {
+        "n": 1841,
+        "confirm": 0,
+        "confirm_not_low": 0,
+        "false_confirm_rate_pct": 0.0
+      }
+    }
+  },
+  "verifier": {
+    "calls": 25308,
+    "reasked": 518,
+    "missing_after_reask": 629
+  },
+  "candidates": {
+    "by_kind_producer": {
+      "llm_edit/gptoss": {
+        "total": 5191,
+        "gate_ok": 2248,
+        "accepted": 782
+      },
+      "drug/code": {
+        "total": 393,
+        "gate_ok": 156,
+        "accepted": 156
+      },
+      "units/code": {
+        "total": 142,
+        "gate_ok": 138,
+        "accepted": 138
+      },
+      "term_a/gptoss": {
+        "total": 575,
+        "gate_ok": 331,
+        "accepted": 153
+      },
+      "term_a/code": {
+        "total": 30,
+        "gate_ok": 12,
+        "accepted": 6
+      },
+      "retranslate/gptoss": {
+        "total": 14,
+        "gate_ok": 8,
+        "accepted": 1
+      },
+      "drug/gptoss": {
+        "total": 75,
+        "gate_ok": 26,
+        "accepted": 16
+      }
+    },
+    "gate_reasons": {
+      "not_new": 2106,
+      "lost_verified_term": 577,
+      "respelled_swedish_word": 547,
+      "non_swedish_token": 433,
+      "apply_failed": 174,
+      "numbers": 29,
+      "new_leakage": 24,
+      "options_not_parallel": 16,
+      "outside_window": 10,
+      "kept_english_term": 4,
+      "missing_required_term": 2,
+      "structure": 1,
+      "noop": 1
+    },
+    "per_op_gate_dropped_reasons": {
+      "respelled_swedish_word": 604,
+      "lost_verified_term": 451,
+      "non_swedish_token": 446,
+      "apply_failed": 256,
+      "numbers": 30,
+      "new_leakage": 24,
+      "outside_window": 17,
+      "options_not_parallel": 16,
+      "noop": 4,
+      "structure": 1
+    }
+  },
+  "confidence": {
+    "accepted_by_level": {
+      "high": 863,
+      "deterministic": 138,
+      "medium": 251
+    },
+    "accepted_by_kind_level": {
+      "drug": {
+        "high": 171,
+        "medium": 1
+      },
+      "llm_edit": {
+        "high": 552,
+        "medium": 230
+      },
+      "retranslate": {
+        "medium": 1
+      },
+      "term_a": {
+        "high": 140,
+        "medium": 19
+      },
+      "units": {
+        "deterministic": 138
+      }
+    },
+    "reverted_by_final_check_by_level": {
+      "high": 3
+    },
+    "accepted_by_tier": {
+      "tier2": 958,
+      "tier1": 294
+    },
+    "refined_items_by_tier": {
+      "tier2": 851,
+      "tier1_only": 212
+    },
+    "rejected": {
+      "n": 1646,
+      "median_c": 0.2,
+      "c_histogram": {
+        "[0.0,0.1)": 565,
+        "[0.1,0.2)": 170,
+        "[0.2,0.3)": 186,
+        "[0.3,0.4)": 144,
+        "[0.4,0.5)": 123,
+        "[0.5,0.6)": 58,
+        "[0.6,0.7)": 124,
+        "[0.7,0.8)": 175,
+        "[0.8,0.9)": 98,
+        "[0.9,1.0]": 3
+      },
+      "complete_n": 366,
+      "complete_c_histogram": {
+        "[0.0,0.1)": 25,
+        "[0.1,0.2)": 21,
+        "[0.2,0.3)": 15,
+        "[0.3,0.4)": 13,
+        "[0.4,0.5)": 10,
+        "[0.5,0.6)": 16,
+        "[0.6,0.7)": 57,
+        "[0.7,0.8)": 108,
+        "[0.8,0.9)": 98,
+        "[0.9,1.0]": 3
+      }
+    }
+  },
+  "judges": {
+    "pairwise_by_judge_order": {
+      "gemma/current_first": {
+        "candidate": 812,
+        "current": 294,
+        "equal": 191,
+        "both_wrong": 7,
+        "null": 5
+      },
+      "gemma/candidate_first": {
+        "candidate": 882,
+        "equal": 179,
+        "current": 237,
+        "both_wrong": 9,
+        "null": 2
+      },
+      "gptoss/current_first": {
+        "candidate": 1256,
+        "current": 159,
+        "equal": 51,
+        "both_wrong": 27
+      },
+      "gptoss/candidate_first": {
+        "candidate": 1288,
+        "current": 147,
+        "equal": 33,
+        "both_wrong": 25
+      },
+      "qwen/current_first": {
+        "candidate": 4581,
+        "current": 2672,
+        "equal": 439,
+        "null": 13,
+        "both_wrong": 38
+      },
+      "qwen/candidate_first": {
+        "candidate": 4623,
+        "current": 2587,
+        "equal": 485,
+        "null": 17,
+        "both_wrong": 31
+      }
+    },
+    "votes_by_family_task": {
+      "gemma/pairwise": {
+        "candidate": 1694,
+        "equal": 370,
+        "current": 531,
+        "both_wrong": 16,
+        "failed": 7
+      },
+      "gemma/noninferiority": {
+        "candidate": 344,
+        "current": 4
+      },
+      "gptoss/pairwise": {
+        "candidate": 2544,
+        "current": 306,
+        "equal": 84,
+        "both_wrong": 52
+      },
+      "gptoss/noninferiority": {
+        "candidate": 349,
+        "current": 9
+      },
+      "qwen/pairwise": {
+        "candidate": 9203,
+        "current": 5259,
+        "equal": 925,
+        "failed": 30,
+        "both_wrong": 69
+      },
+      "qwen/noninferiority": {
+        "candidate": 1076,
+        "current": 14,
+        "failed": 2
+      }
+    },
+    "certainty": {
+      "qwen/high": 11271,
+      "gptoss/high": 3337,
+      "gemma/high": 2959,
+      "qwen/medium": 5272,
+      "qwen/low": 3,
+      "qwen/None": 32,
+      "gptoss/medium": 7,
+      "gemma/None": 7
+    },
+    "noninferiority": {
+      "qwen/introduces_error=False": 1076,
+      "gptoss/introduces_error=False": 349,
+      "gemma/introduces_error=False": 344,
+      "qwen/introduces_error=True": 14,
+      "qwen/introduces_error=None": 2,
+      "gemma/introduces_error=True": 4,
+      "gptoss/introduces_error=True": 9
+    },
+    "position_consistency": {
+      "gemma": 83.87,
+      "gptoss": 85.13,
+      "qwen": 79.07
+    },
+    "kappa_qwen_vs_gptoss_on_full_sample": {
+      "n": 1489,
+      "current_first": 0.194,
+      "candidate_first": 0.221
+    }
+  },
+  "item_final_check": {
+    "n": 67,
+    "failed": 3,
+    "reverted_candidates": 3
+  },
+  "edits": {
+    "refined_items": 1063,
+    "changed_fields": 1164,
+    "median_char_edit_distance": 6.0
+  },
+  "gold_vs_distractor_edits": {
+    "gold_edited": 83,
+    "gold_total": 10363,
+    "gold_rate_pct": 0.8,
+    "distractor_edited": 370,
+    "distractor_total": 49940,
+    "distractor_rate_pct": 0.74,
+    "chi2": 0.415,
+    "p": 0.5194882847617942
+  },
+  "calls": {
+    "detect_language/gptoss": {
+      "calls": 11449,
+      "from_cache": 30,
+      "failed": 91,
+      "fallback": 436,
+      "reasoning_empty": 0,
+      "prompt_tokens": 27861224,
+      "completion_tokens": 16913196,
+      "finish_stop": 11358,
+      "finish_length": 91
+    },
+    "detect_meaning/gptoss": {
+      "calls": 11449,
+      "from_cache": 24,
+      "failed": 0,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 32537760,
+      "completion_tokens": 10597037,
+      "finish_stop": 11449
+    },
+    "detect_meaning/qwen": {
+      "calls": 11449,
+      "from_cache": 0,
+      "failed": 25,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 33910747,
+      "completion_tokens": 36980988,
+      "finish_stop": 11424,
+      "finish_length": 25
+    },
+    "detect_terminology/gptoss": {
+      "calls": 11449,
+      "from_cache": 28,
+      "failed": 0,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 31052970,
+      "completion_tokens": 9065518,
+      "finish_stop": 11449
+    },
+    "integrate_drug/gptoss": {
+      "calls": 468,
+      "from_cache": 0,
+      "failed": 0,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 1198275,
+      "completion_tokens": 153791,
+      "finish_stop": 468
+    },
+    "integrate_term/gptoss": {
+      "calls": 630,
+      "from_cache": 6,
+      "failed": 0,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 1817700,
+      "completion_tokens": 249016,
+      "finish_stop": 630
+    },
+    "item_final/gemma": {
+      "calls": 130,
+      "from_cache": 0,
+      "failed": 1,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 371630,
+      "completion_tokens": 166393,
+      "finish_stop": 129,
+      "finish_length": 1
+    },
+    "item_final/gptoss": {
+      "calls": 134,
+      "from_cache": 0,
+      "failed": 0,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 379014,
+      "completion_tokens": 75905,
+      "finish_stop": 134
+    },
+    "item_final/qwen": {
+      "calls": 402,
+      "from_cache": 0,
+      "failed": 0,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 1192110,
+      "completion_tokens": 828613,
+      "finish_stop": 402
+    },
+    "judge/gemma": {
+      "calls": 2618,
+      "from_cache": 0,
+      "failed": 7,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 7258164,
+      "completion_tokens": 2876298,
+      "finish_stop": 2611,
+      "finish_length": 7
+    },
+    "judge/gptoss": {
+      "calls": 2986,
+      "from_cache": 0,
+      "failed": 0,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 8214242,
+      "completion_tokens": 1488228,
+      "finish_stop": 2986
+    },
+    "judge/qwen": {
+      "calls": 15486,
+      "from_cache": 0,
+      "failed": 30,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 44330040,
+      "completion_tokens": 44911743,
+      "finish_stop": 15457,
+      "finish_length": 29
+    },
+    "noninferiority/gemma": {
+      "calls": 348,
+      "from_cache": 0,
+      "failed": 0,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 818090,
+      "completion_tokens": 156530,
+      "finish_stop": 348
+    },
+    "noninferiority/gptoss": {
+      "calls": 358,
+      "from_cache": 4,
+      "failed": 0,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 840516,
+      "completion_tokens": 101881,
+      "finish_stop": 358
+    },
+    "noninferiority/qwen": {
+      "calls": 1092,
+      "from_cache": 0,
+      "failed": 2,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 2682186,
+      "completion_tokens": 862788,
+      "finish_stop": 1090,
+      "finish_length": 2
+    },
+    "repair_grammar/gptoss": {
+      "calls": 2247,
+      "from_cache": 0,
+      "failed": 0,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 6286727,
+      "completion_tokens": 1552180,
+      "finish_stop": 2247
+    },
+    "repair_language/gptoss": {
+      "calls": 135,
+      "from_cache": 0,
+      "failed": 0,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 385024,
+      "completion_tokens": 94091,
+      "finish_stop": 135
+    },
+    "repair_meaning/gptoss": {
+      "calls": 754,
+      "from_cache": 0,
+      "failed": 0,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 2131626,
+      "completion_tokens": 701203,
+      "finish_stop": 754
+    },
+    "repair_terminology/gptoss": {
+      "calls": 994,
+      "from_cache": 0,
+      "failed": 0,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 2921218,
+      "completion_tokens": 994069,
+      "finish_stop": 994
+    },
+    "retranslate/gptoss": {
+      "calls": 43,
+      "from_cache": 15,
+      "failed": 0,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 96814,
+      "completion_tokens": 17043,
+      "finish_stop": 43
+    },
+    "verify_language/gptoss": {
+      "calls": 5437,
+      "from_cache": 1,
+      "failed": 0,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 13998637,
+      "completion_tokens": 3796359,
+      "finish_stop": 5437
+    },
+    "verify_language/qwen": {
+      "calls": 12750,
+      "from_cache": 0,
+      "failed": 249,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 34215789,
+      "completion_tokens": 63747458,
+      "finish_stop": 12511,
+      "finish_length": 239
+    },
+    "verify_language_reask/gptoss": {
+      "calls": 3,
+      "from_cache": 0,
+      "failed": 0,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 7653,
+      "completion_tokens": 1057,
+      "finish_stop": 3
+    },
+    "verify_language_reask/qwen": {
+      "calls": 258,
+      "from_cache": 0,
+      "failed": 46,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 722107,
+      "completion_tokens": 2697353,
+      "finish_stop": 212,
+      "finish_length": 46
+    },
+    "verify_meaning/gptoss": {
+      "calls": 1875,
+      "from_cache": 0,
+      "failed": 0,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 4824321,
+      "completion_tokens": 1030761,
+      "finish_stop": 1875
+    },
+    "verify_meaning/qwen": {
+      "calls": 3300,
+      "from_cache": 0,
+      "failed": 3,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 8931783,
+      "completion_tokens": 9608487,
+      "finish_stop": 3297,
+      "finish_length": 3
+    },
+    "verify_meaning_reask/gptoss": {
+      "calls": 1,
+      "from_cache": 1,
+      "failed": 0,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 2913,
+      "completion_tokens": 793,
+      "finish_stop": 1
+    },
+    "verify_meaning_reask/qwen": {
+      "calls": 3,
+      "from_cache": 0,
+      "failed": 0,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 8160,
+      "completion_tokens": 15906,
+      "finish_stop": 3
+    },
+    "verify_terminology/gptoss": {
+      "calls": 1946,
+      "from_cache": 2,
+      "failed": 0,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 5095080,
+      "completion_tokens": 1250322,
+      "finish_stop": 1946
+    },
+    "verify_terminology_reask/gptoss": {
+      "calls": 253,
+      "from_cache": 252,
+      "failed": 0,
+      "fallback": 0,
+      "reasoning_empty": 0,
+      "prompt_tokens": 652153,
+      "completion_tokens": 154299,
+      "finish_stop": 253
+    }
+  },
+  "missing_items": [],
+  "shards_not_done": []
+}

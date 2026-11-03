@@ -1,0 +1,228 @@
+=== P0042 (medmcqa)
+DIFF:
+...ses fårade kärnor, jätteceller, [A: eosinofilt | B: eosinofil] cytoplasma och fibroblastisk proliferation....
+rater a: B better / minor | 'cytoplasma' is common gender; B 'eosinofil cytoplasma' is the usual pathology phrasing, A 'eosinofilt' less idiomatic.
+rater b: equal / minor | 'eosinofilt' vs 'eosinofil cytoplasma': cytoplasma used with both genders; both acceptable.
+
+=== P0051 (medqa)
+DIFF:
+...ikterus. DT visar en [A: förändring | B: resistens] i pankreashuvudet, och biopsi...
+rater a: equal / minor | 'förändring' vaguer than mass; 'resistens' is palpatory term, odd for CT finding. Both understandable.
+rater b: B better / minor | 'resistens' is the established term for mass; 'förändring' is vaguer (lesion).
+
+=== P0056 (mmlu)
+DIFF:
+...stora, runda och reagerar [A: på | B: för] ljus och ackommodation. Lungorna...
+rater a: equal / minor | 'reagerar på ljus' and 'reagerar för ljus' both standard Swedish status phrasing.
+rater b: A better / minor | 'reagerar på ljus' is idiomatic; 'reagerar för ljus' is unidiomatic.
+
+=== P0063 (medxpertqa-u)
+DIFF:
+...skrevs ut när hennes [A: peak expiratory flow rate | B: topputandningsflöde] (PEFR) översteg 80 %...
+rater a: B better / minor | A leaves 'peak expiratory flow rate' in English; B 'topputandningsflöde' Swedish, though PEF is common.
+rater b: equal / minor | 'peak expiratory flow rate' (English) vs 'topputandningsflöde' (calque); PEFR kept in both.
+
+=== P0067 (medxpertqa-u)
+DIFF:
+...25-årig man behandlad med [A: tension band wiring | B: spänningsbandfixation]
+[option:C] Öppen olekranonfraktur med...
+rater a: B better / minor | A leaves 'tension band wiring' in English; B 'spänningsbandfixation' is Swedish (dragband also used).
+rater b: equal / minor | 'tension band wiring' (English, used in ortho) vs calque 'spänningsbandfixation'; neither clearly better.
+
+=== P0076 (medqa)
+DIFF:
+...studie?
+[option:A] observatörsförväntansbias
+[option:B] [A: length-time-bias | B: längdtidsbias]
+[option:C] surveillance bias
+[option:D]...
+rater a: equal / minor | 'length-time-bias' parallels 'lead-time-bias'; 'längdtidsbias' Swedish but rare. Both acceptable.
+rater b: A better / minor | 'length-time-bias' is the used term and parallel with 'lead-time-bias'; 'längdtidsbias' unusual calque.
+
+=== P0079 (pubmedqa)
+DIFF:
+...under fattigdomsgränsen.
+Afroamerikanska och [A: latinamerikanska | B: hispaniska] kvinnor har generellt högre...
+...kvinnor som inte är [A: latinamerikaner, | B: hispaniska,] och dessa skillnader är...
+...signifikanta rasrelaterade skillnader för [A: afroamerikaner | B: afroamerikanska] och latinamerikaner hade ofta...
+...skillnader för afroamerikaner och [A: latinamerikaner | B: hispaniska kvinnor] hade ofta en fattigdomsnivå...
+rater a: A better / minor | 'hispaniska' unidiomatic for Hispanic; A 'latinamerikanska' natural; B adds 'kvinnor' not in source.
+rater b: equal / minor | 'latinamerikanska' vs 'hispaniska' for Hispanic: both acceptable Swedish renderings.
+
+=== P0080 (medexqa)
+DIFF:
+...omfatta hypotension, muskelkramper och [A: dialysis | B: dialys] disequilibrium syndrome.
+[option:C] En...
+rater a: both wrong / minor | A English 'dialysis disequilibrium syndrome'; B hybrid 'dialys disequilibrium syndrome'. Swedish: dysekvilibriumsyndrom.
+rater b: A better / minor | B 'dialys disequilibrium syndrome' is a half-translated hybrid; A keeps the English term intact.
+
+=== P0081 (medmcqa)
+DIFF:
+...ses en så kallad [A: "strawberry vagina". | B: jordgubbsvagina.] Vilket läkemedel är förstahandsval?...
+rater a: B better / minor | A leaves '"strawberry vagina"' in English; B 'så kallad jordgubbsvagina' is Swedish.
+rater b: equal / minor | 'så kallad "strawberry vagina"' vs calque 'jordgubbsvagina'; no established Swedish term, both understood.
+
+=== P0101 (medqa)
+DIFF:
+...Hg
+HCO3 22 mEq/L
+[A: O2-saturation | B: O2-mättnad] 73 %
+Vilket av...
+rater a: equal / minor | 'O2-saturation' vs 'O2-mättnad': both used in Swedish clinical language.
+rater b: B better / minor | 'O2-mättnad' is Swedish; 'O2-saturation' is a half-English form.
+
+=== P0104 (medmcqa)
+DIFF:
+...används för att klassificera [A: djup | B: grav] hörselnedsättning?
+[option:A] 61-71 dB...
+rater a: B better / minor | 'grav hörselnedsättning' is the established Swedish grade for profound; 'djup' is a calque.
+rater b: equal / minor | 'djup' and 'grav hörselnedsättning' are both used for profound hearing loss.
+
+=== P0105 (medxpertqa-u)
+DIFF:
+...epigastrisk ömhet och 3+ [A: bilateralt | B: bilaterala] pittingödem i nedre extremiteterna....
+rater a: equal / minor | 'bilateralt pittingödem' (sg) vs 'bilaterala pittingödem' (pl): both grammatical.
+rater b: A better / minor | 'bilateralt pittingödem' (singular) reads more naturally than plural 'bilaterala pittingödem'.
+
+=== P0106 (medqa)
+DIFF:
+...makrofager
+[option:B] CD4+-T-lymfocyter
+[option:C] [A: natural killer-celler | B: NK-celler]
+[option:D] stavkärniga neutrofiler...
+rater a: equal / minor | 'natural killer-celler' vs 'NK-celler': both understood, same meaning.
+rater b: B better / minor | 'NK-celler' is the standard Swedish term; 'natural killer-celler' is English-like.
+
+=== P0111 (medmcqa)
+DIFF:
+...[question] Den oönskade [A: bieffekten | B: bieffekt] som vanligast förknippas med...
+rater a: A better / minor | 'Den oönskade bieffekten som' is grammatical; B 'Den oönskade bieffekt' lacks definite form.
+rater b: equal / minor | 'Den oönskade bieffekten som' vs 'bieffekt som': both acceptable Swedish.
+
+=== P0113 (medmcqa)
+DIFF:
+...[question] Det kirurgiska [A: ingreppet | B: ingrepp] som oftast är indicerat...
+rater a: A better / minor | 'Det kirurgiska ingreppet som' correct; B 'Det kirurgiska ingrepp' ungrammatical.
+rater b: equal / minor | 'Det kirurgiska ingreppet som' vs 'ingrepp som': both acceptable.
+
+=== P0115 (medmcqa)
+DIFF:
+...en andra underkäksmolar
+[option:D] [A: Överkäkspremolar | B: Överkäkspremolarer] och överkäkshörntand erupterar före...
+rater a: equal / minor | 'Överkäkspremolar' (sg, literal) vs 'Överkäkspremolarer' (pl, more natural); same meaning.
+rater b: A better / minor | Source has singular 'premolar'; A keeps it, B pluralizes it to 'Överkäkspremolarer'.
+
+=== P0125 (medxpertqa-u)
+DIFF:
+...aktivering av ATM
+[option:G] [A: upplösning | B: resolution] av dubbelsträngsbrott
+[option:H] återupptagande...
+rater a: A better / minor | 'upplösning av dubbelsträngsbrott' Swedish; B leaves English 'resolution'.
+rater b: equal / minor | 'upplösning' and 'resolution av dubbelsträngsbrott' are both understandable.
+
+=== P0126 (medxpertqa-r)
+DIFF:
+...att denna patient utvecklar [A: före | B: senast vid] 18 års ålder?
+[option:A]...
+rater a: equal / minor | 'före 18 års ålder' vs 'senast vid 18 års ålder': both render 'by the age of 18'.
+rater b: B better / minor | 'by the age of 18' = 'senast vid 18 års ålder'; 'före' is slightly narrower.
+
+=== P0135 (medxpertqa-u)
+DIFF:
+...Extensionsdysfunktion med vänsterrotation och [A: vänstersidoböjning | B: sidoböjning]
+[option:G] Neutral dysfunktion med...
+rater a: B better / minor | Source 'left rotation and sidebending' is ambiguous; A adds 'vänster' to sidebending, B preserves ambiguity.
+rater b: A better / minor | 'left rotation and sidebending' means left for both; B 'vänsterrotation och sidoböjning' loses the side of the sidebending.
+
+=== P0137 (medqa)
+DIFF:
+...den bakre delen av [A: vulvan | B: vulva] ingen smärta. Vilken av...
+rater a: equal / minor | 'av vulvan' vs Latin bare 'av vulva': both acceptable in Swedish medical text.
+rater b: A better / minor | 'den bakre delen av vulvan' reads more naturally than 'av vulva'.
+
+=== P0149 (medbullets)
+DIFF:
+...av långsamma vågor, multifokala [A: spikes | B: spikar] och asynkroni. Föräldrarna har...
+rater a: equal / minor | 'spikes' and 'spikar' both used in Swedish EEG terminology.
+rater b: B better / minor | 'spikar' is the Swedish plural; 'spikes' is English.
+
+=== P0151 (medqa)
+DIFF:
+...[option:A] Gastroenterit
+[option:B] Smärtsamma [A: vesikler | B: vesiklar] i dermatomal utbredning
+[option:C]...
+rater a: B better / minor | 'vesiklar' is the usual Swedish plural (cf. MeSH 'vesiklar'); 'vesikler' less standard.
+rater b: A better / minor | 'vesikler' is the correct plural; 'vesiklar' is a misspelling.
+
+=== P0167 (medqa)
+DIFF:
+...form av uttalad törst, [A: polyuri | B: täta urinträngningar] och partiell synnedsättning på...
+rater a: equal / minor | 'polyuri' vs 'täta urinträngningar' for 'frequent urination': both approximate, neither clearly better.
+rater b: B better / minor | 'frequent urination' is frequency; A 'polyuri' shifts to volume; B 'täta urinträngningar' closer.
+
+=== P0169 (medexqa)
+DIFF:
+...ryggmärgsskada på C5-nivå?
+[option:A] [A: flygplansskena | B: airplane-skena]
+[option:B] knogböjarskena
+[option:C] lång...
+...C5-nivå?
+[option:A] flygplansskena
+[option:B] [A: knogböjarskena | B: knuckle-bender-skena]
+[option:C] lång opponensskena
+[option:D]...
+rater a: A better / minor | A 'flygplansskena', 'knogböjarskena' Swedish; B keeps English 'airplane-skena', 'knuckle-bender-skena'.
+rater b: equal / minor | 'flygplansskena/knogböjarskena' vs English device names: no established Swedish terms; both understandable.
+
+=== P0177 (pubmedqa)
+DIFF:
+...avseende på ålder, kroppsvikt, [A: CPB-tiden, | B: CPB-duration,] aortaklamptid, användning av inotropa...
+...effekt på postoperativt euthyroid [A: sjukdomssyndrom? | B: sick syndrome?]
+[option:A] ja
+[option:B] nej...
+rater a: B better / minor | A 'euthyroid sjukdomssyndrom' is a non-term hybrid; B 'euthyroid sick syndrome' is the used name.
+rater b: equal / minor | A better 'CPB-tiden', but 'euthyroid sjukdomssyndrom' is an odd calque; B keeps established 'sick syndrome'.
+
+=== P0184 (mmlu)
+DIFF:
+...nedre motorneuronslesion
+[option:D] Vid [A: bells | B: Bell's] pares påverkas smaksinnet aldrig...
+...motorneuronslesion
+[option:D] Vid bells [A: pares | B: palsy] påverkas smaksinnet aldrig...
+rater a: equal / minor | A 'bells pares' Swedish but lowercase; B 'Bell's palsy' English but matches option A.
+rater b: A better / minor | A 'bells pares' Swedish term (should be capitalised); B 'Bell's palsy' English.
+
+=== P0186 (medmcqa)
+DIFF:
+...näspassagen?
+[option:A] Spegeltest.
+[option:B] [A: Fjärilsprov. | B: Butterfly test.]
+[option:C] Rhinomanometri.
+[option:D] Att...
+rater a: A better / minor | 'Fjärilsprov' parallels translated 'Spegeltest'; B leaves 'Butterfly test' in English.
+rater b: equal / minor | 'Fjärilsprov' vs 'Butterfly test': no established Swedish term; both acceptable.
+
+=== P0191 (medxpertqa-u)
+DIFF:
+...basalcellskarcinom
+[option:F] övergångsepitelkarcinom
+[option:G] [A: basaloid | B: basaloitt] karcinom
+[option:H] neuroendokrint karcinom...
+rater a: B better / minor | Neuter agreement 'basaloitt karcinom' is correct Swedish inflection.
+rater b: equal / minor | 'basaloid' vs 'basaloitt karcinom': both forms acceptable.
+
+=== P0192 (medexqa)
+DIFF:
+...autonomi
+[option:C] rättvisa/skälighet
+[option:D] [A: beneficence | B: välgörenhet]...
+rater a: equal / minor | A leaves 'beneficence' in English; B 'välgörenhet' (charity) is imprecise; neither ideal.
+rater b: B better / minor | A leaves 'beneficence' in English while other options are translated; B 'välgörenhet' Swedish.
+
+=== P0193 (medmcqa)
+DIFF:
+...och monomer i kallpolymeriserande [A: harts? | B: resin?]
+[option:A] 3:1 i volym...
+rater a: A better / minor | 'harts' is Swedish; B leaves English 'resin'.
+rater b: equal / minor | 'harts' vs 'resin': both understood in Swedish dental context.
+

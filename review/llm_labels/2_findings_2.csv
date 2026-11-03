@@ -1,0 +1,94 @@
+finding_uid,label,severity,comment
+F00094,real error,minor,'Hon inleds på indometacin' is unidiomatic; 'sätts in på' or 'behandling med indometacin inleds' expected.
+F00095,real error,minor,"Secondary unit (98,8 °F) from source omitted; style guide requires keeping both units."
+F00096,not an error,,'fotomikrografi' follows 'ett fotografi'; neuter 'ett' is acceptable.
+F00097,not an error,,'kommer sannolikt att visa vilket av följande' still asks for the most likely finding; immaterial.
+F00098,real error,minor,"Secondary unit (98,4 °F) from source omitted; style guide requires keeping both units."
+F00099,real error,minor,'konserturné' misspelled; correct compound is 'konsertturné'.
+F00100,not an error,,'event manager' is an established job title loan in Swedish; not clinically relevant.
+F00101,not an error,,"'resolution' exists in Swedish medical usage; meaning clear, no material error."
+F00102,not an error,,'basaloitt' is the correct neuter form of 'basaloid' (cf. paranoitt); 'basaloidt' is not standard.
+F00103,not an error,,'neoplasm' is a standard Swedish medical term.
+F00104,not an error,,'recent' is an established Swedish medical adjective (recent infarkt).
+F00105,not an error,,In osteopathic convention 'left' applies to both rotation and sidebending (type II); Swedish makes it explicit correctly.
+F00106,not an error,,'den patogenetiska mekanism som' is correct determinative construction before restrictive relative clause.
+F00107,real error,minor,'ulcer' is English; Swedish uses 'ulcus' or 'sår'.
+F00108,not an error,,'natural killer-cell (NK-cell)' is commonly used in Swedish immunology; acceptable.
+F00109,not an error,,'natural killer-cell' is an accepted term in Swedish immunology.
+F00110,not an error,,'natural killer-cell' is an accepted term in Swedish immunology.
+F00111,not an error,,'peak expiratory flow' (PEF) is used as such in Swedish clinical practice; acceptable.
+F00112,real error,minor,'Rocuronium' English spelling; Swedish INN 'rokuronium'.
+F00113,real error,minor,'Atracurium' English spelling; Swedish INN 'atrakurium'.
+F00114,real error,minor,'Vecuronium' English spelling; Swedish INN 'vekuronium'.
+F00115,real error,minor,'Mivacurium' English spelling; Swedish INN 'mivakurium'.
+F00116,real error,minor,'Succinylcholine' English spelling; Swedish 'suxameton'/'succinylkolin'.
+F00117,real error,minor,'Pancuronium' English spelling; Swedish INN 'pankuronium'.
+F00118,not an error,,'ödem' plural is 'ödem'; 'bilaterala pittingödem' is grammatical plural.
+F00119,not an error,,'tilt' is understood in Swedish radiography context; immaterial.
+F00120,not an error,,'sexualpartner' is a standard Swedish word.
+F00121,not an error,,'hamstrings' is the established Swedish term for this muscle group.
+F00122,not an error,,'expiration' is a standard Swedish medical term.
+F00123,not an error,,Omitting 'har' in a subordinate clause ('att han ... strikt följt') is correct Swedish.
+F00124,not an error,,Brand name 'Topomax' kept as in source; proper names stay as source.
+F00125,not an error,,Swedish term 'cellprov från livmoderhalsen' given; 'Pap-smear' only parenthetical.
+F00126,real error,minor,'reverse halo-sign' left in English; Swedish 'omvänt halotecken'.
+F00127,not an error,,'air trapping' is the established term in Swedish radiology.
+F00128,real error,minor,'reverse' part of untranslated 'reverse halo-sign'; Swedish 'omvänt halotecken'.
+F00129,real error,minor,'sign' untranslated; Swedish 'tecken' (halotecken).
+F00130,real error,critical,"'grav hörselnedsättning' corresponds to severe, not profound; asks about a different WHO category."
+F00131,not an error,,'bare lymphocyte' syndrome name kept as proper disease name; acceptable.
+F00132,not an error,,'Butterfly test' is a named test; proper name kept.
+F00133,not an error,,English singular is generic; plural 'Överkäkspremolarer' conveys same meaning.
+F00134,real error,minor,'Methicillin' English spelling; Swedish 'meticillin'.
+F00135,real error,minor,'Carbenicillin' English spelling; Swedish 'karbenicillin'.
+F00136,not an error,,Named sign quoted with 'så kallad'; keeping the clue term is acceptable.
+F00137,not an error,,Quoted named sign 'blueberry lips' kept as in source question; acceptable.
+F00138,real error,minor,'fibronectin' English spelling; Swedish 'fibronektin'.
+F00139,real error,minor,'cherubism' English spelling; Swedish 'kerubism'.
+F00140,real error,minor,'cherubism' English spelling; Swedish 'kerubism'.
+F00141,real error,minor,'40000 -80000' lacks thousands space per style guide (40 000-80 000); typography only.
+F00142,real error,minor,'13000-17000' lacks thousands space for 5-digit numbers; typography only.
+F00143,not an error,,'resin' is established in Swedish dental terminology (kompositresin).
+F00144,real error,minor,'Ethambutol' English spelling; Swedish INN 'etambutol'.
+F00145,not an error,,'Den G-proteinkopplade receptor som' is correct before restrictive relative clause.
+F00146,not an error,,'Den oönskade bieffekt som' is correct before restrictive relative clause.
+F00147,not an error,,'i pankreas endokrina del' is correct genitive construction.
+F00148,not an error,,'zygoma' is an accepted Latin/international term in Swedish.
+F00149,not an error,,'Cold blend-test' is a named test kept as in source; acceptable.
+F00150,not an error,,'Cold' part of named test; acceptable.
+F00151,real error,minor,"'öppna' added; source says only 'large space', addition may cue agoraphobia."
+F00152,not an error,,'sentinel node-biopsi' is the established Swedish term.
+F00153,not an error,,'Sentinel node' is established in Swedish clinical usage.
+F00154,not an error,,Flagged span 'sentinel-lymfkörtelbiopsi' does not occur; Swedish starts with capital 'Sentinel'.
+F00155,real error,minor,'Parathion' English spelling; Swedish 'paration'.
+F00156,not an error,,'säkra diagnosen' renders 'established safely' (reliably) adequately; no material change.
+F00157,real error,minor,Month names are lowercase in Swedish: 'september 2007'.
+F00158,real error,minor,'Lacosamide' English spelling; Swedish INN 'lakosamid'.
+F00159,real error,minor,'liknar det' refers to 'förångare' (en-word); should be 'den'.
+F00160,real error,minor,'Phenylephrine' English spelling; Swedish INN 'fenylefrin'.
+F00161,not an error,,'autosomalt dominant nedärvning' is the standard Swedish form (adverbial autosomalt).
+F00162,not an error,,'feces' is a standard Swedish medical term.
+F00163,not an error,,"'icke-alkoholsteatohepatit' is a transparent, acceptable compound; meaning clear."
+F00164,not an error,,'cytoplasma' is common gender in Swedish (cytoplasman); 'eosinofil cytoplasma' correct.
+F00165,real error,minor,'amphotericin B' English spelling; Swedish 'amfotericin B'.
+F00166,real error,minor,English 'to' left in range; Swedish 'till' or dash.
+F00167,real error,minor,English 'to' left in range; Swedish 'till' or dash.
+F00168,real error,minor,English 'to' left in range; Swedish 'till' or dash.
+F00169,real error,minor,English 'to' left in range; Swedish 'till' or dash.
+F00170,real error,minor,'syrgas' is common gender; should be 'uppvärmd syrgas'.
+F00171,not an error,,'Det kirurgiska ingrepp som' is correct before restrictive relative clause.
+F00172,real error,minor,'Cefaclor' English spelling; Swedish 'cefaklor'.
+F00173,not an error,,'Protrusion' is a standard Swedish anatomical/odontological term.
+F00174,real error,minor,'Hydroxyurea' English spelling; Swedish 'hydroxikarbamid'.
+F00175,real error,minor,'hydroxyurea' English spelling; Swedish 'hydroxikarbamid'.
+F00176,not an error,,Gapped verb 'och ett annat [hade] vattkoppor' is grammatical Swedish.
+F00177,real error,major,"Sentence listing aspirin, clopidogrel, simvastatin, metoprolol, lisinopril omitted; clinically relevant to bleeding workup."
+F00178,real error,major,Medication sentence missing after 'melena.'; antiplatelet information omitted.
+F00179,real error,minor,Secondary unit (11 lb) omitted; style guide requires keeping both units.
+F00180,not an error,,'före 18 års ålder' adequately renders 'by the age of 18'.
+F00181,real error,minor,'vancomycin' English spelling; Swedish INN 'vankomycin'.
+F00182,real error,minor,'detta patients' wrong gender; should be 'denna patients'.
+F00183,not an error,,'amputation ovan knä' is the established Swedish term.
+F00184,real error,minor,'carvedilol' English spelling; Swedish INN 'karvedilol'.
+F00185,real error,minor,Secondary units (5 ft 6 in) and (203 lb) omitted; style guide requires both units.
+F00186,real error,minor,'Högera' is a non-word; should be 'Höger'/'Högra'; laterality still recognizable.

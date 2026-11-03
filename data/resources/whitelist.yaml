@@ -1,0 +1,203 @@
+# Hand-written whitelist for the refinement loop.
+#
+# abbreviations / latin_anatomy / international_terms / extra_tokens:
+#   tokens that are correct in Swedish clinical text even though they are not SALDO words
+#   (Lexicon.whitelist = all of these, original case + lowercase). They are never leakage
+#   candidates and never "non-Swedish tokens" in the gate.
+# eponym_patterns: regexes (full-token match) for eponyms and genitive eponyms.
+# ambiguous_en: English keys (normalised: lowercase, singular) that are general-English words or
+#   have several clinical senses. Every term-base row with such an en_key gets single_sense=False,
+#   so it never creates an obligation and never vetoes a finding (it is still a hint).
+# keep: protected Swedish clinical terms. The same list is the
+#   table "Protected terms" in style_guide_sv.md. Enforced in grounding (findings on these spans
+#   are vetoed), in the gate (removed_protected_term) and in the judge prompts. Matching is
+#   case-insensitive and whole-word (inflected forms included by the loop).
+
+abbreviations:
+  [EKG, ECG, EEG, EMG, ENeG, CT, DT, MR, MRT, MRI, PET, SPECT, UL, CRP, SR, SR-tid, Hb, HbA1c, LPK, TPK, EVF, MCV,
+   MCH, MCHC, ALAT, ASAT, ALP, GT, LD, LDH, CK, CK-MB, TnT, TnI, BNP, NT-proBNP, PK, INR, APTT, aPTT, PTT, TSH,
+   T3, T4, FT4, PSA, CEA, AFP, hCG, LH, FSH, ACTH, ADH, GFR, eGFR, BMI, BT, AF, VT, VF, SVT, AV, AV-block, HLR,
+   KOL, ARDS, ALS, MS, SLE, RA, IBD, IBS, GERD, GI, HIV, AIDS, HPV, HSV, CMV, EBV, VZV, RSV, MRSA, VRE, ESBL,
+   TBC, STI, UVI, DVT, LE, KAD, PCI, CABG, ERCP, MRCP, TEE, TTE, IVA, IV, IM, SC, PO, ADHD, ASD, OCD, PTSD, DSM,
+   ICD, KVÅ, CSV, LP, DNA, RNA, mRNA, PCR, ELISA, ATP, ADP, NAD, NADH, NADPH, FAD, GABA, ACE, ACE-hämmare, ARB,
+   NSAID, NSAID-preparat, SSRI, SNRI, TCA, MAO, MAO-hämmare, PPI, LMWH, DOAK, NOAK, ASA, BCG, MMR, Rh, ABO, HLA,
+   IgA, IgE, IgG, IgM, CD4, CD8, NK, TNF, IL, pH, pCO2, pO2, PaO2, PaCO2, SpO2, SaO2, FiO2, PEEP, CPAP, BiPAP,
+   GCS, NIHSS, APGAR, Apgar, AVPU, ABCDE, FAST, EFAST, BVM, mmHg, mmol, µmol, mg, ml, mL, dl, dL, kg, IE, E,
+   kPa, Hz, bpm, Gy, mSv, kcal, cm, mm, µm, nm]
+
+latin_anatomy:
+  [musculus, musculi, nervus, nervi, arteria, arteriae, vena, venae, ligamentum, ligamenta, ramus, rami, os, ossa,
+   corpus, caput, collum, cauda, fossa, foramen, processus, tuberculum, tuberositas, sulcus, gyrus, lobus, lobi,
+   ductus, plexus, ganglion, nucleus, tractus, fasciculus, cortex, medulla, cerebellum, cerebrum, thalamus,
+   hypothalamus, hippocampus, amygdala, pons, mesencephalon, oblongata, dura, mater, arachnoidea, pia, sinus,
+   cavernosus, sagittalis, transversus, sigmoideus, petrosus, aorta, truncus, coeliacus, mesenterica, iliaca,
+   femoralis, poplitea, tibialis, fibularis, radialis, ulnaris, brachialis, axillaris, subclavia, carotis,
+   vertebralis, basilaris, cerebri, media, anterior, posterior, superior, inferior, lateralis, medialis,
+   profunda, superficialis, interna, externa, communis, dexter, dextra, sinister, sinistra, major, minor,
+   longus, brevis, magnus, maximus, minimus, rectus, obliquus, deltoideus, biceps, triceps, quadriceps,
+   gastrocnemius, soleus, trapezius, latissimus, dorsi, pectoralis, serratus, sternocleidomastoideus,
+   supraspinatus, infraspinatus, subscapularis, teres, iliopsoas, psoas, gluteus, piriformis, sartorius,
+   gracilis, adductor, abductor, flexor, extensor, pollicis, digitorum, hallucis, carpi, femoris, tibiae,
+   humeri, radii, ulnae, scapulae, claviculae, sterni, costae, vertebrae, sacrum, coccyx, pelvis, femur,
+   tibia, fibula, patella, humerus, radius, ulna, scapula, clavicula, sternum, mandibula, maxilla, os
+   temporale, frontale, occipitale, parietale, sphenoidale, ethmoidale, hyoideum, phrenicus, vagus,
+   facialis, trigeminus, oculomotorius, trochlearis, abducens, glossopharyngeus, hypoglossus, accessorius,
+   olfactorius, opticus, vestibulocochlearis, medianus, ischiadicus, peroneus, obturatorius, pudendus,
+   cutaneus, recurrens, laryngeus, thoracicus, splanchnicus, cervicalis, lumbalis, sacralis, plexus,
+   brachialis, lumbosacralis, cauda, equina, conus, medullaris, filum, terminale, bulbus, ampulla, papilla,
+   vateri, oddi, hepatis, porta, hilus, hilum, cardia, pylorus, fundus, antrum, duodenum, jejunum, ileum,
+   caecum, cecum, colon, ascendens, descendens, transversum, sigmoideum, rectum, anus, appendix,
+   vermiformis, omentum, mesenterium, peritoneum, retroperitoneum, pleura, pericardium, myocardium,
+   endocardium, epicardium, septum, atrium, ventriculus, valva, mitralis, tricuspidalis, pulmonalis,
+   aortae, chorda, tendineae, trachea, bronchus, bronchi, alveolus, alveoli, larynx, pharynx, epiglottis,
+   glottis, esophagus, oesophagus, uterus, cervix, vagina, vulva, ovarium, tuba, uterina, placenta, testis,
+   epididymis, prostata, vesica, urinaria, ureter, urethra, ren, renes, glomerulus, tubulus, cornea,
+   sclera, retina, iris, lens, macula, lutea, fovea, centralis, uvea, choroidea, conjunctiva, cochlea,
+   tympani, membrana, malleus, incus, stapes, labyrinthus, meatus, acusticus, nasi, concha, septum,
+   palatum, uvula, tonsilla, lingua, glandula, parotis, submandibularis, thyroidea, parathyroidea,
+   suprarenalis, hypophysis, pinealis, thymus, lien, splen, pancreas, hepar, vesica, fellea, biliaris,
+   in, situ, vivo, vitro, per, os, et, al, de, novo, ad, hoc, post, mortem, partum, prima, facie,
+   status, epilepticus, asthmaticus, lochia, rubra, situs, inversus, pectus, excavatum, carinatum,
+   genu, valgum, varum, hallux, valgus, pes, planus, cavus, cubitus, coxa, vara, talipes, equinovarus,
+   tinea, pedis, capitis, corporis, cruris, versicolor, herpes, zoster, simplex, lupus, erythematosus,
+   pemphigus, vulgaris, acne, rosacea, lichen, planus, sclerosus, molluscum, contagiosum, verruca,
+   condyloma, acuminata, erythema, nodosum, migrans, multiforme, infectiosum, ichthyosis, psoriasis,
+   vitiligo, alopecia, areata, angina, pectoris, cor, pulmonale, delirium, tremens, petit, mal, grand,
+   ileus, placenta, praevia, previa, abruptio, placentae, hyperemesis, gravidarum, diabetes, mellitus,
+   insipidus, ulcus, ventriculi, duodeni, morbus, tabes, dorsalis, pityriasis, rubra, pilaris]
+
+international_terms:
+  [stroke, burnout, screening, bypass, shunt, stent, pacemaker, scanner, triage, compliance, cut-off,
+   cutoff, borderline, bolus, follow-up, outcome, odds, ratio, odds-kvot, placebo, sepsis, shock,
+   delirium, coma, apnea, apné, migrän, Gram, gram, grampositiv, gramnegativ, Gram-positiv,
+   Gram-negativ, in, vitro, vivo, hemoglobin, laktat, troponin]
+
+extra_tokens: []
+
+eponym_patterns:
+  - "[A-ZÅÄÖ][a-zåäöéü]+s"                    # genitive eponym: Crohns, Parkinsons, Alzheimers
+  - "[A-ZÅÄÖ][a-zåäöéü]+(-[A-ZÅÄÖ][a-zåäöéü]+)+s?"  # Guillain-Barré, Wolff-Parkinson-White
+  - "[A-ZÅÄÖ][a-zåäöéü]+-?(syndrom|syndromet|sjukdom|sjukdomen|test|testet|tecken|tecknet|reflex|reflexen|cell|cellen|celler|cellerna)"
+
+# Hand-written level-A equivalences (source "manual"): English term -> accepted Swedish forms.
+# Only for frequent benchmark terms where the authoritative sources give a single form but
+# Swedish clinical usage has an equally correct, established alternative.
+manual_terms:
+  type 2 diabetes mellitus: [typ 2-diabetes, diabetes mellitus typ 2, diabetes typ 2]
+  type 2 diabetes: [typ 2-diabetes, diabetes mellitus typ 2, diabetes typ 2]
+  type 1 diabetes mellitus: [typ 1-diabetes, diabetes mellitus typ 1, diabetes typ 1]
+  type 1 diabetes: [typ 1-diabetes, diabetes mellitus typ 1, diabetes typ 1]
+  metabolic acidosis: [metabolisk acidos, metabol acidos]
+  metabolic alkalosis: [metabolisk alkalos, metabol alkalos]
+  respiratory acidosis: [respiratorisk acidos]
+  respiratory alkalosis: [respiratorisk alkalos]
+
+# English keys that must NOT create obligations or vetoes (general English or polysemous in medicine).
+ambiguous_en:
+  [depression, discharge, culture, cold, stroke, pressure, tension, labor, labour, delivery, conduction,
+   resistance, sensitivity, specificity, tolerance, dependence, compliance, rejection, shock, crisis, attack,
+   fit, lead, back, bladder, bulb, pupil, plate, cast, wave, block, mass, bed, base, film, graft, pool, strain,
+   insult, field, medium, media, agent, factor, order, ward, scale, score, unit, sign, spike, plaque, tone,
+   trial, cord, patch, crown, bridge, gap, rub, positive, negative, normal, abnormal, expression, transport,
+   transfer, translation, transcription, reading, uptake, release, production, growth, development, aging,
+   ageing, age, sex, gender, race, weight, height, body, family, marriage, work, exercise, rest, light, sound,
+   noise, heat, fire, water, air, temperature, membrane, tissue, contraction, regulation, control, drug,
+   medicine, therapy, treatment, care, health, disease, disorder, syndrome, condition, injury, wound, lesion,
+   infection, inflammation, pain, ache, fever, cell, blood, serum, plasma, protein, gene, genes, receptor,
+   enzyme, hormone, antibody, antigen, virus, bacteria, bacterium, fungus, parasite, vaccine, toxin, poison,
+   alcohol, salt, sugar, acid, base, iron, lead, tin, gold, silver, copper, zinc, mercury, oxygen, nitrogen,
+   carbon, hydrogen, sodium, potassium, calcium, magnesium, chloride, phosphate, sulfate, fat, oil, milk,
+   egg, meat, fish, fruit, vegetable, food, diet, nutrition, feeding, eating, drinking, smoking, tobacco,
+   sleep, dream, memory, learning, behavior, behaviour, emotion, mood, anxiety, fear, anger, stress, fatigue,
+   weakness, appetite, hunger, thirst, nausea, vomiting, cough, sneezing, itching, pruritus, swelling,
+   edema, oedema, mass, nodule, cyst, polyp, tumor, tumour, cancer, carcinoma, neoplasm, growth, ulcer,
+   bleeding, hemorrhage, haemorrhage, clot, embolism, thrombosis, obstruction, occlusion, stenosis,
+   dilation, dilatation, rupture, perforation, fistula, hernia, prolapse, fracture, dislocation, sprain,
+   burn, bite, sting, fall, accident, violence, abuse, neglect, death, mortality, survival, risk,
+   prognosis, diagnosis, screening, test, examination, inspection, palpation, percussion, auscultation,
+   history, interview, questionnaire, surgery, operation, procedure, method, technique, technology,
+   equipment, device, instrument, tube, catheter, needle, syringe, bandage, dressing, splint, brace,
+   chair, bed, table, room, hospital, clinic, office, home, school, prison, army, military, war, disaster,
+   population, community, society, culture, religion, language, communication, education, training,
+   teaching, research, study, experiment, model, theory, ethics, law, legislation, policy, economics,
+   cost, price, insurance, income, poverty, employment, unemployment, occupation, retirement, travel,
+   transportation, vehicle, car, motor, engine, computer, software, internet, telephone, television,
+   radio, music, art, sport, sports, game, play, toy, dog, cat, cow, horse, pig, sheep, goat, mouse, rat,
+   rabbit, chicken, bird, insect, plant, tree, flower, seed, leaf, root, wood, soil, dust, smoke, fume,
+   gas, vapor, vapour, steam, ice, snow, rain, wind, sun, sunlight, radiation, magnetic, electricity,
+   energy, power, force, motion, movement, speed, rate, time, aged, adult, child, infant, newborn, male,
+   female, man, woman, men, women, boy, girl, mother, father, parent, patient, physician, doctor, nurse,
+   student, people, person, human, humans, animal, animals, volunteer, minority, group, sample,
+   specimen, preparation, solution, suspension, emulsion, powder, tablet, capsule, injection, infusion,
+   cream, ointment, gel, spray, drop, drops, application, dose, dosage, administration, use, user, uses,
+   chest, belly, abdomen, trunk, limb, joint, skin, hair, nail, tooth, teeth, mouth, nose, ear, eye, face,
+   head, neck, arm, hand, finger, leg, foot, toe, knee, hip, shoulder, elbow, wrist, ankle, heel,
+   breast, heart, lung, liver, kidney, brain, stomach, bowel, gut, colon, spleen, bone, muscle, nerve,
+   vein, artery, vessel, nail, sinus, tonsil, gland, duct, canal, space, cavity, wall, floor, roof,
+   ring, arch, column, process, body, crest, line, angle, border, margin, surface, apex, tip, neck,
+   tail, horn, wing, root, trunk, branch, plexus, node, nodes, center, centre, point, spot, mark, scar,
+   streak, band, belt, pocket, plug, pad, shell, sheath, capsule, coat, layer, tunnel, gate, window,
+   valve, lock, key, sense, senses, taste, smell, touch, vision, sight, hearing, balance, posture,
+   gait, walking, running, swimming, cycling, climbing, lifting, carrying, sitting, standing, lying,
+   orientation, attention, consciousness, awareness, unconsciousness, thinking, thought, judgment,
+   intelligence, personality, character, habit, addiction, craving, withdrawal, overdose, intoxication,
+   mania, euphoria, panic, phobia, obsession, compulsion, delusion, hallucination, illusion,
+   confusion, agitation, aggression, hostility, irritability, impulsivity, hyperactivity, inattention,
+   apathy, anhedonia, grief, bereavement, loneliness, isolation, shame, guilt, pride, love, sex, sexuality,
+   pregnancy, birth, abortion, miscarriage, contraception, fertility, infertility, menstruation,
+   menopause, puberty, adolescence, childhood, infancy, old, elderly, frail, frailty, disability,
+   handicap, impairment, rehabilitation, recovery, remission, relapse, recurrence, cure, healing,
+   repair, regeneration, transplantation, transplant, donor, recipient, match, mismatch, crossmatch,
+   typing, matching, sequencing, mapping, imaging, scan, scanning, x-ray, xray, ray, beam, dye, stain,
+   marker, label, tag, probe, primer, vector, carrier, host, reservoir, source, sink, flow, flux,
+   circulation, pulse, beat, rhythm, rate, output, input, volume, capacity, compliance, elasticity,
+   stiffness, rigidity, spasticity, flaccidity, paralysis, palsy, paresis, tremor, tic, twitch, jerk,
+   seizure, convulsion, spell, faint, collapse, arrest, failure, insufficiency, deficiency, excess,
+   overload, overweight, underweight, obesity, thinness, wasting, cachexia, starvation, malnutrition,
+   supplement, vitamin, mineral, trace, element, compound, substance, material, chemical, product,
+   preparations, mixture, combination, extract, fraction, component, ingredient, additive, preservative,
+   contaminant, pollutant, waste, sewage, garbage, refuse, chemistry, physics, biology, medicine,
+   pharmacy, nursing, dentistry, surgery, psychiatry, psychology, pediatrics, geriatrics, obstetrics,
+   gynecology, cardiology, neurology, oncology, radiology, pathology, anatomy, physiology, pharmacology,
+   genetics, immunology, microbiology, virology, bacteriology, epidemiology, statistics, sex ratio,
+   china, japan, india, africa, europe, america, sweden, england, france, germany, ireland, turkey, chile,
+   guinea, georgia, jordan, niger, chad, mali, cuba, peru, iran, iraq, israel, egypt, canada, mexico,
+   brazil, russia, poland, spain, italy, greece, korea, vietnam, cambodia, laos, thailand, nepal,
+   tablet, quadrant, organ, organs, crisis, fluid, fluids, cold, flu, cramp, cramps, colic, stitch,
+   draft, lavage, wash, rinse, flush, clearance, extraction, removal, excision, incision, puncture,
+   tap, aspiration, drainage, injection, insertion, placement, fixation, reduction, traction,
+   manipulation, mobilization, immobilization, massage, heat, cold, acupuncture, hypnosis,
+   meditation, relaxation, counseling, counselling, support, advice, information, consent,
+   refusal, agreement, choice, decision, preference, satisfaction, quality, safety, error, mistake,
+   complication, adverse, effect, effects, side, reaction, response, interaction, susceptibility,
+   predisposition, vulnerability, protection, prevention, prophylaxis, immunity, immunization,
+   vaccination, isolation, quarantine, hygiene, sanitation, cleaning, sterilization, disinfection,
+   bath, bathing, shower, toilet, diaper, nappy, clothing, shoe, shoes, glove, gloves, mask, masks,
+   gown, apron, cap, glasses, lens, lenses, contact, aid, aids, cane, crutch, walker, wheelchair,
+   stretcher, ambulance, helicopter, emergency, urgent, acute, chronic, primary, secondary, tertiary,
+   general, local, regional, central, peripheral, systemic, topical, oral, nasal, rectal, vaginal,
+   intravenous, intramuscular, subcutaneous, transdermal, inhaled, sublingual, buccal, enteral,
+   parenteral, dermal, cutaneous, mucosal, ocular, otic, dental, alveolar, cardiac, pulmonary,
+   renal, hepatic, gastric, intestinal, cerebral, spinal, muscular, skeletal, vascular, arterial,
+   venous, lymphatic, cellular, molecular, genetic, chromosomal, congenital, hereditary, familial,
+   acquired, idiopathic, essential, benign, malignant, metastatic, invasive, noninvasive, open, closed,
+   simple, complex, complete, incomplete, total, partial, mild, moderate, severe, critical, fatal,
+   lethal, sudden, gradual, progressive, intermittent, persistent, recurrent, transient, permanent,
+   stable, unstable, active, inactive, latent, dormant, primary care, tertiary care, home care,
+   role, respect, association, affect, affects, observation, sensation, complement, tear, tears,
+   therapeutic, metabolism, normal range, reference range, hospitalization, hospitalisation, sweats,
+   will, range, level, levels, value, values, finding, findings, result, results, change, changes,
+   sweat, presentation, appearance, character, nature, mechanism, function, structure, activity,
+   phase, stage, grade, class, type, form, pattern, feature, picture, view, image, report,
+   chemotherapy, phosphorus, ultrasonography, ultrasound, radiography, genetic testing, prenatal care,
+   standard, rotation, antibiotic, antibiotics, antiviral, anticoagulant, anti-inflammatory,
+   specific gravity, multivariate analysis, upper extremity, lower extremity, liver function tests,
+   digital rectal examination, physical examination, physical exam, neurological examination,
+   neurologic examination, vital signs]
+
+keep:
+  [hereditet, persisterande ductus arteriosus, lungröntgen, påverkad, opåverkad, medtagen, reposition,
+   resistens, ledspringa, preparationsgräns, vidmakthållande, Blockmönster, Sifferrepetition, exspektans,
+   utsättande, femurkomponent, S-albumin, dunkömhet, blåsljud, lambå, exartikulation, sjok, skelettsmärta,
+   andfåddhet, akillessenan, ljusstela pupiller, fibrös dysplasi, myoton dystrofi, stomi, stomin, tenesmer,
+   elaxel, oöm]

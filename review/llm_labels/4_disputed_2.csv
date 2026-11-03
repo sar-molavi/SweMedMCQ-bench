@@ -1,0 +1,54 @@
+item_id,findings_labels,item_ok_for_benchmark,worst_severity,comment
+D0054,(1) not,y,none,'Flufenazin' is the correct Swedish INN for fluphenazine. No other errors found.
+D0055,(1) real/minor,y,minor,"'Trimetazidine' (and 'Nesiritide') keep English spelling; Swedish trimetazidin/nesiritid. Recognisable, answer unaffected."
+D0056,(1) real/minor,y,minor,"'Metronidazole' should be 'metronidazol'; spelling only, answer unaffected."
+D0057,(1) not,n,major,"Option C renders garbled 'Antibiotics of heat only' reasonably. But 'fluktuerar vid tryck' for 'rebounds on pressure' implies abscess, could favour incision/drainage."
+D0058,(1) not; (2) not; (3) not; (4) not; (5) not,y,minor,"'axillarlinjen' is the established Swedish form. Only typography: '38,2°C' lacks space before °C."
+D0059,(1) not; (2) not,y,none,'glioblastoma multiforme' is the established Latin term used in Swedish. No errors found.
+D0060,(1) real/minor,y,minor,'höjd huvudända av sängen' is slightly awkward ('på sängen' better) but clear; meaning intact.
+D0061,(1) real/minor,y,minor,'Buspirone' should be 'buspiron'; spelling only.
+D0062,(1) not,y,minor,'ockluderat' is standard Swedish spelling. Minor: 'diaphores' should be 'diafores'; 'vänster circumflexa' is clumsy but clear.
+D0063,(1) not,y,minor,"'axillarlinjen' correct. Only typography: '36,9°C' lacks space. Odd 'ganglieform nodulus' mirrors odd source."
+D0064,(1) not; (2) not,y,none,'irritabel tarm-syndrom' (irritabel modifies tarm) and 'cekum' are acceptable Swedish. Mixed capitalisation in options is trivial.
+D0065,(1) not,y,none,'aktiviteter i dagliga livet (ADL)' is the established Swedish term. No errors.
+D0066,(1) real/minor,y,minor,"'Memantine' should be 'memantin'. Also '98,7°F' lacks space. Answer unaffected."
+D0067,(1) not,y,none,Research compound name '2-methoxyestradiol' kept as in source; acceptable. No meaning errors.
+D0068,(1) not,y,minor,"'kroniskt obstruktiv lungsjukdom' is the standard Swedish term (KOL). Only typography: '98,6°F' lacks space."
+D0069,(1) not,y,none,'rubella' is accepted medical term in Swedish. No errors found.
+D0070,(1) not,y,minor,'irritabel tarm-syndrom' acceptable. Minor: 'carcinom' should be 'karcinom' in Swedish spelling.
+D0071,(1) not,y,minor,"'paralytisk ileus' disambiguates English 'ileus' (adynamic), since Swedish 'ileus' also covers obstruction. '98,0°F' lacks space."
+D0072,(1) not; (2) not; (3) not,y,none,'outflare'/'inflare' are osteopathic jargon with no established Swedish term; kept consistently. Laterality preserved.
+D0073,(1) not,y,none,"Abbreviation 'TMP-SMX' kept as source, per style guide. 'salbutamol' for albuterol correct. No errors."
+D0074,(1) not; (2) not; (3) not,y,none,'klavikeln' is the correct definite form of 'klavikel'. Option lists preserved exactly.
+D0075,(1) not,y,none,'Blåsutloppsobstruktion' follows standard compound 'blåsutlopp'. No errors.
+D0076,(1) real/minor,y,minor,'Amiodarone' should be 'amiodaron'; spelling only.
+D0077,(1) real/minor; (2) real/minor; (3) real/minor,y,minor,"'Nifedipine', 'Ritodrine', 'Isoxsuprine' keep English spelling (nifedipin, ritodrin, isoxsuprin). Recognisable."
+D0078,(1) not; (2) not; (3) not; (4) not,y,minor,'central genes' (central origin) and 'vertigo' are correct Swedish medical usage. Minor: English abbreviation '(EPs)' retained.
+D0079,(1) not; (2) not,y,none,'otitis media' is standard; 'vault hold' is an osteopathic technique name without Swedish equivalent. No errors.
+D0080,(1) not,y,minor,"'sinuit' is the correct Swedish term. Only typography: '38,1°C' lacks space."
+D0081,(1) not; (2) not,y,minor,"'tyreoperoxidas' is the standard Swedish spelling. Only typography: '38,0°C' lacks space."
+D0082,(1) real/minor,y,minor,"'Genom m. rectus abdominis' for garbled 'rectus sheath abdominus': sheath becomes muscle, adds 'Genom'. Same option still clearly correct."
+D0083,(1) not,y,none,'otitis media' is standard Swedish usage. No errors found.
+D0084,(1) not,y,minor,"Adverbial 'blandat utandade' is acceptable. But 'blandat' (mixed) is added to 'expired CO2'; '98%','98,4°F' lack spaces. Answer unchanged."
+D0085,(1) not,y,minor,'laceration' is used in Swedish medicine. Minor: 'sårrevision' for wound exploration slightly shifts meaning; '27%' lacks space.
+D0086,(1) not,y,none,'aktiviteter i dagliga livet' is the established term. No errors found.
+D0087,(1) not,y,none,'otitis media' standard. No errors found.
+D0088,(1) not,y,none,Source 'ossification' is an evident typo for opacification (source issue); 'opacifiering' gives intended meaning. No other errors.
+D0089,(1) not,y,none,"Source 'intralobar fissures' is a source slip; fissures are interlobar, so 'interlobära' gives intended meaning. No other errors."
+D0090,(1) real/minor; (2) real/minor,y,minor,"'Fluoxetine', 'Trazodone' keep English spelling (fluoxetin, trazodon). Recognisable, answer unaffected."
+D0091,(1) not,y,minor,"'neurallist' is the correct Swedish term. Minor: 'epitelbeklädnaden' narrows 'lining' to epithelium, slight hint toward endoderm."
+D0092,(1) not,y,none,'Azidotymidin' follows Swedish 'tymidin'; flag's 'azidotimidin' is wrong. No errors.
+D0093,(1) not; (2) not,y,none,'malocklusion' and 'sfenobasilära' are correct Swedish spellings. No errors found.
+D0094,(1) real/minor,y,minor,'inget nyligen trauma' is ungrammatical ('inget nyligt trauma'); meaning clear.
+D0095,(1) not,y,minor,"'rinnsnuva' is understandable Swedish for rhinorrhea. Only typography: '99,3°F' lacks space."
+D0096,(1) not,y,minor,'Palmarerytem' is the correct compound. Minor: 'puls är 88/min' should be 'pulsen är'.
+D0097,(1) not; (2) not,y,minor,'strain' is osteopathic jargon without established Swedish term. Minor: 'sfenobasilar-synkondrosen' should be 'sfenobasilära synkondrosen'.
+D0098,(1) real/minor; (2) real/minor,y,minor,'kramaktivitet' typo for 'krampaktivitet'; 'ekkymos' should be 'ekymos' (and common gender). 'dotterson' specifies grandson's lineage; minor.
+D0099,(1) real/minor; (2) real/minor; (3) real/minor; (4) real/minor,y,minor,"Letrozole, Exemestane, Raloxifene, Anastrozole keep English spelling (letrozol, exemestan, raloxifen, anastrozol). Recognisable."
+D0100,(1) not,y,minor,"'Bezafibrate' occurs only in the trial name, which stays as in source. Minor: percent without space ('5,25%')."
+D0101,(1) real/minor,y,minor,'Mediehypertrofi' should be 'mediahypertrofi' (flag's fix is wrong); still recognisable.
+D0102,(1) not,y,none,'bubble CPAP' is a device name used as such in Swedish. 'Students t-test' correct. No errors.
+D0103,(1) not,y,none,'kroniskt obstruktiv lungsjukdom' is the standard Swedish term. No errors found.
+D0104,(1) not,y,none,'mikrobiom' is neuter; 'omoget' is the correct neuter form. No errors found.
+D0105,(1) real/minor,y,minor,'muscle energy-teknik' leaves English where Swedish 'muskelenergiteknik' exists; meaning clear.
+D0106,(1) not,y,none,'hypertekos' follows Swedish spelling (th>t). 'hereditet' correct. No errors found.

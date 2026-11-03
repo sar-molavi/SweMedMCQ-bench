@@ -1,0 +1,51 @@
+sample_id,verdict,meaning_changed,severity,comment
+P0151,A better,n,minor,'vesikler' is the correct plural; 'vesiklar' is a misspelling.
+P0152,A better,n,minor,A uses Swedish 'magband'/'magbypass'; B leaves 'gastric banding' in English with mismatched gender.
+P0153,A better,n,minor,B 'mandibulara' is a misspelling of 'mandibulära'.
+P0154,B better,n,minor,'näsgrimma' is the standard Swedish clinical term for nasal cannula; 'nasalkanyl' is a calque.
+P0155,B better,n,minor,A 'receptorer kalcium-sensing' is garbled word order; B 'calcium-sensing receptor' is English but clear.
+P0156,equal,n,minor,'nyligen gått' vs 'nyligen har gått': both grammatical in subordinate clause.
+P0157,equal,n,minor,'vault hold-grepp' vs 'valvgrepp': no established Swedish term; both understandable.
+P0158,equal,n,minor,'desorienterad till/i tid och rum': both forms used in Swedish clinical writing.
+P0159,A better,n,minor,"B replaces source brand 'Topomax' with INN 'topiramat', removing the brand-recognition step; A keeps source."
+P0160,B better,n,minor,A has typo 'alfainivå'; B 'alfanivå' correct; 'luftfångst' vs 'air trapping' both acceptable.
+P0161,equal,n,minor,'avföring' vs 'feces': both correct Swedish.
+P0162,B better,n,minor,A 'baksida lårmuskulatur' is ungrammatical; 'hamstrings' is common in Swedish.
+P0163,equal,n,minor,'ett neoplasma' vs 'en neoplasm': both accepted Swedish forms.
+P0164,equal,n,minor,"'i pankreas endokrina del' vs 'i den endokrina delen av pankreas': same meaning, both fine."
+P0165,A better,n,minor,"English 'falls'; A 'fall' faithful, B 'falltendens' is an interpretation."
+P0166,A better,n,minor,B 'avgick med mekonium' is unidiomatic/wrong usage; A 'avförde mekonium' acceptable.
+P0167,B better,n,minor,'frequent urination' is frequency; A 'polyuri' shifts to volume; B 'täta urinträngningar' closer.
+P0168,equal,n,minor,"'Fondaparinux långa halveringstid' vs 'har en lång halveringstid som': both grammatical, same meaning."
+P0169,equal,n,minor,'flygplansskena/knogböjarskena' vs English device names: no established Swedish terms; both understandable.
+P0170,equal,n,minor,'noteras högre' vs 'noteras stå högre': both acceptable.
+P0171,A better,n,minor,"A 'basala rassel', 'pro-B-typ natriuretisk peptid'; B 'basalt rassel' wrong form, 'natriuretic' English."
+P0172,A better,n,minor,'okontaktbar' is the idiomatic Swedish clinical term; 'utan respons' is a calque.
+P0173,equal,n,minor,"'inleds på' vs 'inleds med indometacin': both somewhat awkward ('insätts på' idiomatic), meaning clear."
+P0174,B better,n,minor,'immunfluorescens' is the Swedish spelling; A 'immunofluorescens' is English-influenced.
+P0175,A better,y,major,Pursed-lip breathing: A 'pressade läppar' conveys it; B 'slutna läppar' (closed lips) loses the COPD sign.
+P0176,B better,n,minor,'ulcus' is the Swedish medical term; 'ulcer' is English.
+P0177,equal,n,minor,"A better 'CPB-tiden', but 'euthyroid sjukdomssyndrom' is an odd calque; B keeps established 'sick syndrome'."
+P0178,equal,n,minor,'ett annat vattkoppor' (ellipsis of 'hade') vs 'ett annat med vattkoppor': both fine.
+P0179,equal,n,minor,'fecesodling' vs 'avföringsodling': both correct Swedish.
+P0180,equal,n,minor,'magslemhinnan' vs 'ventrikelslemhinnan': both correct.
+P0181,A better,n,minor,B leaves 'head lag' and 'Group B streptococcus' in English; A partly Swedish.
+P0182,equal,n,minor,'varaktighet' vs 'duration': both used in Swedish.
+P0183,equal,n,minor,'utandning' vs 'expiration': both correct Swedish.
+P0184,A better,n,minor,A 'bells pares' Swedish term (should be capitalised); B 'Bell's palsy' English.
+P0185,equal,n,minor,'Sentinel node-biopsi' and 'Portvaktskörtelbiopsi' both established in Swedish.
+P0186,equal,n,minor,'Fjärilsprov' vs 'Butterfly test': no established Swedish term; both acceptable.
+P0187,equal,n,minor,'sit-ups' vs 'maglyft': both used in Swedish.
+P0188,B better,n,minor,'autosomalt dominant nedärvning' is the correct form; A 'autosomal' wrong inflection.
+P0189,A better,n,minor,"English 'chronic cough'; A 'kronisk' faithful, B 'kvarstående' reinterprets the source."
+P0190,equal,n,minor,'sexualpartner' vs 'sexpartner': both acceptable.
+P0191,equal,n,minor,'basaloid' vs 'basaloitt karcinom': both forms acceptable.
+P0192,B better,n,minor,A leaves 'beneficence' in English while other options are translated; B 'välgörenhet' Swedish.
+P0193,equal,n,minor,'harts' vs 'resin': both understood in Swedish dental context.
+P0194,B better,n,minor,"B 'omvänt halo-tecken', 'luftfångst' Swedish; A mixes English 'reverse halo-sign', 'air trapping'."
+P0195,A better,n,minor,"B leaves 'sudden deafness' in English; A 'plötslig hörselnedsättning', 'progressionshastigheten' correct."
+P0196,A better,n,minor,'resolution': A 'regress' idiomatic; B 'komplett upplösning' adds 'complete' and is unidiomatic.
+P0197,equal,n,minor,'spider naevi' vs 'spindelangiom': both established Swedish usage.
+P0198,A better,n,minor,'patient' is common gender: 'denna patients'; B 'detta' wrong.
+P0199,A better,n,minor,"B 'event manager' English and 'konserturné' misspelt; A 'evenemangsansvarig', 'konsertturné'."
+P0200,equal,n,minor,'CT' vs 'DT av huvudet': both standard Swedish abbreviations.

@@ -1,0 +1,242 @@
+{
+  "built": "2026-10-07T14:50:18+00:00",
+  "input_fingerprint": "01c5fdf0fee52005fc87b7808f10ea2d05ee384e59280a53f8fb71396ca8f503",
+  "builder": "build_termbase.py",
+  "outputs": {
+    "termbase.parquet": {
+      "rows": 127415,
+      "by_source_level": {
+        "ksh97p:A": 634,
+        "manual:A": 10,
+        "npl_atc:A": 2033,
+        "npl_atc:B": 442,
+        "npl_lexicon:A": 1062,
+        "swemesh:A": 61450,
+        "swemesh:B": 61020,
+        "wikidata_sv:B": 764
+      },
+      "single_sense_by_source_level": {
+        "ksh97p:A": 622,
+        "manual:A": 10,
+        "npl_atc:A": 1994,
+        "npl_atc:B": 439,
+        "npl_lexicon:A": 986,
+        "swemesh:A": 59972,
+        "swemesh:B": 60071,
+        "wikidata_sv:B": 762
+      },
+      "obligation_ok_by_source_level": {
+        "ksh97p:A": 301,
+        "manual:A": 10,
+        "npl_atc:A": 1973,
+        "npl_lexicon:A": 429,
+        "swemesh:A": 36664
+      },
+      "distinct_en_keys": 96263,
+      "drug_rows": 57354,
+      "single_sense_false_reasons": {
+        "ambiguous_list": 1049,
+        "general_english_word_non_cognate": 549,
+        "acronym": 1482,
+        "same_source_polysemy": 367,
+        "npl_lexicon_general_word": 29
+      },
+      "sha256": "70a428b894767dd263dcaaccf62ca692233d72c0b8bcf203b30214b1ad3e4bee"
+    },
+    "sv_lexicon.txt.gz": {
+      "forms": 977144,
+      "sha256": "9f636b86de84c8aba80b45c377477ab8b16c010730c84604ddc1d9a16a2fd965"
+    },
+    "sv_lemma_forms.json.gz": {
+      "lemmas": 116442,
+      "sha256": "7b9797cb6259212c9db6c32963e7b115809f0d5e6a4d81d0a99f1a89dbd09cee"
+    },
+    "sv_compound_parts.txt.gz": {
+      "parts": 128457,
+      "sha256": "94e217c2549bb28d1bae6394edf6191e5a8cbaf16f0b4588542473b3a1cc6c70"
+    },
+    "sv_morph.json.gz": {
+      "nouns": 81923,
+      "adjectives": 20956,
+      "forms_with_pos": 867074,
+      "sha256": "bf1ebbd6622001ff3c76dcd391e5cb90f002ea73032383b369b0edff0f828220"
+    },
+    "npl_substances.txt.gz": {
+      "names": 2078,
+      "sha256": "77d869993d6f919e26f18f4b396c7312e840bd2c9f105cbbe91a3cef91b46c0b"
+    },
+    "en_wordlist.txt.gz": {
+      "words": 22633,
+      "sha256": "a2da857e7ccf5c5d400b41ab82370b9ffe3f8d695cd2cb3217c57bb3e713c85c"
+    },
+    "whitelist.yaml": {
+      "tokens": 814,
+      "ambiguous_en": 1063,
+      "sha256": "6fe8efad54dd6b2c5304ec4329a552bc6561bde26f3236efe901681ec3b824a0",
+      "note": "sha256 of the file as built; the released copy differs only in two comment lines (identical YAML content)."
+    }
+  },
+  "sources": {
+    "nlm_mesh": {
+      "url": "https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/xmlmesh/desc2026.xml",
+      "retrieved": "2026-10-06T20:40:44+00:00",
+      "licence": "NLM MeSH: free of charge, subject to the NLM terms and conditions (https://www.nlm.nih.gov/databases/download/terms_and_conditions_mesh.html)",
+      "sha256": "449792ed59ba4d60035e44724352f7361ec0dc945b67dcd821a50ff32f81bcdb",
+      "bytes": 312952703,
+      "path": "raw/nlm_mesh/desc2026.xml",
+      "records": {
+        "descriptors": 31110,
+        "terms": 267023
+      }
+    },
+    "swemesh": {
+      "url": "https://stingray.kib.ki.se/mesh/2026_export/text_files/Svensk_MeSH_textfiler_april_2026.zip",
+      "info_page": "https://mesh.kib.ki.se/info/om-webbplatsen",
+      "retrieved": "2026-10-06T17:29:37+00:00",
+      "licence": "Svensk MeSH translation: CC0, attribute Karolinska Institutets Bibliotek (KIB); MeSH vocabulary: U.S. National Library of Medicine, NLM MeSH terms and conditions (https://www.nlm.nih.gov/mesh/termscon.html)",
+      "sha256": "67bcb36217fa5553f7e0cad98cdae77f8f92ec421f7b9de712b0f391b64869d7",
+      "bytes": 25223407,
+      "path": "raw/swemesh/Svensk_MeSH_textfiler_april_2026.zip",
+      "records": {
+        "descriptors_total": 31110,
+        "entry_terms": 235913,
+        "sv_synonyms": 19616
+      },
+      "used": {
+        "descriptors": 24372,
+        "narrower_or_trade_terms_B": 78593,
+        "skipped_tree": 5850,
+        "plural_heading_singularised": 3412,
+        "cognate_promoted_A": 11827,
+        "skipped_topic": 888,
+        "npl_name_promoted": 95,
+        "trees": [
+          "A",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "B03",
+          "B04",
+          "B01.300"
+        ]
+      },
+      "note": "English descriptor names come from the KIB export; the NLM descriptor XML supplies the concept structure (preferred-concept terms = synonyms -> A; other concepts and trade names -> B). No crawling was needed."
+    },
+    "wikidata_atc": {
+      "url": "https://query.wikidata.org/sparql",
+      "retrieved": "2026-10-06T17:30:00+00:00",
+      "licence": "CC0 1.0 (Wikidata structured data)",
+      "sha256": "b2f07f951899e1c96b2ee87bff943b0f45e463416049f951c98fe091dc2012d0",
+      "bytes": 2773525,
+      "records": 4462,
+      "path": "raw/wikidata_atc/wikidata_atc.json",
+      "items": 3763,
+      "atc_codes": 4370,
+      "join": {
+        "npl_join_A": 1373,
+        "sv_label": 965,
+        "npl_join_B": 18,
+        "alias_confirmed_by_mesh": 108
+      }
+    },
+    "npl": {
+      "provider": "Läkemedelsverket (Swedish Medical Products Agency), Nationellt produktregister för läkemedel (NPL)",
+      "url": "https://catalog.lakemedelsverket.se/store/1/resource/9",
+      "path": "lakemedelsverket_npl.zip",
+      "retrieved": "2026-07-15",
+      "licence": "open government data (Läkemedelsverket open data)",
+      "sha256": "a28b2dfc2d5d6723cea378a36138066b2e41472adab4f3a6dce636049e83629a",
+      "records": {
+        "product_xml_files": 43697,
+        "products_with_atc_and_substance": 22702,
+        "atc_codes": 2985,
+        "atc7_single_substance_name": 1975,
+        "atc7_level_A_eligible": 1948,
+        "lexicon_pairs": {
+          "pharmaceutical-form-lx": 842,
+          "route-of-administration-lx": 109,
+          "dosage-unit-lx": 51,
+          "quantity-unit-lx": 194
+        }
+      }
+    },
+    "ksh97p": {
+      "provider": "Socialstyrelsen, KSH97-P (Swedish primary-care ICD-10)",
+      "path": "ksh97p_svensk_engelsk.xls",
+      "processed_path": "ksh97p.jsonl",
+      "retrieved": "2026-07-15",
+      "licence": "open (Socialstyrelsen)",
+      "sha256": "117684ed04852bced8df22dd22c3c3073fe5e31ddd7016a2cbbc1e537deb0daa",
+      "records": {
+        "en_sv_labels_used": 706,
+        "skipped_vague_labels": 261
+      }
+    },
+    "saldo_saldom": {
+      "provider": "Språkbanken Text, University of Gothenburg",
+      "path": [
+        "saldo.xml",
+        "saldom.xml"
+      ],
+      "licence": "CC BY 4.0",
+      "sha256": {
+        "saldo.xml": "141ea24b6d821e9fd5bd724a909db4c11684cb64c43fd8955ed9de09536d187a",
+        "saldom.xml": "8e484c61722e6ac1b40812aa09d9bea56852c178a95754d7406e752943ea05b2"
+      },
+      "records": {
+        "lemmas": 116442,
+        "forms": 867214,
+        "compound_parts": 128457
+      }
+    },
+    "hunspell_sv_se": {
+      "path": "hunspell_sv_SE.dic",
+      "licence": "LGPL/GPL (hunspell sv_SE dictionary)",
+      "sha256": "384a2126eff333f5f6f9790ae892554546f53948d2988c600397cb5ad6ce66e8",
+      "records": {
+        "new_forms": 76827
+      }
+    },
+    "socialstyrelsen_termbank": {
+      "path": "socialstyrelsen_termbank.xml",
+      "licence": "open (Socialstyrelsen)",
+      "sha256": "6deea307602184d207076d2ae81081531d158730b3ce4544a855ccc164a55348",
+      "records": {
+        "new_forms": 283
+      }
+    },
+    "kva": {
+      "path": "kva_procedures.xlsx",
+      "licence": "open (Socialstyrelsen)",
+      "sha256": "e02d1f7239fb8919dcb02c10773c44fe320e199fdae7e0154a33d89635450d36",
+      "records": {
+        "new_forms": 2942
+      }
+    },
+    "manual_terms": {
+      "path": "resources/whitelist.yaml (manual_terms)",
+      "licence": "project-internal",
+      "records": {
+        "terms": 10
+      }
+    },
+    "freedict_en_sv": {
+      "provider": "FreeDict / WikDict (Wiktionary), 2025-11-23",
+      "path": "en_sv.sqlite3",
+      "licence": "CC BY-SA",
+      "sha256": "d59155eec3c54c4dcbcadfad164641eb5319ab94a1360bcabfc9f9731d587a81",
+      "records": {
+        "headwords": 40528,
+        "single_words": 27575,
+        "en_wordlist_after_removing_swedish": 22633
+      }
+    }
+  },
+  "timings_s": {
+    "saldom": 5.6,
+    "npl_products": 0.0,
+    "total_build": 63.1
+  }
+}

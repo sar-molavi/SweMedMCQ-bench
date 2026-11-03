@@ -1,0 +1,51 @@
+sample_id,verdict,meaning_changed,severity,comment
+P0051,B better,n,minor,'resistens' is the established term for mass; 'förändring' is vaguer (lesion).
+P0052,equal,n,minor,'couple of months': 'två månaderna' vs 'senaste månaderna' both acceptable renderings.
+P0053,B better,n,minor,'lipas' is Swedish spelling; 'Lipase' is English form.
+P0054,equal,n,minor,'den skadade sårvävnaden som' vs 'sårvävnad som': both grammatical Swedish.
+P0055,equal,n,minor,"'DNA-felparningsreparationen' vs 'mismatchreparationsmekanismen': both established, same meaning."
+P0056,A better,n,minor,'reagerar på ljus' is idiomatic; 'reagerar för ljus' is unidiomatic.
+P0057,B better,n,minor,'ett brankiom' is an established Swedish term; 'branchialcysta' is a half-English hybrid.
+P0058,B better,y,critical,"Ferritin '10' in A contradicts source 1,200; B '1 200' is correct and needed for hemochromatosis."
+P0059,A better,n,minor,'obes' is clinical register; 'fet man' is unprofessional. 'bilaterala/bilateralt fotödem' both fine.
+P0060,A better,n,minor,'blåbärsläppar' translated; B leaves English 'blueberry lips' untranslated.
+P0061,B better,n,minor,'ventralbråcksreparation' is the usual Swedish term; 'ventralherniareparation' less idiomatic.
+P0062,B better,n,minor,Plural agreement 'celldelningen och aktiviteten ... aktiva' is correct; A 'aktiv' disagrees.
+P0063,equal,n,minor,'peak expiratory flow rate' (English) vs 'topputandningsflöde' (calque); PEFR kept in both.
+P0064,equal,n,minor,'hen har känt' vs 'hen känt': omitting 'har' in subordinate clause is fine.
+P0065,equal,n,minor,'Infundibulärt septum' vs 'Infundibulära septum': both acceptable forms.
+P0066,A better,n,minor,B leaves English 'respectively' and 'days' untranslated.
+P0067,equal,n,minor,"'tension band wiring' (English, used in ortho) vs calque 'spänningsbandfixation'; neither clearly better."
+P0068,A better,y,major,"B omits 'Hans familjemedlemmar ... är asymtomatiska', a clinical clue in the source."
+P0069,equal,n,minor,'Den G-proteinkopplade receptor som' vs 'receptorn som': both grammatical.
+P0070,A better,n,minor,'lämplig förklaring' matches 'appropriate explanation'; 'kompletterande' shifts nuance.
+P0071,A better,n,minor,A keeps source ambiguity of 'after eating dinner'; B asserts onset after dinner.
+P0072,A better,n,minor,"'polycytemia vera' lowercase Swedish form, consistent with other options; B 'Polycythemia' English spelling."
+P0073,A better,y,minor,"Source says nitrous oxide = 'dikväveoxid'; B corrects to 'kvävemonoxid' (source issue, not to fix)."
+P0074,equal,n,minor,'kortare strålningsexponeringstid som' vs '-tiden som': both grammatical.
+P0075,equal,n,minor,'den omfattande journalen hon' vs 'journal hon': both acceptable.
+P0076,A better,n,minor,'length-time-bias' is the used term and parallel with 'lead-time-bias'; 'längdtidsbias' unusual calque.
+P0077,A better,n,minor,"'Hypertyreos' modern spelling, parallel with 'Hypotyreos'; B 'Hyperthyreos' older spelling."
+P0078,A better,n,minor,'under de senaste 6 månaderna' correct; 'sedan de senaste 6 månaderna' ungrammatical.
+P0079,equal,n,minor,'latinamerikanska' vs 'hispaniska' for Hispanic: both acceptable Swedish renderings.
+P0080,A better,n,minor,B 'dialys disequilibrium syndrome' is a half-translated hybrid; A keeps the English term intact.
+P0081,equal,n,minor,"'så kallad ""strawberry vagina""' vs calque 'jordgubbsvagina'; no established Swedish term, both understood."
+P0082,equal,n,minor,'Sentinel node-biopsi' and 'Sentinel-lymfkörtelbiopsi' both used in Swedish.
+P0083,B better,n,minor,A 'på grund av sedan en vecka tillbaka smärta' is ungrammatical; B 'smärta som har pågått i en vecka' fine.
+P0084,equal,n,minor,'den homeostatiska regulator som' vs 'regulatorn som': both grammatical.
+P0085,equal,n,minor,'på dag 10' vs 'dag 10'; 'nedsättning' vs 'påverkan' for impairment: both acceptable.
+P0086,B better,n,minor,'kerubism' is the Swedish spelling; 'cherubism' English.
+P0087,A better,n,minor,B drops '(7-lb 3-oz)'; source units must be kept.
+P0088,B better,n,minor,'agens' (ett agens) is the medical term; 'agenterna' is wrong word sense.
+P0089,B better,n,minor,A leaves 'confounding factors' in English; B 'förväxlingsfaktorer' is Swedish.
+P0090,A better,y,major,"B omits the medication list (aspirin, clopidogrel...), relevant to the bleeding workup."
+P0091,equal,n,minor,'Cold blend-test' vs 'kallblandningstest': distractor without established term; both understood.
+P0092,A better,n,minor,'nodstatus' is Swedish; B 'nodal status' English leftover.
+P0093,A better,n,minor,A uses space thousands separator consistently ('40 000-80 000'); B mixes '40000-80000' with A's format.
+P0094,equal,n,minor,'okben' vs 'zygoma': Latin/international term acceptable; same structure.
+P0095,equal,n,minor,'Protrusion' (standard anatomical term) vs 'Framåtrörelse': both correct.
+P0096,A better,n,minor,B leaves English 'recent' untranslated; A 'senaste viktnedgången' Swedish though slightly awkward.
+P0097,both wrong,n,minor,A 'amphotericin B' English spelling; B 'amfotericin' drops 'B'. Correct: 'amfotericin B'.
+P0098,equal,n,minor,'potentiella allergen' vs 'allergener': both plural forms in use.
+P0099,A better,n,minor,B drops 'mest' in 'mest sannolikt' (most likely); 'En/Ett fotomikrografi' immaterial.
+P0100,equal,n,minor,'spindelangiom' and 'spider naevi' both established in Swedish clinical usage.

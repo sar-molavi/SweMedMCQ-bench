@@ -1,0 +1,16 @@
+{"prompt_id": "medexqa_176_clinical_laboratory_scientist", "status": "refined", "corrupt_fields": [], "residual_critical": true}
+{"prompt_id": "mmlu-pro_6211", "status": "disputed_critical", "corrupt_fields": [], "residual_critical": true}
+{"prompt_id": "mmlu_12255", "status": "disputed_critical", "corrupt_fields": [], "residual_critical": true}
+{"prompt_id": "medqa_77", "status": "refined", "corrupt_fields": ["question"], "residual_critical": false}
+{"prompt_id": "medqa_146", "status": "disputed_critical", "corrupt_fields": [], "residual_critical": true}
+{"prompt_id": "medqa_882", "status": "refined", "corrupt_fields": ["question"], "residual_critical": false}
+{"prompt_id": "medqa_1195", "status": "refined", "corrupt_fields": [], "residual_critical": true}
+{"prompt_id": "medmcqa_2e0115a1-4971-407d-b5a1-ec1a70e6e066", "status": "disputed_critical", "corrupt_fields": [], "residual_critical": true}
+{"prompt_id": "medmcqa_c1368e96-1d20-4847-9cb0-8cd53b314859", "status": "disputed_critical", "corrupt_fields": [], "residual_critical": true}
+{"prompt_id": "medmcqa_b3c55a62-5e13-402f-a6d4-6d8feb954d95", "status": "disputed_critical", "corrupt_fields": [], "residual_critical": true}
+{"prompt_id": "medxpertqa-r_Text-146", "status": "disputed_critical", "corrupt_fields": [], "residual_critical": true}
+{"prompt_id": "medxpertqa-r_Text-617", "status": "disputed_critical", "corrupt_fields": [], "residual_critical": true}
+{"prompt_id": "medxpertqa-r_Text-1255", "status": "refined", "corrupt_fields": ["question"], "residual_critical": true}
+{"prompt_id": "pubmedqa_25756710", "status": "disputed_critical", "corrupt_fields": [], "residual_critical": true}
+{"prompt_id": "pubmedqa_10331115", "status": "refined", "corrupt_fields": [], "residual_critical": true}
+{"prompt_id": "medbullets_288", "status": "disputed_critical", "corrupt_fields": [], "residual_critical": true}

@@ -1,0 +1,289 @@
+{
+ "coverage_and_agreement": {
+  "pairwise": {
+   "rated_by_both": 200,
+   "agreement": 0.85,
+   "kappa": 0.777,
+   "missing": [],
+   "unadjudicated_disagreements": []
+  },
+  "2_findings": {
+   "rated": 371,
+   "total": 371
+  },
+  "3_control": {
+   "rated": 150,
+   "total": 150
+  }
+ },
+ "scores": {
+  "pairwise": {
+   "n": 200,
+   "counts": {
+    "refined_better": 117,
+    "equal": 62,
+    "draft_better": 18,
+    "both_wrong": 3
+   },
+   "harm_rate": 0.09,
+   "harm_wilson95": [
+    0.0577,
+    0.1378
+   ],
+   "win_rate": 0.585,
+   "meaning_changed": {
+    "n": 189,
+    "y": 11
+   },
+   "by_stratum": {
+    "tier1": {
+     "refined_better": 40
+    },
+    "tier2/high": {
+     "refined_better": 61,
+     "equal": 40,
+     "draft_better": 10,
+     "both_wrong": 3
+    },
+    "tier2/medium": {
+     "draft_better": 8,
+     "equal": 22,
+     "refined_better": 16
+    }
+   },
+   "by_level": {
+    "deterministic": {
+     "refined_better": 19,
+     "harm_rate": 0.0,
+     "harm_wilson95": [
+      0.0,
+      0.1682
+     ]
+    },
+    "high": {
+     "refined_better": 82,
+     "equal": 40,
+     "draft_better": 10,
+     "both_wrong": 3,
+     "harm_rate": 0.0741,
+     "harm_wilson95": [
+      0.0407,
+      0.131
+     ]
+    },
+    "medium": {
+     "draft_better": 8,
+     "equal": 22,
+     "refined_better": 16,
+     "harm_rate": 0.1739,
+     "harm_wilson95": [
+      0.0909,
+      0.3072
+     ]
+    }
+   },
+   "by_level_class": {
+    "deterministic/units": {
+     "refined_better": 19
+    },
+    "high/drug": {
+     "refined_better": 22
+    },
+    "high/llm_edit": {
+     "refined_better": 51,
+     "equal": 35,
+     "draft_better": 10
+    },
+    "high/term_a": {
+     "refined_better": 9,
+     "equal": 5,
+     "both_wrong": 3
+    },
+    "medium/llm_edit": {
+     "equal": 22,
+     "draft_better": 7,
+     "refined_better": 15
+    },
+    "medium/term_a": {
+     "draft_better": 1,
+     "refined_better": 1
+    }
+   },
+   "by_tier": {
+    "tier1": {
+     "refined_better": 40,
+     "harm_rate": 0.0,
+     "harm_wilson95": [
+      -0.0,
+      0.0876
+     ]
+    },
+    "tier2": {
+     "refined_better": 77,
+     "equal": 62,
+     "draft_better": 18,
+     "both_wrong": 3,
+     "harm_rate": 0.1125,
+     "harm_wilson95": [
+      0.0724,
+      0.1708
+     ]
+    }
+   },
+   "harm_rate_ipw": 0.0902,
+   "sign_test_one_sided_p": 2.861997897550026e-19
+  },
+  "findings": {
+   "accepted": {
+    "not": 122,
+    "real": 149,
+    "real_rate_wilson95": [
+     0.4903,
+     0.6079
+    ]
+   },
+   "dismissed": {
+    "not": 89,
+    "real": 7,
+    "real_rate_wilson95": [
+     0.0358,
+     0.1429
+    ]
+   },
+   "rejected_by_judges": {
+    "not": 4,
+    "real_rate_wilson95": [
+     0.0,
+     0.4899
+    ]
+   }
+  },
+  "control": {
+   "clean": {
+    "error": 9,
+    "ok": 91,
+    "error_rate_wilson95": [
+     0.0481,
+     0.1623
+    ]
+   },
+   "disputed": {
+    "ok": 40,
+    "error": 10,
+    "error_rate_wilson95": [
+     0.1124,
+     0.3304
+    ]
+   }
+  }
+ },
+ "pairwise_severity": {
+  "tier1/deterministic/refined_better": {
+   "minor": 19
+  },
+  "tier1/high/refined_better": {
+   "minor": 21
+  },
+  "tier2/high/both wrong": {
+   "minor": 2,
+   "major": 1
+  },
+  "tier2/high/draft_better": {
+   "minor": 8,
+   "major": 2
+  },
+  "tier2/high/equal": {
+   "minor": 40
+  },
+  "tier2/high/refined_better": {
+   "minor": 54,
+   "critical": 1,
+   "major": 6
+  },
+  "tier2/medium/draft_better": {
+   "major": 1,
+   "minor": 7
+  },
+  "tier2/medium/equal": {
+   "minor": 22
+  },
+  "tier2/medium/refined_better": {
+   "minor": 15,
+   "major": 1
+  }
+ },
+ "control_severity": {
+  "clean": {
+   "minor": 9,
+   "none": 91
+  },
+  "disputed": {
+   "none": 40,
+   "minor": 10
+  }
+ },
+ "disputed_by_stratum": {
+  "ACCURACY": {
+   "ok": 15,
+   "sev_minor": 9,
+   "flags_real": 6,
+   "flags_not": 12,
+   "sev_none": 6,
+   "not_ok": 1,
+   "sev_major": 1
+  },
+  "DRUG": {
+   "ok": 16,
+   "sev_minor": 16,
+   "flags_real": 27,
+   "flags_not": 1
+  },
+  "GRAMMAR": {
+   "ok": 16,
+   "sev_minor": 9,
+   "flags_real": 4,
+   "flags_not": 15,
+   "sev_none": 7
+  },
+  "LEAK": {
+   "ok": 16,
+   "sev_minor": 7,
+   "flags_real": 5,
+   "flags_not": 17,
+   "sev_none": 9
+  },
+  "SPELLING": {
+   "ok": 16,
+   "sev_minor": 9,
+   "flags_real": 3,
+   "flags_not": 20,
+   "sev_none": 7
+  },
+  "TERM-A": {
+   "ok": 16,
+   "sev_none": 13,
+   "flags_real": 1,
+   "flags_not": 21,
+   "sev_minor": 3
+  },
+  "critical": {
+   "ok": 10,
+   "sev_none": 4,
+   "flags_real": 2,
+   "flags_not": 20,
+   "sev_minor": 6
+  }
+ },
+ "disputed_not_ok_weighted": 0.002,
+ "source_issues": {
+  "n": 55,
+  "issue_real": {
+   "y": 49,
+   "n": 6
+  },
+  "answer_still_unambiguous": {
+   "y": 49,
+   "n": 6
+  }
+ }
+}

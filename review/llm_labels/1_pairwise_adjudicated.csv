@@ -1,0 +1,31 @@
+sample_id,verdict,meaning_changed,severity,comment
+P0042,A better,n,minor,"cytoplasma is neuter (cytoplasmat), so 'eosinofilt cytoplasma' agrees; B has a gender error."
+P0051,equal,n,minor,"'förändring' vaguer, 'resistens' palpatory but also used for masses; both acceptable."
+P0056,equal,n,minor,"'reagerar för ljus' is standard Swedish status phrasing, as is 'på ljus'."
+P0063,equal,n,minor,English 'peak expiratory flow rate' vs rare calque; PEFR kept in both; neither clearly better.
+P0067,equal,n,minor,'tension band wiring' vs calque 'spänningsbandfixation' (Swedish: dragbandsfixation); neither ideal.
+P0076,A better,n,minor,'length-time-bias' is the term used in Swedish and parallels 'lead-time-bias'; calque is unusual.
+P0079,A better,n,minor,'latinamerikanska' is natural Swedish for Hispanic; B 'hispaniska' unidiomatic and adds 'kvinnor'.
+P0080,both wrong,n,minor,Both keep English 'disequilibrium syndrome' (Swedish: dysekvilibriumsyndrom); B is a half-translated hybrid.
+P0081,B better,n,minor,'så kallad jordgubbsvagina' is understandable Swedish; A leaves the English phrase.
+P0101,equal,n,minor,'saturation' and 'mättnad' are both used in Swedish clinical language.
+P0104,B better,n,minor,Profound hearing loss is 'grav hörselnedsättning' in Swedish grading; 'djup' is a calque.
+P0105,equal,n,minor,Singular and plural agreement with pittingödem both grammatical.
+P0106,B better,n,minor,'NK-celler' is the standard Swedish term.
+P0111,equal,n,minor,'Den oönskade bieffekt som' is the correct formal den...som construction; both forms acceptable.
+P0113,equal,n,minor,'Det kirurgiska ingrepp som' is correct formal Swedish; both acceptable.
+P0115,equal,n,minor,"Singular vs plural premolar; same meaning, both natural enough."
+P0125,A better,n,minor,B leaves English 'resolution'; 'upplösning' is Swedish.
+P0126,B better,n,minor,"'by the age of 18' includes 18: 'senast vid 18 års ålder' is exact, 'före' slightly narrower."
+P0135,A better,y,major,"Source means left sidebending; B drops the side, which other options contrast."
+P0137,equal,n,minor,"'av vulvan' slightly more natural, 'av vulva' acceptable in medical text."
+P0149,equal,n,minor,'spikes' and 'spikar' are both used in Swedish EEG reports.
+P0151,B better,n,minor,"Plural of vesikel is 'vesiklar' (SAOL, like artikel-artiklar)."
+P0167,B better,y,minor,"'frequent urination' is frequency, not volume; 'polyuri' shifts the meaning."
+P0169,A better,n,minor,A gives Swedish splint names; B leaves English device names.
+P0177,equal,n,minor,A better on 'CPB-tiden' but calques the syndrome; B keeps established name but English 'duration'.
+P0184,A better,n,minor,'Bells pares' is the Swedish term (should be capitalised); B uses English 'palsy'.
+P0186,equal,n,minor,No established Swedish term; translation or English name both acceptable.
+P0191,B better,n,minor,Neuter agreement: 'basaloitt karcinom'.
+P0192,equal,n,minor,A leaves English 'beneficence'; B 'välgörenhet' imprecise (göra gott-principen); neither good.
+P0193,A better,n,minor,'harts' is Swedish; B leaves English 'resin'.

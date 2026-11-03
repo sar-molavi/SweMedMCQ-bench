@@ -1,0 +1,51 @@
+sample_id,verdict,meaning_changed,severity,comment
+P0001,A better,n,minor,"A uses Swedish INN 'klindamycin', 'vankomycin'; B has English 'clindamycin', 'vancomycin'."
+P0002,A better,n,minor,'Paration' is the Swedish spelling of the pesticide; B keeps English 'Parathion'.
+P0003,B better,n,minor,"Source gives both units; A omits the conversion ""(100,9 °F)"". Keeping both is per style guide."
+P0004,A better,n,minor,Swedish INN 'kaptopril' (A) vs English 'captopril' (B).
+P0005,A better,n,minor,"Source gives both units; B omits the conversion ""(23 lb)"". Keeping both is per style guide."
+P0006,A better,n,minor,"Source gives both units; B omits the conversion ""(5 ft 8 in)', '(163 lb)"". Keeping both is per style guide."
+P0007,B better,n,minor,"Source gives both units; A omits the conversion ""(5 ft 10 in)"". Keeping both is per style guide."
+P0008,B better,n,minor,"Source gives both units; A omits the conversion ""(98,4 °F)"". Keeping both is per style guide."
+P0009,B better,n,minor,Swedish INN 'karvedilol' (B) vs English 'carvedilol' (A).
+P0010,B better,n,minor,B 'Metadon' is Swedish INN; A keeps English 'Methadone'. Other options English in both.
+P0011,A better,n,minor,"Source gives both units; B omits the conversion ""(11 lb)"". Keeping both is per style guide."
+P0012,A better,n,minor,"A uses Swedish INN 'kaspofungin', 'vankomycin' throughout; B has English 'caspofungin', 'vancomycin'."
+P0013,A better,n,minor,"Source gives both units; B omits the conversion ""(98,1 °F)"". Keeping both is per style guide."
+P0014,B better,n,minor,"Source gives both units; A omits the conversion ""(101,1 °F)"". Keeping both is per style guide."
+P0015,A better,n,minor,Swedish INN 'vankomycin' (A) vs English 'vancomycin' (B).
+P0016,A better,n,minor,"Source gives both units; B omits the conversion ""(101,0 °F)"". Keeping both is per style guide."
+P0017,A better,n,minor,"Source gives both units; B omits the conversion ""(5 ft 8 in)', '(179 lb)"". Keeping both is per style guide."
+P0018,B better,n,minor,Swedish INN 'karvedilol' (B) vs English 'carvedilol' (A).
+P0019,A better,n,minor,Swedish INN 'Lakosamid' (A) vs English 'Lacosamide' (B).
+P0020,B better,n,minor,"B translates lab labels 'Glukos', 'Kreatinin'; A leaves English 'Glucose', 'Creatinine'."
+P0021,B better,n,minor,"Source gives both units; A omits the conversion ""(98,6 °F)"". Keeping both is per style guide."
+P0022,B better,n,minor,Swedish 'fibronektin' (B) vs English 'fibronectin' (A).
+P0023,B better,n,minor,"B uses Swedish 'vinkulin', 'klatrin'; A keeps English 'vinculin', 'clathrin'."
+P0024,A better,n,minor,"Source gives both units; B omits the conversion ""(100,4 °F)"". Keeping both is per style guide."
+P0025,B better,n,minor,Swedish INN 'kaptopril' (B) vs English 'captopril' (A).
+P0026,A better,n,minor,"Source gives both units; B omits the conversion ""(5 ft 6 in)', '(203 lb)"". Keeping both is per style guide."
+P0027,B better,n,minor,"Source gives both units; A omits the conversion ""(98,6 °F)"". Keeping both is per style guide."
+P0028,A better,n,minor,"Source gives both units; B omits the conversion ""(2,6 lb)"". Keeping both is per style guide."
+P0029,B better,n,minor,"Source gives both units; A omits the conversion ""(100,6 °F)"". Keeping both is per style guide."
+P0030,B better,n,minor,Swedish INN 'Klopidogrel' (B) vs English 'Clopidogrel' (A).
+P0031,A better,n,minor,Swedish INN 'Etambutol' (A) vs English 'Ethambutol' (B).
+P0032,A better,n,minor,"Source gives both units; B omits the conversion ""(5 ft 7 in)', '(187 lb)"". Keeping both is per style guide."
+P0033,B better,n,minor,Swedish INN 'klopidogrel' (B) in option and stem vs English 'clopidogrel' (A).
+P0034,A better,n,minor,"A uses Swedish 'Meticillin', 'Karbenicillin'; B has English 'Methicillin', 'Carbenicillin'."
+P0035,B better,n,minor,"Source gives both units; A omits the conversion ""(98,6 °F)"". Keeping both is per style guide."
+P0036,A better,n,minor,Swedish INN 'Fenylefrin' (A) vs English 'Phenylephrine' (B).
+P0037,B better,n,minor,"Source gives both units; A omits the conversion ""(99,0 °F)"". Keeping both is per style guide."
+P0038,A better,n,minor,"Swedish INN 'karbidopa' (A) vs English 'carbidopa' (B), stem and option."
+P0039,B better,n,minor,Swedish INN 'vankomycin' (B) vs English 'vancomycin' (A).
+P0040,B better,n,minor,Swedish INN 'Cefaklor' (B) vs English 'Cefaclor' (A).
+P0041,A better,n,minor,A translates distractor 'scaffold' as 'stödstruktur'; B leaves English 'scaffold'.
+P0042,equal,n,minor,'eosinofilt' vs 'eosinofil cytoplasma': cytoplasma used with both genders; both acceptable.
+P0043,B better,n,minor,A 'Pap-smear' is English; B 'papanicolaou-prov' is Swedish (eponym ideally capitalised).
+P0044,A better,n,minor,A 'kan säkert fastställas' mirrors 'established safely'; B 'tidigaste säkra diagnosen' shifts the adverb to an adjective.
+P0045,equal,n,minor,'neuronerna' vs 'neuronen': both accepted definite plurals of 'neuron'.
+P0046,A better,n,minor,A 'tibial lutning' Swedish though slightly stiff; B mixes in English 'slope'.
+P0047,A better,n,minor,'icke-alkoholisk steatohepatit' (A) is the standard Swedish term; B 'icke-alkoholsteatohepatit' is unidiomatic.
+P0048,B better,n,minor,A 'Högera' is a non-existent form; B 'Höger basala ganglier' matches other options.
+P0049,equal,n,minor,'Den totala mängd ... som' (determinative) and 'mängden' both grammatical; A parallels options C/D.
+P0050,A better,n,minor,'ronki' is the established Swedish lung-status term for wheezes; 'väsningar' is a literal but understandable rendering.

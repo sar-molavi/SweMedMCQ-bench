@@ -1,0 +1,1252 @@
+{
+  "built": "2026-10-07T14:53:17+00:00",
+  "input": "English fields of the test set (10,363 items) and the aligned Swedish GPT-5.4 drafts",
+  "note": "English fields of the GPT-5.4 test drafts (MedXpertQA 'Answer Choices:' tails removed); TermBase.spot per field, TermBase.ground against the aligned Swedish draft field.",
+  "items": 10363,
+  "fields": 70666,
+  "load_seconds": 3.6,
+  "run_seconds": 174.5,
+  "items_with_any_hit": 10162,
+  "share_items_with_any_hit": 0.9806,
+  "items_with_single_sense_A_hit": 9374,
+  "share_items_with_single_sense_A_hit": 0.9046,
+  "hits_by_source_level": {
+    "swemesh:A": 118963,
+    "swemesh:B": 11975,
+    "npl_atc+swemesh:A": 9130,
+    "swemesh+ksh97p:A": 3430,
+    "npl_lexicon:A": 3308,
+    "swemesh+npl_lexicon:A": 935,
+    "manual+swemesh:A": 373,
+    "npl_atc:A": 357,
+    "ksh97p:A": 282,
+    "wikidata_sv:B": 29,
+    "manual:A": 21,
+    "npl_atc:B": 13
+  },
+  "single_sense_A_hits_by_source": {
+    "swemesh": 60059,
+    "npl_atc+swemesh": 8575,
+    "swemesh+ksh97p": 2116,
+    "npl_lexicon": 1229,
+    "manual+swemesh": 373,
+    "npl_atc": 340,
+    "ksh97p": 263,
+    "manual": 21,
+    "swemesh+npl_lexicon": 7
+  },
+  "verified_pairs": 107551,
+  "verified_by_source_level": {
+    "swemesh:A": 83837,
+    "swemesh:B": 11444,
+    "npl_atc:A": 8921,
+    "npl_lexicon:A": 2620,
+    "manual:A": 393,
+    "ksh97p:A": 237,
+    "npl_atc:B": 76,
+    "wikidata_sv:B": 23
+  },
+  "obligations": 5249,
+  "obligations_by_source": {
+    "swemesh": 4896,
+    "npl_atc": 316,
+    "npl_lexicon": 26,
+    "ksh97p": 10,
+    "manual": 1
+  },
+  "verified_share_of_single_sense_A_hits": 0.9535,
+  "top_hit_terms": [
+    [
+      "blood pressure",
+      2100
+    ],
+    [
+      "temperature",
+      1861
+    ],
+    [
+      "pulse",
+      1555
+    ],
+    [
+      "physical examination",
+      1520
+    ],
+    [
+      "pain",
+      1466
+    ],
+    [
+      "emergency",
+      1327
+    ],
+    [
+      "serum",
+      1214
+    ],
+    [
+      "treatment",
+      1144
+    ],
+    [
+      "vital signs",
+      1052
+    ],
+    [
+      "respirations",
+      1011
+    ],
+    [
+      "therapy",
+      993
+    ],
+    [
+      "meq",
+      987
+    ],
+    [
+      "diagnosis",
+      930
+    ],
+    [
+      "blood",
+      726
+    ],
+    [
+      "time",
+      724
+    ],
+    [
+      "chest",
+      721
+    ],
+    [
+      "air",
+      703
+    ],
+    [
+      "mother",
+      640
+    ],
+    [
+      "hypertension",
+      639
+    ],
+    [
+      "oxygen saturation",
+      604
+    ],
+    [
+      "glucose",
+      578
+    ],
+    [
+      "risk",
+      569
+    ],
+    [
+      "respiratory rate",
+      560
+    ],
+    [
+      "urine",
+      536
+    ],
+    [
+      "abdomen",
+      515
+    ],
+    [
+      "fever",
+      515
+    ],
+    [
+      "drug",
+      504
+    ],
+    [
+      "heart rate",
+      499
+    ],
+    [
+      "cells",
+      485
+    ],
+    [
+      "skin",
+      485
+    ],
+    [
+      "hemoglobin",
+      456
+    ],
+    [
+      "family",
+      456
+    ],
+    [
+      "muscle",
+      450
+    ],
+    [
+      "head",
+      448
+    ],
+    [
+      "biopsy",
+      446
+    ],
+    [
+      "will",
+      437
+    ],
+    [
+      "neck",
+      437
+    ],
+    [
+      "physical exam",
+      432
+    ],
+    [
+      "rotation",
+      431
+    ],
+    [
+      "dose",
+      425
+    ],
+    [
+      "creatinine",
+      408
+    ],
+    [
+      "knee",
+      394
+    ],
+    [
+      "pregnancy",
+      393
+    ],
+    [
+      "minutes",
+      380
+    ],
+    [
+      "disease",
+      374
+    ],
+    [
+      "alcohol",
+      365
+    ],
+    [
+      "protein",
+      358
+    ],
+    [
+      "vomiting",
+      353
+    ],
+    [
+      "lung",
+      343
+    ],
+    [
+      "abdominal pain",
+      334
+    ],
+    [
+      "fatigue",
+      322
+    ],
+    [
+      "gestation",
+      321
+    ],
+    [
+      "weight",
+      320
+    ],
+    [
+      "x-ray",
+      308
+    ],
+    [
+      "leg",
+      305
+    ],
+    [
+      "antibiotics",
+      301
+    ],
+    [
+      "parents",
+      300
+    ],
+    [
+      "leukocyte count",
+      291
+    ],
+    [
+      "infection",
+      290
+    ],
+    [
+      "times",
+      289
+    ]
+  ],
+  "top_obligation_terms": [
+    [
+      "eosinophils",
+      54
+    ],
+    [
+      "pterygoid muscle",
+      35
+    ],
+    [
+      "urination",
+      34
+    ],
+    [
+      "piperacillin-tazobactam",
+      34
+    ],
+    [
+      "maxilla",
+      32
+    ],
+    [
+      "sickle cell disease",
+      26
+    ],
+    [
+      "gastroesophageal reflux disease",
+      26
+    ],
+    [
+      "hemoglobin",
+      26
+    ],
+    [
+      "ligament",
+      26
+    ],
+    [
+      "creatinine",
+      25
+    ],
+    [
+      "squamous cell carcinoma",
+      23
+    ],
+    [
+      "lethargy",
+      23
+    ],
+    [
+      "mitral valve",
+      23
+    ],
+    [
+      "aminotransferase",
+      22
+    ],
+    [
+      "mitral valve prolapse",
+      21
+    ],
+    [
+      "erythema",
+      21
+    ],
+    [
+      "ulnar nerve",
+      21
+    ],
+    [
+      "oxycodone",
+      21
+    ],
+    [
+      "peptic ulcer",
+      20
+    ],
+    [
+      "endotracheal intubation",
+      20
+    ],
+    [
+      "hypotonia",
+      18
+    ],
+    [
+      "eosinophil",
+      17
+    ],
+    [
+      "vancomycin",
+      17
+    ],
+    [
+      "granules",
+      16
+    ],
+    [
+      "streptococcus",
+      16
+    ],
+    [
+      "glucose",
+      15
+    ],
+    [
+      "absorption",
+      15
+    ],
+    [
+      "motor neuron",
+      15
+    ],
+    [
+      "incidence",
+      15
+    ],
+    [
+      "neuromuscular junction",
+      15
+    ],
+    [
+      "generation",
+      15
+    ],
+    [
+      "clavicle",
+      15
+    ],
+    [
+      "mastication",
+      15
+    ],
+    [
+      "candidiasis",
+      15
+    ],
+    [
+      "genital",
+      15
+    ],
+    [
+      "sigmoidoscopy",
+      15
+    ],
+    [
+      "anti-d immunoglobulin",
+      15
+    ],
+    [
+      "blood urea nitrogen",
+      15
+    ],
+    [
+      "hyperventilation",
+      14
+    ],
+    [
+      "urinalysis",
+      14
+    ],
+    [
+      "projection",
+      14
+    ],
+    [
+      "sauna",
+      14
+    ],
+    [
+      "menarche",
+      14
+    ],
+    [
+      "adrenergic agonist",
+      14
+    ],
+    [
+      "chlamydia",
+      14
+    ],
+    [
+      "laceration",
+      14
+    ],
+    [
+      "pharmacotherapy",
+      13
+    ],
+    [
+      "first trimester",
+      13
+    ],
+    [
+      "renal cell carcinoma",
+      13
+    ],
+    [
+      "perfusion",
+      13
+    ],
+    [
+      "thyroid",
+      13
+    ],
+    [
+      "metatarsal",
+      13
+    ],
+    [
+      "immunoglobulin",
+      12
+    ],
+    [
+      "basal ganglia",
+      12
+    ],
+    [
+      "tyrosine kinase",
+      12
+    ],
+    [
+      "reflex",
+      12
+    ],
+    [
+      "adrenergic antagonist",
+      12
+    ],
+    [
+      "blood tests",
+      12
+    ],
+    [
+      "alcohol consumption",
+      12
+    ],
+    [
+      "olecranon fracture",
+      12
+    ]
+  ],
+  "obligation_sample": [
+    {
+      "prompt_id": "medxpertqa-r_Text-284",
+      "field": "option:E",
+      "en_span": "Focal segmental glomerulosclerosis",
+      "sv_forms": [
+        "fokal segmental glomeruloskleros"
+      ],
+      "entry_id": "swemesh:D005923:A:1cc5b7b3",
+      "en_text": "Focal segmental glomerulosclerosis with podocyte effacement",
+      "sv_text": "Fokal segmentell glomeruloskleros med utplåning av podocyternas fotutskott"
+    },
+    {
+      "prompt_id": "medxpertqa-r_Text-717",
+      "field": "option:F",
+      "en_span": "Piperacillin-Tazobactam",
+      "sv_forms": [
+        "läkemedelskombination av piperacillin och tacobactam",
+        "piperacillin och tacobactam"
+      ],
+      "entry_id": "swemesh:D000077725:A:539964c1",
+      "en_text": "Vancomycin plus Piperacillin-Tazobactam",
+      "sv_text": "vankomycin plus piperacillin/tazobaktam"
+    },
+    {
+      "prompt_id": "mmlu-pro_6394",
+      "field": "option:H",
+      "en_span": "societal norms",
+      "sv_forms": [
+        "sociala normer"
+      ],
+      "entry_id": "swemesh:D066262:A:9a4c0a6f",
+      "en_text": "The standardization of societal norms and practices",
+      "sv_text": "Standardisering av samhälleliga normer och praktiker"
+    },
+    {
+      "prompt_id": "medxpertqa-u_Text-1742",
+      "field": "option:C",
+      "en_span": "motor neuron",
+      "sv_forms": [
+        "alfa motoneuron",
+        "motoriska nervceller"
+      ],
+      "entry_id": "swemesh:D009046:A:481a5bf0",
+      "en_text": "Type II sensory neuron → α-motor neuron",
+      "sv_text": "sensoriskt neuron av typ II → α-motorneuron"
+    },
+    {
+      "prompt_id": "medxpertqa-r_Text-1863",
+      "field": "question",
+      "en_span": "comprehensive metabolic panel",
+      "sv_forms": [
+        "omfattande metabolisk panel"
+      ],
+      "entry_id": "swemesh:D000093182:A:bc90a1d9",
+      "en_text": "A 3-year-old healthy girl is brought to the emergency department due to concerns about an abdominal mass. Her parents report a 3-week history of abdominal pain, reduced appetite, and a progressively protuberant abdomen. This morning, while bathing her, they felt a hard area beneath her ribs. She has",
+      "sv_text": "En tidigare frisk 3-årig flicka förs till akutmottagningen på grund av oro för en bukresistens. Hennes föräldrar uppger en 3 veckor lång anamnes med buksmärta, nedsatt aptit och en successivt mer utspänd buk. I morse, när de badade henne, kände de ett hårt område under revbensbågen. Hon har inte haf"
+    },
+    {
+      "prompt_id": "medxpertqa-r_Text-1543",
+      "field": "question",
+      "en_span": "comminuted fracture",
+      "sv_forms": [
+        "splitterfraktur",
+        "splitterfrakturer"
+      ],
+      "entry_id": "swemesh:D018460:A:15458fb3",
+      "en_text": "An elderly 79-year-old female with a history of Rheumatoid arthritis and osteoporosis is evaluated for a displaced, severely comminuted fracture of the olecranon that involves 40% of its proximal portion. What is the most appropriate surgical intervention for this case?",
+      "sv_text": "En 79-årig kvinna med anamnes på reumatoid artrit och osteoporos bedöms för en dislocerad, kraftigt komminut olekranonfraktur som omfattar 40 % av olekranons proximala del. Vilket kirurgiskt ingrepp är mest lämpligt i detta fall?"
+    },
+    {
+      "prompt_id": "medxpertqa-r_Text-533",
+      "field": "question",
+      "en_span": "carvedilol",
+      "sv_forms": [
+        "karvedilol"
+      ],
+      "entry_id": "npl_atc:C07AG02:A:2586ca94",
+      "en_text": "A 48-year-old male with nonischemic cardiomyopathy (ejection fraction 30%) comes for a clinic visit. He was diagnosed during a hospitalization 3 months ago and started on guideline-directed medical therapy. He is currently asymptomatic, able to walk for an hour without dyspnea, and denies orthopnea ",
+      "sv_text": "En 48-årig man med icke-ischemisk kardiomyopati (ejektionsfraktion 30 %) kommer på ett mottagningsbesök. Han diagnostiserades under en sjukhusinläggning för 3 månader sedan och påbörjade då riktlinjebaserad medicinsk behandling. Han är för närvarande asymtomatisk, kan promenera i en timme utan dyspn"
+    },
+    {
+      "prompt_id": "medmcqa_0919bffa-ea11-4e1f-9139-4c20fcd1a394",
+      "field": "question",
+      "en_span": "wax",
+      "sv_forms": [
+        "vax",
+        "vaxer"
+      ],
+      "entry_id": "swemesh:D014885:A:65347078",
+      "en_text": "Which of the following is not used for making indirect wax pattern?",
+      "sv_text": "Vilket av följande används inte för framställning av ett indirekt vaxmönster?"
+    },
+    {
+      "prompt_id": "medxpertqa-r_Text-1446",
+      "field": "question",
+      "en_span": "ductal carcinoma",
+      "sv_forms": [
+        "duktal karcinom"
+      ],
+      "entry_id": "swemesh:D044584:A:371211c8",
+      "en_text": "A 54-year-old female patient comes to the clinic reporting discovery of a breast mass in the upper left quadrant during her self-examination last week. She reports no associated pain on palpation, breast tenderness, trauma, or discharge. Her medical history includes well-controlled hypertension trea",
+      "sv_text": "En 54-årig kvinnlig patient kommer till mottagningen och uppger att hon vid självundersökning förra veckan upptäckte en knöl i övre delen av vänster bröst. Hon uppger ingen samtidig smärta vid palpation, ömhet i bröstet, trauma eller sekretion. I anamnesen finns en välkontrollerad hypertoni som beha"
+    },
+    {
+      "prompt_id": "medxpertqa-r_Text-8",
+      "field": "question",
+      "en_span": "dentition",
+      "sv_forms": [
+        "dentition",
+        "tanduppsättning"
+      ],
+      "entry_id": "swemesh:D003817:A:ff365341",
+      "en_text": "A 43-year-old man with a history of hepatitis C and current intravenous drug use presents with 5 days of fever, chills, headache, and severe back pain. On physical exam, temperature is 100.6 deg F (38.1 deg C), blood pressure is 109/56 mmHg, pulse is 94/min, and respirations are 18/min. He is thin a",
+      "sv_text": "En 43-årig man med anamnes på hepatit C och pågående intravenöst drogbruk söker på grund av 5 dagars feber, frossa, huvudvärk och svår ryggsmärta. Vid status är temperaturen 100.6 deg F (38.1 deg C), blodtrycket 109/56 mmHg, pulsen 94/min och andningsfrekvensen 18/min. Han är mager och diaforetisk m"
+    },
+    {
+      "prompt_id": "pubmedqa_27044366",
+      "field": "question",
+      "en_span": "blood cell counts",
+      "sv_forms": [
+        "blodcellsantal"
+      ],
+      "entry_id": "swemesh:D001772:A:c7c0cacf",
+      "en_text": "The technique of induced sputum has allowed to subdivide asthma patients into inflammatory phenotypes according to their level of granulocyte airway infiltration. There are very few studies which looked at detailed sputum and blood cell counts in a large cohort of asthmatics divided into inflammator",
+      "sv_text": "Tekniken med inducerat sputum har gjort det möjligt att dela in astmapatienter i inflammatoriska fenotyper utifrån graden av granulocytinfiltration i luftvägarna. Det finns mycket få studier som har undersökt detaljerade cellräkningar i sputum och blod i en stor kohort av astmapatienter indelade eft"
+    },
+    {
+      "prompt_id": "medxpertqa-u_Text-247",
+      "field": "question",
+      "en_span": "combination chemotherapy",
+      "sv_forms": [
+        "kombinerad kemoterapi",
+        "kombinationsbehandling"
+      ],
+      "entry_id": "swemesh:D004359:A:b1b961e3",
+      "en_text": "A 42-year-old male presents with a 3-week history of multiple ecchymoses and reports significant fatigue over the past three months, which he initially attributed to work stress. His medical history reveals a diagnosis of non-Hodgkin’s lymphoma seven years ago, for which he underwent combination che",
+      "sv_text": "En 42-årig man söker med en 3 veckor lång anamnes på multipla ekkymoser och uppger uttalad trötthet under de senaste tre månaderna, vilket han initialt tillskrev arbetsstress. I anamnesen framkommer att han diagnostiserades med non-Hodgkin-lymfom för sju år sedan, för vilket han behandlades med komb"
+    },
+    {
+      "prompt_id": "medxpertqa-r_Text-1788",
+      "field": "option:E",
+      "en_span": "Granulomatosis with polyangiitis",
+      "sv_forms": [
+        "Granulomatös polyangit"
+      ],
+      "entry_id": "swemesh:D014890:A:44cdb7f9",
+      "en_text": "Granulomatosis with polyangiitis",
+      "sv_text": "granulomatos med polyangiit"
+    },
+    {
+      "prompt_id": "medqa_278",
+      "field": "question",
+      "en_span": "albuterol, ipratropium",
+      "sv_forms": [
+        "läkemedelskombination av salbutamol och ipratropium",
+        "salbutamol och ipratropium"
+      ],
+      "entry_id": "swemesh:D000068600:A:0acdccc7",
+      "en_text": "A 62-year-old man presents to the emergency department with shortness of breath. The patient says he feels as if he is unable to take a deep breath. The patient has a past medical history of COPD and a 44-pack-year smoking history. The patient has been admitted before for a similar presentation. His",
+      "sv_text": "En 62-årig man kommer till akutmottagningen med andnöd. Patienten uppger att det känns som om han inte kan ta ett djupt andetag. Patienten har en tidigare sjukhistoria med KOL och en rökanamnes på 44 paketår. Patienten har tidigare varit inlagd för ett liknande tillstånd. Hans temperatur är 98.7°F ("
+    },
+    {
+      "prompt_id": "medmcqa_c86f02db-18ea-4ef1-a03a-1bee6d661c7b",
+      "field": "option:C",
+      "en_span": "Russell-Silver syndrome",
+      "sv_forms": [
+        "Silver-Russells syndrom"
+      ],
+      "entry_id": "swemesh:D056730:A:888311ea",
+      "en_text": "Russell-Silver syndrome",
+      "sv_text": "Russell-Silvers syndrom"
+    },
+    {
+      "prompt_id": "medqa_291",
+      "field": "option:B",
+      "en_span": "centromere",
+      "sv_forms": [
+        "centrom",
+        "centromer"
+      ],
+      "entry_id": "swemesh:D002503:A:c10768e8",
+      "en_text": "Anti-centromere",
+      "sv_text": "Anticentromerantikroppar"
+    },
+    {
+      "prompt_id": "mmlu_1210",
+      "field": "option:C",
+      "en_span": "dopamine",
+      "sv_forms": [
+        "dopamin"
+      ],
+      "entry_id": "npl_atc:C01CA04:A:9f9e1c6e",
+      "en_text": "There is cell death in the areas with high dopamine cells.",
+      "sv_text": "Det finns celldöd i områden med många dopaminerga celler."
+    },
+    {
+      "prompt_id": "medxpertqa-u_Text-1146",
+      "field": "option:B",
+      "en_span": "Radial nerve",
+      "sv_forms": [
+        "radialnerv"
+      ],
+      "entry_id": "swemesh:D011826:A:2b68a17c",
+      "en_text": "Radial nerve",
+      "sv_text": "radialisnerven"
+    },
+    {
+      "prompt_id": "medxpertqa-u_Text-1448",
+      "field": "option:G",
+      "en_span": "S-adenosylhomocysteine",
+      "sv_forms": [
+        "s-adenosylcystein"
+      ],
+      "entry_id": "swemesh:D012435:A:b5b077f8",
+      "en_text": "Increased S-adenosylhomocysteine concentration",
+      "sv_text": "Ökad koncentration av S-adenosylhomocystein"
+    },
+    {
+      "prompt_id": "medxpertqa-r_Text-2168",
+      "field": "option:F",
+      "en_span": "haptoglobin",
+      "sv_forms": [
+        "haptoglobin",
+        "haptoglobiner"
+      ],
+      "entry_id": "swemesh:D006242:A:c4bc1752",
+      "en_text": "Increased serum haptoglobin levels",
+      "sv_text": "Ökade serumhaptoglobinnivåer"
+    },
+    {
+      "prompt_id": "medbullets_226",
+      "field": "question",
+      "en_span": "miotic",
+      "sv_forms": [
+        "miotika"
+      ],
+      "entry_id": "swemesh:D008916:A:a436cedd",
+      "en_text": "A 25-year-old man is brought to the emergency department by paramedics for altered mental status. He was found lying down at a bus stop unresponsive. On arrival, the patient has slurred speech and is somnolent. Further is unable to be elicited. His temperature is 98.0°F (36.7°C), blood pressure is 1",
+      "sv_text": "En 25-årig man förs till akutmottagningen av ambulanspersonal på grund av medvetandepåverkan. Han hittades liggande vid en busshållplats utan kontakt. Vid ankomsten har patienten sluddrigt tal och är somnolent. Ytterligare uppgifter går inte att få fram. Temperaturen är 98.0°F (36.7°C), blodtrycket "
+    },
+    {
+      "prompt_id": "medqa_371",
+      "field": "option:A",
+      "en_span": "Cladribine",
+      "sv_forms": [
+        "kladribin"
+      ],
+      "entry_id": "npl_atc:L01BB04:A:812a0191",
+      "en_text": "Cladribine",
+      "sv_text": "Cladribine"
+    },
+    {
+      "prompt_id": "medmcqa_c52f3d8b-9255-4eb2-a6b8-dffc3d149662",
+      "field": "option:B",
+      "en_span": "Adenoid cystic carcinoma",
+      "sv_forms": [
+        "adenocystiskt karcinom"
+      ],
+      "entry_id": "swemesh:D003528:A:0e6282ab",
+      "en_text": "Adenoid cystic carcinoma",
+      "sv_text": "adenoidcystiskt carcinom"
+    },
+    {
+      "prompt_id": "mmlu_1316",
+      "field": "question",
+      "en_span": "lactate",
+      "sv_forms": [
+        "laktat",
+        "laktater"
+      ],
+      "entry_id": "swemesh:D007773:A:3fb94bea",
+      "en_text": "In games like soccer the blood lactate concentration:",
+      "sv_text": "I bollspel som fotboll är blodlaktatkoncentrationen:"
+    },
+    {
+      "prompt_id": "afrimedqa_742ae5573ef3851d1af08f8a518adcde1dfbbc4bce31180bf5b537bf4d750cc0",
+      "field": "option:A",
+      "en_span": "Endotracheal intubation",
+      "sv_forms": [
+        "intratrakeal intubering"
+      ],
+      "entry_id": "swemesh:D007442:A:a1e09512",
+      "en_text": "Endotracheal intubation to protect the airway",
+      "sv_text": "Endotrakeal intubation för att skydda luftvägen"
+    },
+    {
+      "prompt_id": "medmcqa_b20d6d5a-8860-4dd0-9065-e613a34ac615",
+      "field": "question",
+      "en_span": "thyroid",
+      "sv_forms": [
+        "tyreoidea",
+        "sköldkörtel"
+      ],
+      "entry_id": "swemesh:D013961:A:e2fca2cf",
+      "en_text": "Inferior thyroid artery is a branch of :",
+      "sv_text": "A. thyroidea inferior är en gren av:"
+    },
+    {
+      "prompt_id": "medxpertqa-r_Text-1377",
+      "field": "question",
+      "en_span": "menarche",
+      "sv_forms": [
+        "menarke"
+      ],
+      "entry_id": "swemesh:D008572:A:74195107",
+      "en_text": "A 23-year-old woman presents to the emergency department with worsening abdominal pain, nausea, and vomiting that began suddenly four hours ago following intercourse with her partner. She denies fever, diarrhea, vaginal bleeding, or discharge. She experienced menarche at age 13, and her last menstru",
+      "sv_text": "En 23-årig kvinna inkommer till akutmottagningen med tilltagande buksmärta, illamående och kräkningar som började plötsligt för fyra timmar sedan efter samlag med sin partner. Hon förnekar feber, diarré, vaginal blödning eller flytning. Hon fick menarche vid 13 års ålder, och hennes senaste menstrua"
+    },
+    {
+      "prompt_id": "pubmedqa_10401824",
+      "field": "question",
+      "en_span": "Heller myotomy",
+      "sv_forms": [
+        "Hellers myotomi"
+      ],
+      "entry_id": "swemesh:D000074434:A:2a3e0b11",
+      "en_text": "Laparoscopic techniques can be used to treat patients whose antireflux surgery has failed.\nCase series.\nTwo academic medical centers.\nForty-six consecutive patients, of whom 21 were male and 25 were female (mean age, 55.6 years; range, 15-80 years). Previous antireflux procedures were laparoscopic (",
+      "sv_text": "Laparoskopiska tekniker kan användas för att behandla patienter där antirefluxkirurgin har misslyckats.\nFallserie.\nTvå akademiska medicinska centra.\nFyrtiosex på varandra följande patienter, varav 21 var män och 25 var kvinnor (medelålder 55.6 år; intervall 15-80 år). Tidigare antirefluxingrepp var "
+    },
+    {
+      "prompt_id": "mmlu_7297",
+      "field": "question",
+      "en_span": "sickle-cell disease",
+      "sv_forms": [
+        "sicklecellanemi"
+      ],
+      "entry_id": "swemesh:D000755:A:def7b299",
+      "en_text": "The mutation in sickle-cell disease consists of:",
+      "sv_text": "Mutationen vid sicklecellsjukdom består av:"
+    },
+    {
+      "prompt_id": "medmcqa_d0c2e565-6176-49a0-b3c8-8f0ac586d82f",
+      "field": "option:C",
+      "en_span": "Acoustic schwannoma",
+      "sv_forms": [
+        "akustikusneurinom"
+      ],
+      "entry_id": "swemesh:D009464:A:9e88bcf2",
+      "en_text": "Acoustic schwannoma",
+      "sv_text": "vestibularisschwannom"
+    }
+  ],
+  "examples": {
+    "IV vancomycin/intravenöst vankomycin (extra uncovered word -> no veto by design)": {
+      "en": "IV vancomycin",
+      "sv": "intravenöst vankomycin",
+      "hits": [
+        {
+          "entry_id": "npl_atc:A07AA09:A:42b89a6b",
+          "field": "question",
+          "en_span": "vancomycin",
+          "start": 3,
+          "end": 13,
+          "sv_forms": [
+            "vankomycin"
+          ],
+          "level": "A",
+          "single_sense": true,
+          "source": "npl_atc+swemesh"
+        }
+      ],
+      "is_accepted_rendering": false,
+      "ground": [
+        {
+          "entry_id": "npl_atc:A07AA09:A:42b89a6b",
+          "field": "question",
+          "en_span": "vancomycin",
+          "sv_span": "vankomycin",
+          "sv_start": 12,
+          "sv_end": 22,
+          "level": "A"
+        }
+      ]
+    },
+    "vancomycin/vankomycin": {
+      "en": "vancomycin",
+      "sv": "vankomycin",
+      "hits": [
+        {
+          "entry_id": "npl_atc:A07AA09:A:42b89a6b",
+          "field": "question",
+          "en_span": "vancomycin",
+          "start": 0,
+          "end": 10,
+          "sv_forms": [
+            "vankomycin"
+          ],
+          "level": "A",
+          "single_sense": true,
+          "source": "npl_atc+swemesh"
+        }
+      ],
+      "is_accepted_rendering": true,
+      "ground": [
+        {
+          "entry_id": "npl_atc:A07AA09:A:42b89a6b",
+          "field": "question",
+          "en_span": "vancomycin",
+          "sv_span": "vankomycin",
+          "sv_start": 0,
+          "sv_end": 10,
+          "level": "A"
+        }
+      ],
+      "test_set": {
+        "items_with_en": 86,
+        "sv_has_swedish_form": 72,
+        "sv_has_english_form": 14
+      }
+    },
+    "acyclovir/aciklovir": {
+      "en": "acyclovir",
+      "sv": "aciklovir",
+      "hits": [
+        {
+          "entry_id": "npl_atc:D06BB03:A:94b4400c",
+          "field": "question",
+          "en_span": "acyclovir",
+          "start": 0,
+          "end": 9,
+          "sv_forms": [
+            "aciklovir"
+          ],
+          "level": "A",
+          "single_sense": true,
+          "source": "npl_atc+swemesh"
+        }
+      ],
+      "is_accepted_rendering": true,
+      "ground": [
+        {
+          "entry_id": "npl_atc:D06BB03:A:94b4400c",
+          "field": "question",
+          "en_span": "acyclovir",
+          "sv_span": "aciklovir",
+          "sv_start": 0,
+          "sv_end": 9,
+          "level": "A"
+        }
+      ],
+      "test_set": {
+        "items_with_en": 38,
+        "sv_has_swedish_form": 34,
+        "sv_has_english_form": 1
+      }
+    },
+    "aciclovir/aciklovir": {
+      "en": "aciclovir",
+      "sv": "aciklovir",
+      "hits": [
+        {
+          "entry_id": "npl_atc:D06BB03:A:1826c8f5",
+          "field": "question",
+          "en_span": "aciclovir",
+          "start": 0,
+          "end": 9,
+          "sv_forms": [
+            "aciklovir"
+          ],
+          "level": "A",
+          "single_sense": true,
+          "source": "npl_atc+swemesh"
+        }
+      ],
+      "is_accepted_rendering": true,
+      "ground": [
+        {
+          "entry_id": "npl_atc:D06BB03:A:1826c8f5",
+          "field": "question",
+          "en_span": "aciclovir",
+          "sv_span": "aciklovir",
+          "sv_start": 0,
+          "sv_end": 9,
+          "level": "A"
+        }
+      ]
+    },
+    "vincristine/vinkristin": {
+      "en": "vincristine",
+      "sv": "vinkristin",
+      "hits": [
+        {
+          "entry_id": "npl_atc:L01CA02:A:274b544c",
+          "field": "question",
+          "en_span": "vincristine",
+          "start": 0,
+          "end": 11,
+          "sv_forms": [
+            "vinkristin"
+          ],
+          "level": "A",
+          "single_sense": true,
+          "source": "npl_atc+swemesh"
+        }
+      ],
+      "is_accepted_rendering": true,
+      "ground": [
+        {
+          "entry_id": "npl_atc:L01CA02:A:274b544c",
+          "field": "question",
+          "en_span": "vincristine",
+          "sv_span": "vinkristin",
+          "sv_start": 0,
+          "sv_end": 10,
+          "level": "A"
+        }
+      ]
+    },
+    "alteplase/alteplas": {
+      "en": "alteplase",
+      "sv": "alteplas",
+      "hits": [
+        {
+          "entry_id": "npl_atc:B01AD02:A:b772bb61",
+          "field": "question",
+          "en_span": "alteplase",
+          "start": 0,
+          "end": 9,
+          "sv_forms": [
+            "alteplas",
+            "vävnadsplasminogenaktivator"
+          ],
+          "level": "A",
+          "single_sense": true,
+          "source": "npl_atc+swemesh"
+        }
+      ],
+      "is_accepted_rendering": true,
+      "ground": [
+        {
+          "entry_id": "npl_atc:B01AD02:A:b772bb61",
+          "field": "question",
+          "en_span": "alteplase",
+          "sv_span": "alteplas",
+          "sv_start": 0,
+          "sv_end": 8,
+          "level": "A"
+        }
+      ]
+    },
+    "metabolic acidosis/metabol acidos": {
+      "en": "metabolic acidosis",
+      "sv": "metabol acidos",
+      "hits": [
+        {
+          "entry_id": "manual:manual:metabolic acidosis:A:68bdfae5",
+          "field": "question",
+          "en_span": "metabolic acidosis",
+          "start": 0,
+          "end": 18,
+          "sv_forms": [
+            "metabolisk acidos",
+            "metabol acidos"
+          ],
+          "level": "A",
+          "single_sense": true,
+          "source": "manual+swemesh"
+        }
+      ],
+      "is_accepted_rendering": true,
+      "ground": [
+        {
+          "entry_id": "manual:manual:metabolic acidosis:A:68bdfae5",
+          "field": "question",
+          "en_span": "metabolic acidosis",
+          "sv_span": "metabol acidos",
+          "sv_start": 0,
+          "sv_end": 14,
+          "level": "A"
+        }
+      ],
+      "test_set": {
+        "items_with_en": 43,
+        "sv_has_swedish_form": 41,
+        "sv_has_english_form": 0
+      }
+    },
+    "metabolic acidosis/metabolisk acidos": {
+      "en": "metabolic acidosis",
+      "sv": "metabolisk acidos",
+      "hits": [
+        {
+          "entry_id": "manual:manual:metabolic acidosis:A:68bdfae5",
+          "field": "question",
+          "en_span": "metabolic acidosis",
+          "start": 0,
+          "end": 18,
+          "sv_forms": [
+            "metabolisk acidos",
+            "metabol acidos"
+          ],
+          "level": "A",
+          "single_sense": true,
+          "source": "manual+swemesh"
+        }
+      ],
+      "is_accepted_rendering": true,
+      "ground": [
+        {
+          "entry_id": "manual:manual:metabolic acidosis:A:68bdfae5",
+          "field": "question",
+          "en_span": "metabolic acidosis",
+          "sv_span": "metabolisk acidos",
+          "sv_start": 0,
+          "sv_end": 17,
+          "level": "A"
+        }
+      ]
+    },
+    "type 2 diabetes mellitus/typ 2-diabetes": {
+      "en": "type 2 diabetes mellitus",
+      "sv": "typ 2-diabetes",
+      "hits": [
+        {
+          "entry_id": "manual:manual:type 2 diabete mellitus:A:b19f74a7",
+          "field": "question",
+          "en_span": "type 2 diabetes mellitus",
+          "start": 0,
+          "end": 24,
+          "sv_forms": [
+            "typ 2-diabetes",
+            "diabetes mellitus typ 2",
+            "diabetes typ 2"
+          ],
+          "level": "A",
+          "single_sense": true,
+          "source": "manual+swemesh"
+        }
+      ],
+      "is_accepted_rendering": true,
+      "ground": [
+        {
+          "entry_id": "manual:manual:type 2 diabete mellitus:A:b19f74a7",
+          "field": "question",
+          "en_span": "type 2 diabetes mellitus",
+          "sv_span": "typ 2-diabetes",
+          "sv_start": 0,
+          "sv_end": 14,
+          "level": "A"
+        }
+      ]
+    },
+    "vancomycin-resistant/vankomycinresistenta": {
+      "en": "vancomycin-resistant enterococci",
+      "sv": "vankomycinresistenta enterokocker",
+      "hits": [
+        {
+          "entry_id": "swemesh:D065507:A:fe85c9b3",
+          "field": "question",
+          "en_span": "vancomycin-resistant enterococci",
+          "start": 0,
+          "end": 32,
+          "sv_forms": [
+            "vankomycinresistenta enterokocker"
+          ],
+          "level": "A",
+          "single_sense": true,
+          "source": "swemesh"
+        }
+      ],
+      "is_accepted_rendering": true,
+      "ground": [
+        {
+          "entry_id": "swemesh:D065507:A:fe85c9b3",
+          "field": "question",
+          "en_span": "vancomycin-resistant enterococci",
+          "sv_span": "vankomycinresistenta enterokocker",
+          "sv_start": 0,
+          "sv_end": 33,
+          "level": "A"
+        }
+      ]
+    },
+    "resistance/resistens": {
+      "en": "antibiotic resistance",
+      "sv": "antibiotikaresistens",
+      "hits": [
+        {
+          "entry_id": "swemesh:D004352:B:2b4eec20",
+          "field": "question",
+          "en_span": "antibiotic resistance",
+          "start": 0,
+          "end": 21,
+          "sv_forms": [
+            "resistens mot antimikrobiella läkemedel",
+            "antimikrobiell läkemedelsresistens",
+            "mikrobiell läkemedelsresistens",
+            "mikrobiell antibiotikaresistens",
+            "antibiotikaresistens"
+          ],
+          "level": "B",
+          "single_sense": true,
+          "source": "swemesh"
+        }
+      ],
+      "is_accepted_rendering": false,
+      "ground": [
+        {
+          "entry_id": "swemesh:D004352:B:2b4eec20",
+          "field": "question",
+          "en_span": "antibiotic resistance",
+          "sv_span": "antibiotikaresistens",
+          "sv_start": 0,
+          "sv_end": 20,
+          "level": "B"
+        }
+      ]
+    }
+  }
+}

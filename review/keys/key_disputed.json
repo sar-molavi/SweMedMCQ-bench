@@ -1,0 +1,532 @@
+{
+ "D0001": {
+  "prompt_id": "medqa_908",
+  "stratum": "SPELLING",
+  "n_open": 1
+ },
+ "D0002": {
+  "prompt_id": "medmcqa_4f3977a7-1243-421b-a401-63aa119c0e66",
+  "stratum": "DRUG",
+  "n_open": 2
+ },
+ "D0003": {
+  "prompt_id": "medxpertqa-u_Text-567",
+  "stratum": "LEAK",
+  "n_open": 3
+ },
+ "D0004": {
+  "prompt_id": "mmlu-pro_6757",
+  "stratum": "ACCURACY",
+  "n_open": 1
+ },
+ "D0005": {
+  "prompt_id": "medqa_161",
+  "stratum": "ACCURACY",
+  "n_open": 1
+ },
+ "D0006": {
+  "prompt_id": "mmlu-pro_6206",
+  "stratum": "ACCURACY",
+  "n_open": 1
+ },
+ "D0007": {
+  "prompt_id": "mmlu_823",
+  "stratum": "LEAK",
+  "n_open": 1
+ },
+ "D0008": {
+  "prompt_id": "medxpertqa-r_Text-1953",
+  "stratum": "DRUG",
+  "n_open": 1
+ },
+ "D0009": {
+  "prompt_id": "medxpertqa-r_Text-1181",
+  "stratum": "LEAK",
+  "n_open": 1
+ },
+ "D0010": {
+  "prompt_id": "medqa_96",
+  "stratum": "LEAK",
+  "n_open": 2
+ },
+ "D0011": {
+  "prompt_id": "medmcqa_2e0115a1-4971-407d-b5a1-ec1a70e6e066",
+  "stratum": "critical",
+  "n_open": 2
+ },
+ "D0012": {
+  "prompt_id": "medqa_146",
+  "stratum": "critical",
+  "n_open": 1
+ },
+ "D0013": {
+  "prompt_id": "medmcqa_b3c55a62-5e13-402f-a6d4-6d8feb954d95",
+  "stratum": "critical",
+  "n_open": 2
+ },
+ "D0014": {
+  "prompt_id": "medmcqa_00eb7f90-ec76-4b2a-89e8-9f716b070bfa",
+  "stratum": "SPELLING",
+  "n_open": 1
+ },
+ "D0015": {
+  "prompt_id": "medxpertqa-r_Text-1308",
+  "stratum": "LEAK",
+  "n_open": 1
+ },
+ "D0016": {
+  "prompt_id": "medxpertqa-r_Text-1324",
+  "stratum": "GRAMMAR",
+  "n_open": 2
+ },
+ "D0017": {
+  "prompt_id": "medbullets_288",
+  "stratum": "critical",
+  "n_open": 1
+ },
+ "D0018": {
+  "prompt_id": "medxpertqa-r_Text-471",
+  "stratum": "GRAMMAR",
+  "n_open": 1
+ },
+ "D0019": {
+  "prompt_id": "medmcqa_17180bef-99d8-42c7-9add-372aae82e08e",
+  "stratum": "TERM-A",
+  "n_open": 1
+ },
+ "D0020": {
+  "prompt_id": "medmcqa_f54736dd-e5eb-42f4-a813-54274c9a79b5",
+  "stratum": "SPELLING",
+  "n_open": 1
+ },
+ "D0021": {
+  "prompt_id": "medmcqa_2dc96b3f-39a1-4d38-8177-c3710ed7e586",
+  "stratum": "LEAK",
+  "n_open": 1
+ },
+ "D0022": {
+  "prompt_id": "medxpertqa-u_Text-2278",
+  "stratum": "LEAK",
+  "n_open": 1
+ },
+ "D0023": {
+  "prompt_id": "medxpertqa-r_Text-968",
+  "stratum": "LEAK",
+  "n_open": 1
+ },
+ "D0024": {
+  "prompt_id": "medxpertqa-r_Text-1514",
+  "stratum": "GRAMMAR",
+  "n_open": 1
+ },
+ "D0025": {
+  "prompt_id": "mmlu-pro_6624",
+  "stratum": "ACCURACY",
+  "n_open": 2
+ },
+ "D0026": {
+  "prompt_id": "medxpertqa-r_Text-146",
+  "stratum": "critical",
+  "n_open": 8
+ },
+ "D0027": {
+  "prompt_id": "pubmedqa_24073931",
+  "stratum": "TERM-A",
+  "n_open": 2
+ },
+ "D0028": {
+  "prompt_id": "medmcqa_e7f023ea-2147-47d3-9f2a-61fb60a900be",
+  "stratum": "GRAMMAR",
+  "n_open": 1
+ },
+ "D0029": {
+  "prompt_id": "medmcqa_c1368e96-1d20-4847-9cb0-8cd53b314859",
+  "stratum": "critical",
+  "n_open": 1
+ },
+ "D0030": {
+  "prompt_id": "medmcqa_2719953f-15c7-4003-83ed-0baf2654d35a",
+  "stratum": "TERM-A",
+  "n_open": 1
+ },
+ "D0031": {
+  "prompt_id": "medxpertqa-u_Text-1221",
+  "stratum": "TERM-A",
+  "n_open": 1
+ },
+ "D0032": {
+  "prompt_id": "medmcqa_57ddda15-6303-4ef9-a63c-8274551717ca",
+  "stratum": "LEAK",
+  "n_open": 1
+ },
+ "D0033": {
+  "prompt_id": "medmcqa_2690d305-171f-4fbe-8053-c8ac73b7e550",
+  "stratum": "SPELLING",
+  "n_open": 1
+ },
+ "D0034": {
+  "prompt_id": "medqa_1265",
+  "stratum": "GRAMMAR",
+  "n_open": 1
+ },
+ "D0035": {
+  "prompt_id": "medmcqa_6bce210a-7174-4c76-b1f0-9bc3f5c835fc",
+  "stratum": "DRUG",
+  "n_open": 4
+ },
+ "D0036": {
+  "prompt_id": "medxpertqa-u_Text-679",
+  "stratum": "DRUG",
+  "n_open": 1
+ },
+ "D0037": {
+  "prompt_id": "mmlu-pro_6756",
+  "stratum": "ACCURACY",
+  "n_open": 1
+ },
+ "D0038": {
+  "prompt_id": "medbullets_228",
+  "stratum": "TERM-A",
+  "n_open": 1
+ },
+ "D0039": {
+  "prompt_id": "medqa_1269",
+  "stratum": "TERM-A",
+  "n_open": 1
+ },
+ "D0040": {
+  "prompt_id": "medxpertqa-u_Text-1911",
+  "stratum": "LEAK",
+  "n_open": 1
+ },
+ "D0041": {
+  "prompt_id": "medmcqa_19567e6c-e0f7-4201-816d-23b58786f586",
+  "stratum": "LEAK",
+  "n_open": 1
+ },
+ "D0042": {
+  "prompt_id": "medxpertqa-r_Text-1752",
+  "stratum": "GRAMMAR",
+  "n_open": 2
+ },
+ "D0043": {
+  "prompt_id": "pubmedqa_8847047",
+  "stratum": "SPELLING",
+  "n_open": 2
+ },
+ "D0044": {
+  "prompt_id": "mmlu_1351",
+  "stratum": "ACCURACY",
+  "n_open": 1
+ },
+ "D0045": {
+  "prompt_id": "medxpertqa-r_Text-1492",
+  "stratum": "DRUG",
+  "n_open": 2
+ },
+ "D0046": {
+  "prompt_id": "medxpertqa-u_Text-372",
+  "stratum": "ACCURACY",
+  "n_open": 1
+ },
+ "D0047": {
+  "prompt_id": "medqa_82",
+  "stratum": "ACCURACY",
+  "n_open": 1
+ },
+ "D0048": {
+  "prompt_id": "medxpertqa-r_Text-1040",
+  "stratum": "TERM-A",
+  "n_open": 2
+ },
+ "D0049": {
+  "prompt_id": "medmcqa_dfb6dc4a-a4ac-4270-8bf2-807e6efead3a",
+  "stratum": "LEAK",
+  "n_open": 1
+ },
+ "D0050": {
+  "prompt_id": "medxpertqa-r_Text-1030",
+  "stratum": "DRUG",
+  "n_open": 1
+ },
+ "D0051": {
+  "prompt_id": "medmcqa_5fd61c9e-450e-415b-a055-24f62de4cdd6",
+  "stratum": "ACCURACY",
+  "n_open": 1
+ },
+ "D0052": {
+  "prompt_id": "medxpertqa-r_Text-617",
+  "stratum": "critical",
+  "n_open": 1
+ },
+ "D0053": {
+  "prompt_id": "medqa_382",
+  "stratum": "DRUG",
+  "n_open": 2
+ },
+ "D0054": {
+  "prompt_id": "medqa_532",
+  "stratum": "ACCURACY",
+  "n_open": 1
+ },
+ "D0055": {
+  "prompt_id": "medmcqa_636a3c09-3bda-40dd-bf94-c497bd39d8f6",
+  "stratum": "DRUG",
+  "n_open": 1
+ },
+ "D0056": {
+  "prompt_id": "medmcqa_b3aa72de-f85c-407f-892b-9dae7d953417",
+  "stratum": "DRUG",
+  "n_open": 1
+ },
+ "D0057": {
+  "prompt_id": "medmcqa_61146ef9-e5d8-48c4-8031-a04cbb34c97e",
+  "stratum": "ACCURACY",
+  "n_open": 1
+ },
+ "D0058": {
+  "prompt_id": "medxpertqa-u_Text-1796",
+  "stratum": "SPELLING",
+  "n_open": 5
+ },
+ "D0059": {
+  "prompt_id": "medxpertqa-r_Text-2294",
+  "stratum": "TERM-A",
+  "n_open": 2
+ },
+ "D0060": {
+  "prompt_id": "mmlu-pro_6243",
+  "stratum": "GRAMMAR",
+  "n_open": 1
+ },
+ "D0061": {
+  "prompt_id": "medqa_970",
+  "stratum": "DRUG",
+  "n_open": 1
+ },
+ "D0062": {
+  "prompt_id": "medqa_1184",
+  "stratum": "SPELLING",
+  "n_open": 1
+ },
+ "D0063": {
+  "prompt_id": "medxpertqa-r_Text-1605",
+  "stratum": "SPELLING",
+  "n_open": 1
+ },
+ "D0064": {
+  "prompt_id": "mmlu-pro_6359",
+  "stratum": "GRAMMAR",
+  "n_open": 2
+ },
+ "D0065": {
+  "prompt_id": "medexqa_158_occupational_therapist",
+  "stratum": "GRAMMAR",
+  "n_open": 1
+ },
+ "D0066": {
+  "prompt_id": "medxpertqa-r_Text-763",
+  "stratum": "DRUG",
+  "n_open": 1
+ },
+ "D0067": {
+  "prompt_id": "pubmedqa_15597845",
+  "stratum": "TERM-A",
+  "n_open": 1
+ },
+ "D0068": {
+  "prompt_id": "medxpertqa-r_Text-338",
+  "stratum": "GRAMMAR",
+  "n_open": 1
+ },
+ "D0069": {
+  "prompt_id": "medmcqa_f31cf6f2-74fe-4d49-a8a7-ae85b1359d2b",
+  "stratum": "TERM-A",
+  "n_open": 1
+ },
+ "D0070": {
+  "prompt_id": "mmlu_723",
+  "stratum": "GRAMMAR",
+  "n_open": 1
+ },
+ "D0071": {
+  "prompt_id": "medbullets_284",
+  "stratum": "ACCURACY",
+  "n_open": 1
+ },
+ "D0072": {
+  "prompt_id": "medxpertqa-r_Text-1288",
+  "stratum": "LEAK",
+  "n_open": 3
+ },
+ "D0073": {
+  "prompt_id": "medqa_1008",
+  "stratum": "TERM-A",
+  "n_open": 1
+ },
+ "D0074": {
+  "prompt_id": "mmlu-pro_6030",
+  "stratum": "TERM-A",
+  "n_open": 3
+ },
+ "D0075": {
+  "prompt_id": "mmlu_607",
+  "stratum": "SPELLING",
+  "n_open": 1
+ },
+ "D0076": {
+  "prompt_id": "medqa_1130",
+  "stratum": "DRUG",
+  "n_open": 1
+ },
+ "D0077": {
+  "prompt_id": "medmcqa_3893484e-f4d8-4d90-b435-93af8a7bc469",
+  "stratum": "DRUG",
+  "n_open": 3
+ },
+ "D0078": {
+  "prompt_id": "pubmedqa_25756710",
+  "stratum": "critical",
+  "n_open": 4
+ },
+ "D0079": {
+  "prompt_id": "medxpertqa-r_Text-1465",
+  "stratum": "TERM-A",
+  "n_open": 2
+ },
+ "D0080": {
+  "prompt_id": "mmlu_12255",
+  "stratum": "critical",
+  "n_open": 1
+ },
+ "D0081": {
+  "prompt_id": "medqa_517",
+  "stratum": "ACCURACY",
+  "n_open": 2
+ },
+ "D0082": {
+  "prompt_id": "mmlu-pro_6211",
+  "stratum": "critical",
+  "n_open": 1
+ },
+ "D0083": {
+  "prompt_id": "medqa_383",
+  "stratum": "TERM-A",
+  "n_open": 1
+ },
+ "D0084": {
+  "prompt_id": "medxpertqa-r_Text-309",
+  "stratum": "GRAMMAR",
+  "n_open": 1
+ },
+ "D0085": {
+  "prompt_id": "medxpertqa-r_Text-1602",
+  "stratum": "TERM-A",
+  "n_open": 1
+ },
+ "D0086": {
+  "prompt_id": "medxpertqa-r_Text-2211",
+  "stratum": "GRAMMAR",
+  "n_open": 1
+ },
+ "D0087": {
+  "prompt_id": "medxpertqa-r_Text-188",
+  "stratum": "TERM-A",
+  "n_open": 1
+ },
+ "D0088": {
+  "prompt_id": "medmcqa_d58a8e4e-0f5e-42bb-8b24-75a882eacfa2",
+  "stratum": "ACCURACY",
+  "n_open": 1
+ },
+ "D0089": {
+  "prompt_id": "mmlu_12321",
+  "stratum": "ACCURACY",
+  "n_open": 1
+ },
+ "D0090": {
+  "prompt_id": "medqa_316",
+  "stratum": "DRUG",
+  "n_open": 2
+ },
+ "D0091": {
+  "prompt_id": "medxpertqa-u_Text-337",
+  "stratum": "ACCURACY",
+  "n_open": 1
+ },
+ "D0092": {
+  "prompt_id": "mmlu-pro_6392",
+  "stratum": "SPELLING",
+  "n_open": 1
+ },
+ "D0093": {
+  "prompt_id": "medxpertqa-r_Text-2147",
+  "stratum": "SPELLING",
+  "n_open": 2
+ },
+ "D0094": {
+  "prompt_id": "medxpertqa-r_Text-1687",
+  "stratum": "GRAMMAR",
+  "n_open": 1
+ },
+ "D0095": {
+  "prompt_id": "medqa_338",
+  "stratum": "SPELLING",
+  "n_open": 1
+ },
+ "D0096": {
+  "prompt_id": "medqa_837",
+  "stratum": "SPELLING",
+  "n_open": 1
+ },
+ "D0097": {
+  "prompt_id": "medxpertqa-u_Text-592",
+  "stratum": "LEAK",
+  "n_open": 2
+ },
+ "D0098": {
+  "prompt_id": "medxpertqa-r_Text-2163",
+  "stratum": "SPELLING",
+  "n_open": 2
+ },
+ "D0099": {
+  "prompt_id": "medxpertqa-r_Text-1810",
+  "stratum": "DRUG",
+  "n_open": 4
+ },
+ "D0100": {
+  "prompt_id": "pubmedqa_18565233",
+  "stratum": "DRUG",
+  "n_open": 1
+ },
+ "D0101": {
+  "prompt_id": "medxpertqa-u_Text-1204",
+  "stratum": "SPELLING",
+  "n_open": 1
+ },
+ "D0102": {
+  "prompt_id": "medmcqa_e1a006e0-911e-407d-93d5-ce39ae7f6137",
+  "stratum": "LEAK",
+  "n_open": 1
+ },
+ "D0103": {
+  "prompt_id": "medxpertqa-r_Text-2022",
+  "stratum": "GRAMMAR",
+  "n_open": 1
+ },
+ "D0104": {
+  "prompt_id": "medxpertqa-u_Text-967",
+  "stratum": "GRAMMAR",
+  "n_open": 1
+ },
+ "D0105": {
+  "prompt_id": "medxpertqa-r_Text-2274",
+  "stratum": "LEAK",
+  "n_open": 1
+ },
+ "D0106": {
+  "prompt_id": "medqa_40",
+  "stratum": "SPELLING",
+  "n_open": 1
+ }
+}

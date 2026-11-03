@@ -1,0 +1,51 @@
+sample_id,verdict,meaning_changed,severity,comment
+P0001,A better,n,minor,"A uses Swedish INN 'klindamycin', 'vankomycin'; B keeps English spellings."
+P0002,A better,n,minor,A 'Paration' is the Swedish spelling; B keeps English 'Parathion'.
+P0003,B better,n,minor,"B keeps the source's second unit '(100,9 °F)'; A drops it."
+P0004,A better,n,minor,A 'kaptopril' is Swedish INN; B 'captopril' English spelling.
+P0005,A better,n,minor,A keeps '(23 lb)' from source; B omits the second unit.
+P0006,A better,n,minor,A keeps '(5 ft 8 in)' and '(163 lb)'; B omits source units.
+P0007,B better,n,minor,B keeps '(5 ft 10 in)' from source; A omits it.
+P0008,B better,n,minor,"B keeps '(98,4 °F)' as in source; A drops it."
+P0009,B better,n,minor,B 'karvedilol' is Swedish INN; A 'carvedilol' English spelling.
+P0010,B better,n,minor,B 'Metadon' is Swedish INN; A keeps English 'Methadone'.
+P0011,A better,n,minor,A keeps '(11 lb)' from source; B omits it.
+P0012,A better,n,minor,"A uses 'kaspofungin', 'vankomycin' (Swedish INN); B English 'caspofungin', 'vancomycin'."
+P0013,A better,n,minor,"A keeps '(98,1 °F)' as in source; B drops it."
+P0014,B better,n,minor,"B keeps '(101,1 °F)' from source; A drops it."
+P0015,A better,n,minor,A 'vankomycin' Swedish INN; B English 'vancomycin'.
+P0016,A better,n,minor,"A keeps '(101,0 °F)' from source; B drops it."
+P0017,A better,n,minor,A keeps '(5 ft 8 in)' and '(179 lb)'; B omits source units.
+P0018,B better,n,minor,B 'karvedilol' Swedish INN; A 'carvedilol' English spelling.
+P0019,A better,n,minor,A 'Lakosamid' Swedish INN; B English 'Lacosamide'.
+P0020,B better,n,minor,"B translates lab labels 'Glukos', 'Kreatinin'; A leaves English 'Glucose', 'Creatinine'."
+P0021,B better,n,minor,"B keeps '(98,6 °F)' from source; A drops it."
+P0022,B better,n,minor,B 'fibronektin' Swedish spelling; A English 'fibronectin'.
+P0023,B better,n,minor,"B 'vinkulin', 'klatrin' Swedish spellings; A keeps English 'vinculin', 'clathrin'."
+P0024,A better,n,minor,"A keeps '(100,4 °F)' from source; B drops it."
+P0025,B better,n,minor,B 'kaptopril' Swedish INN; A English 'captopril'.
+P0026,A better,n,minor,A keeps '(5 ft 6 in)' and '(203 lb)'; B omits source units.
+P0027,B better,n,minor,"B keeps '(98,6 °F)' from source; A drops it."
+P0028,A better,n,minor,"A keeps '(2,6 lb)' from source; B omits it."
+P0029,B better,n,minor,"B keeps '(100,6 °F)' from source; A drops it."
+P0030,B better,n,minor,B 'Klopidogrel' Swedish INN; A English 'Clopidogrel'.
+P0031,A better,n,minor,A 'Etambutol' Swedish INN; B English 'Ethambutol'.
+P0032,A better,n,minor,A keeps '(5 ft 7 in)' and '(187 lb)'; B omits source units.
+P0033,B better,n,minor,B 'klopidogrel' Swedish INN in option and stem; A English 'clopidogrel'.
+P0034,A better,n,minor,"A 'Meticillin', 'Karbenicillin' Swedish spellings; B English 'Methicillin', 'Carbenicillin'."
+P0035,B better,n,minor,"B keeps '(98,6 °F)' from source; A drops it."
+P0036,A better,n,minor,A 'Fenylefrin' Swedish INN; B English 'Phenylephrine'.
+P0037,B better,n,minor,"B keeps '(99,0 °F)' from source; A drops it."
+P0038,A better,n,minor,A 'karbidopa' Swedish INN; B English 'carbidopa'.
+P0039,B better,n,minor,B 'vankomycin' Swedish INN; A English 'vancomycin'.
+P0040,B better,n,minor,B 'Cefaklor' Swedish INN; A English 'Cefaclor'.
+P0041,A better,n,minor,A translates 'scaffold' as 'stödstruktur'; B leaves English 'scaffold'.
+P0042,B better,n,minor,"'cytoplasma' is common gender; B 'eosinofil cytoplasma' is the usual pathology phrasing, A 'eosinofilt' less idiomatic."
+P0043,B better,n,minor,"A 'Pap-smear' is an English leftover; B 'papanicolaou-prov' Swedish, though eponym should be capitalized."
+P0044,A better,n,minor,A 'kan säkert fastställas' mirrors source adverb 'safely'; B shifts it to 'säkra diagnosen'.
+P0045,equal,n,minor,'neuronerna' and 'neuronen' are both accepted plural forms of neuron.
+P0046,A better,n,minor,A 'tibial lutning' is Swedish; B leaves English 'slope'. A's phrasing slightly awkward but acceptable.
+P0047,A better,n,minor,A 'icke-alkoholisk steatohepatit' is the established term; B 'icke-alkoholsteatohepatit' unusual compound.
+P0048,B better,n,minor,A 'Högera' is a misspelling; B 'Höger' matches other options.
+P0049,equal,n,minor,'Den totala mängd ... som' (determinative) and 'Den totala mängden ... som' both acceptable.
+P0050,A better,n,minor,'ronki' is the established Swedish auscultation term for wheezes; B 'väsningar' less idiomatic.

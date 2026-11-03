@@ -1,0 +1,143 @@
+{
+  "n_probes": 340,
+  "by_kind": {
+    "identical": 50,
+    "english_inn": 50,
+    "number": 50,
+    "agreement": 50,
+    "negation": 50,
+    "laterality": 50,
+    "silver": 40
+  },
+  "per_call_accuracy": {
+    "gemma/agreement": 0.98,
+    "gemma/english_inn": 1.0,
+    "gemma/identical": 1.0,
+    "gemma/laterality": 1.0,
+    "gemma/negation": 1.0,
+    "gemma/number": 1.0,
+    "gemma/silver": 0.425,
+    "gptoss/agreement": 0.98,
+    "gptoss/english_inn": 0.99,
+    "gptoss/identical": 0.96,
+    "gptoss/laterality": 0.98,
+    "gptoss/negation": 0.98,
+    "gptoss/number": 1.0,
+    "gptoss/silver": 0.275,
+    "qwen/agreement": 0.963,
+    "qwen/english_inn": 0.997,
+    "qwen/identical": 0.993,
+    "qwen/laterality": 0.973,
+    "qwen/negation": 1.0,
+    "qwen/number": 1.0,
+    "qwen/silver": 0.412
+  },
+  "per_probe": {
+    "gemma/agreement": {
+      "n": 50,
+      "both_orders_correct": 0.98,
+      "position_consistent": 1.0
+    },
+    "gemma/english_inn": {
+      "n": 50,
+      "both_orders_correct": 1.0,
+      "position_consistent": 1.0
+    },
+    "gemma/identical": {
+      "n": 50,
+      "both_orders_correct": 1.0,
+      "position_consistent": 1.0
+    },
+    "gemma/laterality": {
+      "n": 50,
+      "both_orders_correct": 1.0,
+      "position_consistent": 1.0
+    },
+    "gemma/negation": {
+      "n": 50,
+      "both_orders_correct": 1.0,
+      "position_consistent": 1.0
+    },
+    "gemma/number": {
+      "n": 50,
+      "both_orders_correct": 1.0,
+      "position_consistent": 1.0
+    },
+    "gemma/silver": {
+      "n": 40,
+      "both_orders_correct": 0.375,
+      "position_consistent": 0.825
+    },
+    "gptoss/agreement": {
+      "n": 50,
+      "both_orders_correct": 0.98,
+      "position_consistent": 1.0
+    },
+    "gptoss/english_inn": {
+      "n": 50,
+      "both_orders_correct": 0.98,
+      "position_consistent": 0.98
+    },
+    "gptoss/identical": {
+      "n": 50,
+      "both_orders_correct": 0.96,
+      "position_consistent": 1.0
+    },
+    "gptoss/laterality": {
+      "n": 50,
+      "both_orders_correct": 0.98,
+      "position_consistent": 1.0
+    },
+    "gptoss/negation": {
+      "n": 50,
+      "both_orders_correct": 0.96,
+      "position_consistent": 0.96
+    },
+    "gptoss/number": {
+      "n": 50,
+      "both_orders_correct": 1.0,
+      "position_consistent": 1.0
+    },
+    "gptoss/silver": {
+      "n": 40,
+      "both_orders_correct": 0.2,
+      "position_consistent": 0.775
+    },
+    "qwen/agreement": {
+      "n": 150,
+      "both_orders_correct": 0.94,
+      "position_consistent": 0.953
+    },
+    "qwen/english_inn": {
+      "n": 150,
+      "both_orders_correct": 0.993,
+      "position_consistent": 0.993
+    },
+    "qwen/identical": {
+      "n": 150,
+      "both_orders_correct": 0.987,
+      "position_consistent": 0.987
+    },
+    "qwen/laterality": {
+      "n": 150,
+      "both_orders_correct": 0.947,
+      "position_consistent": 0.947
+    },
+    "qwen/negation": {
+      "n": 150,
+      "both_orders_correct": 1.0,
+      "position_consistent": 1.0
+    },
+    "qwen/number": {
+      "n": 150,
+      "both_orders_correct": 1.0,
+      "position_consistent": 1.0
+    },
+    "qwen/silver": {
+      "n": 120,
+      "both_orders_correct": 0.267,
+      "position_consistent": 0.617
+    }
+  },
+  "low_certainty_calls": {}
+}

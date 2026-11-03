@@ -1,0 +1,146 @@
+# Every evaluated open-model configuration: benchmark models and students.
+#
+# One entry = one model with one prompt and one decoding mode. swemedmcq.evaluate.make_jobs
+# crosses each entry with its `sets` (en, sv_L4a, sv_L4_delta) and writes one resumable
+# job line per (entry, set); swemedmcq.evaluate.run runs one job.
+#
+# Fields
+#   name        unique id; also the output folder name
+#   part        benchmark | student
+#   prompt      trace (explanation prompt, schema {explanation, answer_index})
+#               answer (answer-only prompt, schema {answer_index})
+#   model       HF id (the students: Anonymiserad/SweMedMCQ-*), or a local folder (relative to
+#               the repository root, e.g. hf/models/SweMedMCQ-...);
+#               tokenizer defaults to model (the students carry their tokenizer and chat template)
+#   revision    HF snapshot (commit) to load; without it the cached refs/main is used
+#   mode        how reasoning is switched:
+#                 default         model default chat template, no flag
+#                 no_think        --no-reasoning (enable_thinking=False)
+#                 token_set:<r>   pre-tokenised prompts (swemedmcq.evaluate.no_reasoning_tokens --recipe <r>)
+#                 reasoning       --structured-reasoning-parser <parser>  (JSON only after the reasoning, e.g. </think>)
+#                 forced_json     --no-reasoning --force-structured-output (JSON from the first token)
+#   parser      reasoning parser for mode=reasoning
+#   date        GPT-OSS only: the date written into its system prompt
+#   prefix      text appended after the generation prompt (--assistant-prefix). EuroLLM's chat
+#               template does not open the thinking block its trace students were trained with
+#               (swemedmcq/train/prepare_eurollm_sft.py), so it is added here: "<think>\n" for
+#               reasoning, the empty block for direct answers (as LFM's own template does).
+#               Gemma-4 reasoning: "<|channel>thought\n" (opens the thought block; see its entry).
+#   max_out, max_len, eager, hf_overrides, gpus: generation settings (gpus = tensor parallel size)
+#   sets        which test sets to run
+#   labels      students: student (lfm | eurollm), regime (base | answer | trace),
+#               train_lang (- | EN | SV | SV-RW | EN+SV); used by swemedmcq.evaluate.collect
+#
+# Settings: benchmark models greedy, 30,720 output tokens, model-default context; students
+# 12,288 context; EuroLLM with the RoPE override (its config says max_position_embeddings
+# 4,096, and vLLM sizes the RoPE table from that value; the override gives the RoPE values
+# that training used at 12,288). Every run uses vLLM's compiled mode (`eager: false`).
+
+anchors:
+  bench: &bench {part: benchmark, prompt: trace, max_out: 30720, gpus: 1,
+                 sets: [en, sv_L4a, sv_L4_delta]}
+  lfm: &lfm {part: student, max_len: 12288, gpus: 1, sets: [en, sv_L4a, sv_L4_delta]}
+  euro: &euro {part: student, max_len: 12288, gpus: 1,
+               hf_overrides: {max_position_embeddings: 12288}, sets: [en, sv_L4a, sv_L4_delta]}
+
+models:
+  # ---------------------------------------------------------------- benchmark models
+  # GPT-OSS's template writes the current date into the system prompt; `date` pins it, so
+  # every run of a configuration sees the same prompt (the dates of the paper's runs).
+  - {<<: *bench, name: gpt-oss-120b, model: openai/gpt-oss-120b, mode: "token_set:gpt_oss_on", date: "2026-04-02", gpus: 2}
+  - {<<: *bench, name: gpt-oss-120b-no-reasoning, model: openai/gpt-oss-120b, mode: "token_set:gpt_oss", date: "2026-04-07", gpus: 2}
+  - {<<: *bench, name: gpt-oss-20b, model: openai/gpt-oss-20b, mode: "token_set:gpt_oss_on", date: "2026-04-01"}
+  - {<<: *bench, name: gpt-oss-20b-no-reasoning, model: openai/gpt-oss-20b, mode: "token_set:gpt_oss", date: "2026-04-07"}
+  # Default context (262,144) does not fit the KV cache of one 40 GB GPU. Prompt + 30,720 output
+  # tokens always fit in 40,960, so the cap does not change any generation.
+  - {<<: *bench, name: Qwen3-4B-Thinking-2507, model: Qwen/Qwen3-4B-Thinking-2507, mode: default, max_len: 40960}
+  - {<<: *bench, name: Qwen3-4B-Thinking-2507-no-reasoning, model: Qwen/Qwen3-4B-Thinking-2507, mode: "token_set:qwen3_4b_thinking", max_len: 40960}
+  # Qwen3.5-35B-A3B appears only in an appendix of the paper; configured like Qwen3.6.
+  - {<<: *bench, name: Qwen3.5-35B-A3B, model: Qwen/Qwen3.5-35B-A3B, mode: default}
+  - {<<: *bench, name: Qwen3.5-35B-A3B-no-reasoning, model: Qwen/Qwen3.5-35B-A3B, mode: no_think}
+  - {<<: *bench, name: Qwen3.6-35B-A3B, model: Qwen/Qwen3.6-35B-A3B, mode: default}
+  - {<<: *bench, name: Qwen3.6-35B-A3B-no-reasoning, model: Qwen/Qwen3.6-35B-A3B, mode: no_think}
+  - {<<: *bench, name: Qwen2.5-3B-Instruct, model: Qwen/Qwen2.5-3B-Instruct, mode: default}
+  - {<<: *bench, name: medgemma-27b-text-it, model: google/medgemma-27b-text-it, mode: default}
+  # The two refinement-loop models, reasoning on and off, at the snapshots of the paper's runs
+  # (older Gemma-4 snapshots have another chat template).
+  # Qwen3.8: the template thinks by default, at its default reasoning effort ("xhigh", a system
+  # line); auto picks the qwen3 parser. Gemma-4 does not think by default: enable_thinking only
+  # adds <|think|> to the system turn and the prompt ends at "<|turn>model\n", so the model may
+  # answer at once and vLLM's gemma4 parser would never see the thought block end. The prefix
+  # opens the block (as swemedmcq/refine/engine/gemma.py does); the JSON grammar starts after
+  # <channel|>. Off: the template closes an empty block; auto picks gemma4, which counts it as ended.
+  - {<<: *bench, name: Qwen3.8-27B, model: Qwen/Qwen3.8-27B, revision: 1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0, mode: default}
+  - {<<: *bench, name: Qwen3.8-27B-no-reasoning, model: Qwen/Qwen3.8-27B, revision: 1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0, mode: no_think}
+  - {<<: *bench, name: gemma-4-31B-it, model: google/gemma-4-31B-it, revision: 842da3794eaa0b77d5f08bae87a17459d91ff475,
+     mode: reasoning, parser: gemma4, prefix: "<|channel>thought\n"}
+  - {<<: *bench, name: gemma-4-31B-it-no-reasoning, model: google/gemma-4-31B-it, revision: 842da3794eaa0b77d5f08bae87a17459d91ff475,
+     mode: no_think}
+
+  # ---------------------------------------------------------------- students: LFM2.5-1.2B
+  - {<<: *lfm, name: lfm-base-trace, prompt: trace, model: unsloth/LFM2.5-1.2B-Instruct, mode: default, max_out: 12288,
+     labels: {student: lfm, regime: base, train_lang: "-"}}
+  - {<<: *lfm, name: lfm-base-answer, prompt: answer, model: unsloth/LFM2.5-1.2B-Instruct, mode: forced_json, max_out: 12288,
+     labels: {student: lfm, regime: base, train_lang: "-"}}
+  - {<<: *lfm, name: lfm-answer-en, prompt: answer, mode: forced_json, max_out: 12288,
+     model: Anonymiserad/SweMedMCQ-LFM2.5-1.2B-Answer-EN,
+     labels: {student: lfm, regime: answer, train_lang: EN}}
+  - {<<: *lfm, name: lfm-answer-sv, prompt: answer, mode: forced_json, max_out: 12288,
+     model: Anonymiserad/SweMedMCQ-LFM2.5-1.2B-Answer-SV,
+     labels: {student: lfm, regime: answer, train_lang: SV}}
+  - {<<: *lfm, name: lfm-answer-ensv, prompt: answer, mode: forced_json, max_out: 12288,
+     model: Anonymiserad/SweMedMCQ-LFM2.5-1.2B-Answer-EN-SV,
+     labels: {student: lfm, regime: answer, train_lang: EN+SV}}
+  # The LFM trace students ship the reasoning chat template (swemedmcq/train/create_lfm_dynamic_tokenizer.py)
+  # in their folder: enable_thinking opens "<think>\n" or writes the empty block.
+  - &lfm_trace_en {<<: *lfm, name: lfm-trace-en-reasoning, prompt: trace, mode: reasoning, parser: lfm_thinking, max_out: 12288,
+     model: Anonymiserad/SweMedMCQ-LFM2.5-1.2B-Trace-EN,
+     labels: {student: lfm, regime: trace, train_lang: EN}}
+  - {<<: *lfm_trace_en, name: lfm-trace-en-direct, mode: forced_json}
+  - &lfm_trace_sv {<<: *lfm, name: lfm-trace-sv-reasoning, prompt: trace, mode: reasoning, parser: lfm_thinking, max_out: 12288,
+     model: Anonymiserad/SweMedMCQ-LFM2.5-1.2B-Trace-SV,
+     labels: {student: lfm, regime: trace, train_lang: SV}}
+  - {<<: *lfm_trace_sv, name: lfm-trace-sv-direct, mode: forced_json}
+  - &lfm_trace_rw {<<: *lfm, name: lfm-trace-svrw-reasoning, prompt: trace, mode: reasoning, parser: lfm_thinking, max_out: 10240,
+     model: Anonymiserad/SweMedMCQ-LFM2.5-1.2B-Trace-SV-RW,
+     labels: {student: lfm, regime: trace, train_lang: SV-RW}}
+  - {<<: *lfm_trace_rw, name: lfm-trace-svrw-direct, mode: forced_json}
+  - &lfm_trace_bi {<<: *lfm, name: lfm-trace-ensv-reasoning, prompt: trace, mode: reasoning, parser: lfm_thinking, max_out: 12288,
+     model: Anonymiserad/SweMedMCQ-LFM2.5-1.2B-Trace-EN-SV,
+     labels: {student: lfm, regime: trace, train_lang: EN+SV}}
+  - {<<: *lfm_trace_bi, name: lfm-trace-ensv-direct, mode: forced_json}
+
+  # ---------------------------------------------------------------- students: EuroLLM-1.7B
+  - {<<: *euro, name: euro-base-trace, prompt: trace, model: utter-project/EuroLLM-1.7B-Instruct, mode: default, max_out: 12288,
+     labels: {student: eurollm, regime: base, train_lang: "-"}}
+  - {<<: *euro, name: euro-base-answer, prompt: answer, model: utter-project/EuroLLM-1.7B-Instruct, mode: forced_json, max_out: 12288,
+     labels: {student: eurollm, regime: base, train_lang: "-"}}
+  - {<<: *euro, name: euro-answer-en, prompt: answer, mode: forced_json, max_out: 10240,
+     model: Anonymiserad/SweMedMCQ-EuroLLM-1.7B-Answer-EN,
+     labels: {student: eurollm, regime: answer, train_lang: EN}}
+  - {<<: *euro, name: euro-answer-sv, prompt: answer, mode: forced_json, max_out: 10240,
+     model: Anonymiserad/SweMedMCQ-EuroLLM-1.7B-Answer-SV,
+     labels: {student: eurollm, regime: answer, train_lang: SV}}
+  - {<<: *euro, name: euro-answer-ensv, prompt: answer, mode: forced_json, max_out: 10240,
+     model: Anonymiserad/SweMedMCQ-EuroLLM-1.7B-Answer-EN-SV,
+     labels: {student: eurollm, regime: answer, train_lang: EN+SV}}
+  - &euro_trace_en {<<: *euro, name: euro-trace-en-reasoning, prompt: trace, mode: reasoning, parser: eurollm_thinking, max_out: 10240,
+     prefix: "<think>\n",
+     model: Anonymiserad/SweMedMCQ-EuroLLM-1.7B-Trace-EN,
+     labels: {student: eurollm, regime: trace, train_lang: EN}}
+  - {<<: *euro_trace_en, name: euro-trace-en-direct, mode: forced_json, prefix: "<think>\n\n</think>\n\n"}
+  - &euro_trace_sv {<<: *euro, name: euro-trace-sv-reasoning, prompt: trace, mode: reasoning, parser: eurollm_thinking, max_out: 10240,
+     prefix: "<think>\n",
+     model: Anonymiserad/SweMedMCQ-EuroLLM-1.7B-Trace-SV,
+     labels: {student: eurollm, regime: trace, train_lang: SV}}
+  - {<<: *euro_trace_sv, name: euro-trace-sv-direct, mode: forced_json, prefix: "<think>\n\n</think>\n\n"}
+  - &euro_trace_rw {<<: *euro, name: euro-trace-svrw-reasoning, prompt: trace, mode: reasoning, parser: eurollm_thinking, max_out: 10240,
+     prefix: "<think>\n",
+     model: Anonymiserad/SweMedMCQ-EuroLLM-1.7B-Trace-SV-RW,
+     labels: {student: eurollm, regime: trace, train_lang: SV-RW}}
+  - {<<: *euro_trace_rw, name: euro-trace-svrw-direct, mode: forced_json, prefix: "<think>\n\n</think>\n\n"}
+  - &euro_trace_bi {<<: *euro, name: euro-trace-ensv-reasoning, prompt: trace, mode: reasoning, parser: eurollm_thinking, max_out: 10240,
+     prefix: "<think>\n",
+     model: Anonymiserad/SweMedMCQ-EuroLLM-1.7B-Trace-EN-SV,
+     labels: {student: eurollm, regime: trace, train_lang: EN+SV}}
+  - {<<: *euro_trace_bi, name: euro-trace-ensv-direct, mode: forced_json, prefix: "<think>\n\n</think>\n\n"}

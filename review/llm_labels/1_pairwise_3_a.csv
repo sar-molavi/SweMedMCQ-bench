@@ -1,0 +1,51 @@
+sample_id,verdict,meaning_changed,severity,comment
+P0101,equal,n,minor,'O2-saturation' vs 'O2-mättnad': both used in Swedish clinical language.
+P0102,B better,n,minor,A adds 'öppna' to 'stora utrymmen'; source says only 'large space'.
+P0103,B better,n,minor,'mandibulära' is correct spelling; A 'mandibulara' misspelled.
+P0104,B better,n,minor,'grav hörselnedsättning' is the established Swedish grade for profound; 'djup' is a calque.
+P0105,equal,n,minor,'bilateralt pittingödem' (sg) vs 'bilaterala pittingödem' (pl): both grammatical.
+P0106,equal,n,minor,"'natural killer-celler' vs 'NK-celler': both understood, same meaning."
+P0107,B better,y,major,A 'förväxla henne med sin syster' makes it the patient's sister; B 'dotterns syster' is correct.
+P0108,A better,n,minor,Swedish INN 'hydroxikarbamid' (A) vs English 'Hydroxyurea' (B).
+P0109,A better,n,minor,'gymnasiet' is Swedish; B leaves English 'high school'.
+P0110,equal,n,minor,'NK-cell' vs 'natural killer-cell (NK-cell)': both correct; B mirrors source expansion.
+P0111,A better,n,minor,'Den oönskade bieffekten som' is grammatical; B 'Den oönskade bieffekt' lacks definite form.
+P0112,A better,n,minor,'amputation ovan knä' is the established Swedish term; B 'ovanför knäet' acceptable but less idiomatic.
+P0113,A better,n,minor,'Det kirurgiska ingreppet som' correct; B 'Det kirurgiska ingrepp' ungrammatical.
+P0114,B better,y,major,"Source 'cholecystectomy for protracted ileus'; A rewrites as ileus after surgery, B 'för en långvarig ileus' faithful."
+P0115,equal,n,minor,"'Överkäkspremolar' (sg, literal) vs 'Överkäkspremolarer' (pl, more natural); same meaning."
+P0116,equal,n,minor,Omission of 'har' in subordinate clause is standard Swedish; both correct.
+P0117,B better,n,minor,'virusbelastning' Swedish; A leaves English 'viral load'.
+P0118,equal,n,minor,'uteblivet missfall' vs 'missed abortion': both established in Swedish gynecology.
+P0119,B better,n,minor,Swedish INN is 'oxikodon'; A 'oxykodon' is non-standard spelling.
+P0120,B better,n,minor,A leaves 'preterm premature rupture of membranes' in English; B 'prematur ruptur av membraner' is Swedish.
+P0121,A better,n,minor,'subclavian steal-syndrom' with Swedish 'syndrom'; B leaves English 'syndrome'.
+P0122,both wrong,n,major,"A keeps English 'Pancuronium', 'Succinylcholine'; B 'pankuron' is a truncated non-existent name, plus inconsistent lowercase."
+P0123,A better,n,minor,'bör vara: utstickande 10 cm' fits the stem; B 'bör vara: sticka ut' ungrammatical.
+P0124,B better,n,minor,'normal penis och normala testiklar' agrees in number; A 'normala penis' slightly off.
+P0125,A better,n,minor,'upplösning av dubbelsträngsbrott' Swedish; B leaves English 'resolution'.
+P0126,equal,n,minor,'före 18 års ålder' vs 'senast vid 18 års ålder': both render 'by the age of 18'.
+P0127,equal,n,minor,'det depressogena attributionsmönster som' (restrictive) and '-mönstret som' both grammatical.
+P0128,A better,n,minor,'senast för 4 år sedan' reads cleanly; B 'senast från för 4 år sedan' is clumsy.
+P0129,B better,n,minor,'lutning' is Swedish; A leaves English 'tilt'.
+P0130,A better,n,minor,'syrgas' is common gender: 'uppvärmd syrgas'; B 'uppvärmt' wrong agreement.
+P0131,equal,n,minor,'den biokemiska väg som' and 'vägen som' both grammatical.
+P0132,equal,n,minor,"'ADHD' alone vs English expansion plus ADHD: both acceptable, no meaning change."
+P0133,A better,n,minor,Pronoun refers to 'sevofluranförångare' (common gender): 'den'; B 'det' wrong gender.
+P0134,B better,n,minor,Swedish months are lowercase: 'september'.
+P0135,B better,y,minor,"Source 'left rotation and sidebending' is ambiguous; A adds 'vänster' to sidebending, B preserves ambiguity."
+P0136,A better,n,minor,'och' is Swedish; B leaves English 'and'.
+P0137,equal,n,minor,'av vulvan' vs Latin bare 'av vulva': both acceptable in Swedish medical text.
+P0138,B better,n,minor,Protected term spelled 'exspektans'; A 'Expektans' misspelled.
+P0139,equal,n,minor,'den patogenetiska mekanism som' and 'mekanismen som' both grammatical.
+P0140,equal,n,minor,"'bare-lymfocyt-syndrom' vs 'bare lymphocyte-syndrom': both hybrid, both recognizable."
+P0141,A better,n,minor,'enkelbörder' is the established Swedish term for singletons; 'enkelbarn' is non-standard.
+P0142,equal,n,minor,'Den högsta effekten som' and 'effekt som' both grammatical.
+P0143,equal,n,minor,'spindelangiomata' vs 'spider naevi': both used in Swedish clinical language.
+P0144,A better,n,minor,'giftig ek' is Swedish; B leaves English 'poison oak'.
+P0145,equal,n,minor,'det tunna cytoplasmatiska utskottet som' and 'utskott som' both grammatical.
+P0146,A better,n,minor,Swedish name 'propranolol' (A); B keeps source misspelling 'propanolol'.
+P0147,B better,n,minor,B uses en dash ranges; A leaves English 'to' in all options.
+P0148,B better,n,minor,'Hjärtundersökning' matches 'Cardiac examination'; A 'HjärtauskuItation' has typo (capital I) and narrows meaning.
+P0149,equal,n,minor,'spikes' and 'spikar' both used in Swedish EEG terminology.
+P0150,B better,y,minor,"Source 'sharp rise'; A 'kraftig förändring' loses direction, B 'skarp uppgång' keeps rise."

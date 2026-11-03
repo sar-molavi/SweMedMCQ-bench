@@ -1,0 +1,94 @@
+finding_uid,label,severity,comment
+F00001,not an error,,'den homeostatiska regulator som' is the accepted determinative construction before a restrictive relative clause.
+F00002,not an error,,'den skadade sårvävnad som' is a correct determinative construction with restrictive relative clause.
+F00003,real error,minor,'dialysis disequilibrium syndrome' left in English; Swedish 'dysekvilibriumsyndrom' exists.
+F00004,not an error,,'det tunna cytoplasmatiska utskott som' is correct determinative form before relative clause.
+F00005,real error,minor,'Polycythemia vera' uses English spelling; Swedish form is 'polycytemia vera'.
+F00006,real error,minor,Coordinated subjects 'celldelningen och den metabola aktiviteten' require plural predicative 'aktiva'.
+F00007,real error,major,Option 'beneficence' left untranslated; Swedish ethics term (godhetsprincipen/göra gott-principen) exists.
+F00008,not an error,,'det depressogena attributionsmönster som' is correct determinative construction.
+F00009,real error,minor,'airplane-skena' keeps English 'airplane'; Swedish 'flygplansskena'/abduktionsskena exists.
+F00010,not an error,,'knuckle-bender-skena': knuckle bender is an established splint name used as such in Swedish hand therapy.
+F00011,real error,minor,'carbidopa' should be Swedish INN 'karbidopa' (FASS).
+F00012,real error,minor,'carbidopa' should be Swedish INN 'karbidopa'.
+F00013,real error,minor,"'på grund av sedan en vecka tillbaka smärta' is ungrammatical word order, though understandable."
+F00014,not an error,,'allergen' (neuter) has accepted zero plural; 'alla potentiella allergen' is correct.
+F00015,real error,minor,Secondary unit (100.9°F) from English omitted; style guide requires keeping both units.
+F00016,real error,major,'hon har därefter haft en långdragen ileus' reverses source: cholecystectomy was performed for protracted ileus.
+F00017,not an error,,'den omfattande journal hon har tagit med sig' is acceptable determinative construction.
+F00018,not an error,,'Den totala mängd av ämnet som' is acceptable determinative construction.
+F00019,not an error,,'sticka ut 10 cm' infinitive can fit the stem; no evidence of error from option alone.
+F00020,real error,minor,Secondary unit (101.1°F) from English omitted; style guide requires keeping both units.
+F00021,not an error,,'gastric banding' is the established term in Swedish obesity surgery.
+F00022,not an error,,'gastric' in 'gastric banding' is part of the established Swedish term.
+F00023,not an error,,"'Roux-en-Y gastric bypass' is the established Swedish term (Socialstyrelsen, 1177)."
+F00024,not an error,,'branchialcysta' is an accepted Latin-derived Swedish term; not English.
+F00025,not an error,,'branchialcystor' is an accepted Latin-derived Swedish term.
+F00026,real error,minor,'mandibulara' misspelled; correct 'mandibulära'.
+F00027,real error,minor,'mandibulara' misspelled; correct 'mandibulära'.
+F00028,real error,minor,'Bell's palsy' left in English; Swedish 'Bells pares'.
+F00029,not an error,,'Den högsta effekt som kan upprätthållas' is correct determinative construction.
+F00030,real error,minor,'vinculin' English spelling; Swedish 'vinkulin' (Svensk MeSH).
+F00031,real error,minor,'clathrin' English spelling; Swedish 'klatrin'.
+F00032,real error,minor,'kraftig förändring' loses direction of 'sharp rise'; answer (refractory period) likely unaffected.
+F00033,not an error,,'mismatchreparation' is established usage in Swedish molecular biology/oncology.
+F00034,real error,minor,'oxykodon' misspelled; Swedish INN is 'oxikodon'.
+F00035,real error,minor,'oxykodon' misspelled; Swedish INN is 'oxikodon'.
+F00036,real error,minor,"'(7-lb 3-oz)' omitted after '3256 g'; secondary unit lost, meaning unchanged."
+F00037,real error,minor,"'(7-lb 3-oz)' omitted after '3256 g'; secondary unit lost, meaning unchanged."
+F00038,not an error,,'reagerar för ljus' is an accepted Swedish construction.
+F00039,not an error,,'att hen känt' — omitting 'har' in subordinate clause is standard Swedish.
+F00040,real error,minor,Secondary unit (5 ft 4 in)/(88 lb) from English omitted; style guide requires keeping both units.
+F00041,not an error,,'Hyperthyreos' is an established Swedish spelling variant still in clinical use.
+F00042,real error,minor,'normala penis' — plural adjective with singular noun; better 'normal penis och normala testiklar'.
+F00043,real error,minor,Secondary unit (101.0°F) from English omitted; style guide requires keeping both units.
+F00044,real error,minor,Secondary unit (5 ft 8 in)/(179 lb) from English omitted; style guide requires keeping both units.
+F00045,real error,minor,Secondary unit (98.4°F) from English omitted; style guide requires keeping both units.
+F00046,real error,minor,Secondary unit (98.1°F) from English omitted; style guide requires keeping both units.
+F00047,real error,minor,Secondary unit (23 lb) from English omitted; style guide requires keeping both units.
+F00048,not an error,,'spider naevi' is the established term in Swedish clinical language.
+F00049,real error,critical,"'S-ferritin på 10 ng/mL' contradicts source 1,200 ng/mL; changes hemochromatosis picture and answer."
+F00050,real error,minor,Secondary unit (2.6 lb) from English omitted; style guide requires keeping both units.
+F00051,real error,minor,'natural killer-celler' keeps English; Swedish 'NK-celler'/'naturliga mördarceller' exists.
+F00052,real error,minor,'natural' in 'natural killer-celler' is English; Swedish NK-celler/naturliga mördarceller.
+F00053,real error,minor,'killer' in 'natural killer-celler' is English; Swedish NK-celler/naturliga mördarceller.
+F00054,not an error,,'neuronen' is the plural definite form of 'neuron'; matches 'the neurons'.
+F00055,real error,minor,Secondary unit (5 ft 10 in) from English omitted; style guide requires keeping both units.
+F00056,real error,minor,Secondary unit (98.6°F) from English omitted; style guide requires keeping both units.
+F00057,real error,minor,'immunofluorescens' should be Swedish 'immunfluorescens'.
+F00058,not an error,,"'length-time-bias' is the term used untranslated in Swedish epidemiology, like lead time bias."
+F00059,real error,minor,Secondary unit (98.6°F) from English omitted; style guide requires keeping both units.
+F00060,real error,minor,Secondary unit (100.6°F) from English omitted; style guide requires keeping both units.
+F00061,not an error,,'falltendens' denotes repeated falls in Swedish usage; next sentence 'efter varje fall' confirms falls.
+F00062,real error,minor,'carvedilol' should be Swedish INN 'karvedilol'.
+F00063,not an error,,'av vulva' without suffix is normal with Latin anatomical term.
+F00064,real error,major,Option 'Methadone' left in English; Swedish 'metadon'.
+F00065,real error,minor,Lab label 'Glucose' left in English; Swedish 'Glukos'.
+F00066,real error,minor,Lab label 'Creatinine' left in English; Swedish 'Kreatinin'.
+F00067,not an error,,'bilaterala fotödem' is correct plural (ödem pl. ödem).
+F00068,not an error,,'den biokemiska väg som påverkas' is correct determinative construction.
+F00069,real error,minor,Secondary unit (98.6°F) from English omitted; style guide requires keeping both units.
+F00070,not an error,,"'propanolol' reproduces the source's own spelling; source typo, not translation error."
+F00071,real error,minor,Secondary unit (100.4°F) from English omitted; style guide requires keeping both units.
+F00072,not an error,,'desorienterad till tid och rum' is the standard Swedish clinical phrase.
+F00073,real error,minor,Lab label 'Lipase' left in English; Swedish 'Lipas'.
+F00074,not an error,,"'ronki' in Swedish denotes wheeze-type (dry) sounds, matching 'wheezes'; claim misreads term."
+F00075,not an error,,'regress av pneumotoraxen' is acceptable Swedish medical usage.
+F00076,not an error,,"Swedish has 'regress', acceptable for resolution here; flagged 'regression' not in text."
+F00077,not an error,,'agensen' is plural definite of neuter 'agens'; 'Ett av de studerade agensen' is correct.
+F00078,real error,minor,'captopril' should be Swedish INN 'kaptopril'.
+F00079,real error,minor,'HjärtauskuItation' has capital I typo for l.
+F00080,not an error,,Flagged 'Hjärtaundersökning' does not occur in the Swedish text.
+F00081,not an error,,'vesikler' is the standard Swedish medical plural.
+F00082,not an error,,'O2-saturation' — 'saturation' is established Swedish clinical usage.
+F00083,not an error,,'kvarstående hosta' is an acceptable rendering of 'chronic cough' here (2-week course).
+F00084,real error,minor,'täta urinträngningar' means urgency; 'frequent urination' is 'täta miktioner'.
+F00085,real error,minor,'head lag' left in English; Swedish paraphrase (huvudet släpar efter) expected.
+F00086,real error,minor,'head' in 'ingen head lag' is untranslated English.
+F00087,real error,major,Option 'Group B streptococcus' left entirely in English; Swedish 'grupp B-streptokocker'.
+F00088,real error,minor,'förändring' broadens 'mass'; 'resistens/tumör' expected. Does not affect ethics answer.
+F00089,real error,minor,"'förändring' broadens 'mass'; slight loss of specificity, answer unchanged."
+F00090,real error,minor,Secondary unit (97.9°F) from English omitted; style guide requires keeping both units.
+F00091,not an error,,'Infundibulära septum' follows accepted pattern (cf. interventrikulära septum) with Latin 'septum'.
+F00092,real error,minor,Secondary unit (5 ft 7 in)/(187 lb) from English omitted; style guide requires keeping both units.
+F00093,real error,minor,Secondary unit (99.0°F) from English omitted; style guide requires keeping both units.

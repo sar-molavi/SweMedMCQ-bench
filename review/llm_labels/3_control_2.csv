@@ -1,0 +1,51 @@
+control_id,has_error,which_error,severity,comment
+C0051,n,,,"""vid behovs-inhalator"", ""opåverkad"", ""spinalnivå"" acceptable; numbers and options match."
+C0052,n,,,"Reduction/oxidation, aspartate/glutamate and structure levels all preserved."
+C0053,n,,,"Lab values and options faithful; ""wire-loop-lesioner"" lowercase only typographic."
+C0054,n,,,Options faithfully rendered.
+C0055,n,,,"""avsaknad av thymusskugga"", ""groddcentra"", gene defects correct."
+C0056,n,,,All drug names in Swedish INN spelling; numbers preserved.
+C0057,n,,,albuterol -> salbutamol correct; history and options faithful.
+C0058,n,,,"""UTOM"" preserves EXCEPT; terms correct."
+C0059,n,,,Muscle heads and laterality preserved.
+C0060,n,,,All lab values and reference ranges preserved.
+C0061,n,,,"""ductus choledochus"", options faithful."
+C0062,n,,,"All numbers and p-values preserved; ""nodpositiv"" acceptable."
+C0063,n,,,"Values preserved; ""isoton natriumkloridlösning"" correct for normal saline."
+C0064,n,,,"Values and options faithful; ""Borreliaartrit"" correct."
+C0065,n,,,"""Tiamazol"" correct; ""Herediteten är anmärkningsvärd för"" slightly calqued but acceptable."
+C0066,y,"""en ... rund, erytematös, ringformad plack""; ""Topikal klindamycin"": gender errors, plack and klindamycin are neuter",minor,"Should be ""ett ... runt, erytematöst, ringformat plack"" and ""Topikalt klindamycin"" (cf. ""topikalt hydrokortison"" in stem)."
+C0067,n,,,"Values preserved; ""oömmande resistens"" correct."
+C0068,n,,,Tear types faithfully rendered.
+C0069,y,"""Sonohysterografi med salininfusion"": ""salin"" is an English leftover",minor,Swedish would use koksalt-/saltlösningsinfusion; meaning still clear.
+C0070,n,,,Assistive devices faithfully rendered.
+C0071,n,,,Garbled source reasonably interpreted; source issue.
+C0072,n,,,Gestational weeks preserved.
+C0073,y,"""Metronidazole"": English drug name spelling",minor,"Swedish INN spelling is ""metronidazol"" per FASS."
+C0074,n,,,Values and options faithful; ELISA standard.
+C0075,n,,,Laterality and values preserved.
+C0076,n,,,"Laterality, acuity and pressures preserved."
+C0077,n,,,Faithful.
+C0078,n,,,Organelle terms correct.
+C0079,n,,,Faithful.
+C0080,n,,,Faithful.
+C0081,n,,,Faithful.
+C0082,n,,,Defence mechanisms correct.
+C0083,n,,,Contact types faithfully rendered.
+C0084,n,,,Faithful.
+C0085,n,,,"""onkofetalt antigen"" correct term."
+C0086,n,,,All ten fibre properties preserved with correct polarity.
+C0087,n,,,Negation and options preserved.
+C0088,n,,,Percentages and p-value preserved.
+C0089,n,,,"Timing options faithful; ""nackuppklarningsscreening"" correct."
+C0090,n,,,Nuclei correctly named.
+C0091,n,,,"Options faithful, including garbled H."
+C0092,n,,,Values preserved; options faithful.
+C0093,n,,,Locations and options faithful.
+C0094,n,,,Values preserved; cell types correct.
+C0095,n,,,Duplicate options mirror source.
+C0096,n,,,Faithful.
+C0097,n,,,All lab values and stem details preserved.
+C0098,n,,,Faithful.
+C0099,n,,,Faithful.
+C0100,n,,,"Location, size and options faithful."

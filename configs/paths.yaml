@@ -1,0 +1,46 @@
+# Every input and output location. Relative paths are resolved against the
+# repository root. Override one entry with SWEMEDMCQ_<KEY> (upper case), e.g.
+#   SWEMEDMCQ_RESULTS_DIR=/scratch/swemedmcq/eval
+# or the root with SWEMEDMCQ_ROOT. Print them with: python -m swemedmcq.paths
+# Hugging Face models come from the usual cache (HF_HUB_CACHE / HF_HOME).
+
+# ---------------------------------------------------------------- released data
+# Final test set: one row per item (prompt_id, dataset, question, options, answer,
+# sv_question, sv_options, category, tier, core, expert_queue, hard). Its Swedish text
+# is the reported layer (L4a). Fields: data/README.md.
+benchmark: data/test/benchmark.jsonl
+# GPT-5.4 draft translation (input of the refinement loop): prompt_id, question, options,
+# sv_question, sv_options.
+draft: data/test/layers/layer1_draft.jsonl
+# Refined layer L4 (L4a plus the accepted LLM edits); used for the L4 delta set.
+refined: data/test/layers/layer4_refined.jsonl
+# Term base, lexicons, whitelist and style guide of the refinement loop.
+resources: data/resources
+
+# ---------------------------------------------------------------- source data
+# English source benchmarks, one folder per dataset with train.jsonl / test.jsonl
+# (fields realidx, question, options, answer_idx; test_hard.jsonl for the hard flag);
+# see docs/SETUP.md for how to obtain them.
+source_benchmark: data/source
+# Swedish training-split translation (GPT-OSS-120B), after extraction and the warning filter.
+train_translation: data/train/sv_train_translation.jsonl
+# Raw downloads and dictionaries for rebuilding the term base (refine resources).
+termbase_raw: work/termbase_raw
+
+# ---------------------------------------------------------------- generated
+# Intermediate data of the training pipeline: prompt sets, teacher traces, SFT splits,
+# tokenised datasets.
+work_dir: work
+# Translation outputs (request files, batch results, vLLM pickles, extractions).
+translate_dir: work/translate
+# Refinement-loop runs (one folder per run; release layers in <run>/release/).
+refine_runs: runs/refine
+# Evaluation prompt files built from the benchmark (testset.build).
+testset_dir: runs/testset
+# Everything made by the evaluation stage: raw generations, scores, job lists,
+# token sets, items.parquet.
+results_dir: runs/eval
+# Fine-tuning runs (checkpoints, logs).
+train_runs: runs/train
+# Released student checkpoints, one folder per student (SweMedMCQ-<Base>-<Answer|Trace>-<Lang>).
+models_dir: hf/models

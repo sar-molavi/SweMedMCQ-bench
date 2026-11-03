@@ -1,0 +1,60 @@
+# Refinement loop on one node with 4x H200 (141 GB) GPUs: one job per shard, all models
+# loaded. GPU indices are relative to the job's visible devices (CUDA_VISIBLE_DEVICES).
+# Qwen is the k=3 sampled judge (6 votes per candidate) and the second meaning
+# detector, so it gets three replicas and GPT-OSS one. The configuration of the released
+# run, with Gemma-4-31B-it as a third judge, is with_gemma.yaml.
+models:
+  gptoss:
+    path: openai/gpt-oss-120b          # HF repo id (HF_HUB_CACHE) or a local snapshot dir
+    # revision: <sha>                  # default: read from HF_HUB_CACHE/models--*/refs/main
+    replicas: [[0]]                    # one AsyncLLMEngine per list, TP = len(list)
+    max_model_len: 32768
+    gpu_memory_utilization: 0.90
+    max_tokens: 16384                  # default output budget (reasoning + JSON)
+    reasoning_effort: medium           # per model (GPT-OSS: low | medium | high)
+    temperature: 0.0                   # greedy
+    fixed_date: "2026-10-06"           # replaces strftime_now() in the chat template
+    enable_prefix_caching: true
+  qwen:
+    path: Qwen/Qwen3.8-27B
+    replicas: [[1], [2], [3]]
+    max_model_len: 32768
+    gpu_memory_utilization: 0.90
+    max_tokens: 16384
+    reasoning_effort: xhigh            # per model; Qwen template default (medium/low add an instruction)
+    enable_thinking: true
+    language_model_only: true          # VL checkpoint: load the text tower only
+    temperature: 1.0
+    top_p: 0.95
+    top_k: 20
+    enable_prefix_caching: true
+
+retry:
+  gptoss_retry_temperature: 0.6        # GPT-OSS failure -> one sampled retry (seeded)
+  max_attempts: 2                      # attempts on the requested model
+  fallback_model: qwen                 # then the same request to Qwen
+  fallback_attempts: 1
+
+engine:
+  disable_log_stats: true
+
+max_items_in_flight: 512
+
+# Term base, lexicons, whitelist and style guide: `resources` of configs/paths.yaml
+# (data/resources). Override with REFINE_RESOURCES, or here with
+#   paths: {resources: <folder relative to the repository root>}
+
+loop:
+  max_rounds: 3                        # rounds of P1 -> P2 -> P3
+  retranslate_max_words: 60
+  decoys: true
+  item_final_check: true
+  agreement_sample_rate: 0.1
+  # --- passes, judges and acceptance thresholds (fixed before the run) ---
+  judge_models: [qwen, gptoss]         # pairwise judges (with_gemma.yaml adds gemma)
+  qwen_judge_samples: 3                # k seeded Qwen samples x 2 orders = 6 votes
+  accept_high: 0.9                     # high:   c >= 0.9 and no veto
+  accept_medium: 0.75                  # medium: c >= 0.75 and <= max_veto_medium vetoes
+  max_veto_medium: 1
+  passes: [meaning, terminology, language]
+  dual_meaning_detect: true            # P1: GPT-OSS + Qwen accuracy detectors

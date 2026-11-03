@@ -1,0 +1,54 @@
+item_id,findings_labels,item_ok_for_benchmark,worst_severity,comment
+D0001,(1) not,y,minor,'asymtomatisk' is correct Swedish spelling. Unflagged: 'möjlig recidiv' should be 'möjligt recidiv' (neuter).
+D0002,(1) real/minor; (2) real/minor,y,minor,"'Acamprosate', 'Naltrexone' left in English spelling; Swedish akamprosat, naltrexon. Recognisable, answer unaffected."
+D0003,(1) real/minor; (2) real/minor; (3) real/minor,y,minor,"Specifier name 'with limited prosocial emotions' left in English (one issue); quoted, understandable, answer unaffected."
+D0004,(1) real/minor,y,minor,"'interlobära' silently corrects source 'intralobar'; TTN answer unchanged. Option H 'Respiratory distress syndrome' left English/capitalised, minor."
+D0005,(1) real/minor,y,minor,"'serumautoantikroppar mot anti-Ro och anti-La' is redundant/illogical but clearly understood. Also 'hypertoni..., för vilket' gender slip; 'mormor' specifies side."
+D0006,(1) not,y,none,'lipo-genes' mirrors the source distractor 'lipo-genesis'; correct preservation.
+D0007,(1) not,y,none,'gap junction' is the established term in Swedish histology; desmosom/zonula adherens fine.
+D0008,(1) real/minor,y,minor,"'Alteplase' should be Swedish INN 'alteplas'; understandable, answer unaffected."
+D0009,(1) not,y,minor,"'full extension' is normal Swedish. Unflagged: 'Tension band-osteosyntes' half English (dragbandsosteosyntes), minor."
+D0010,(1) not; (2) not,y,none,'O2-saturation' is used in Swedish clinical language; no other errors found.
+D0011,(1) not; (2) not,y,none,'asymtomatisk' correct Swedish; 'carcinom' is an accepted Swedish spelling alongside karcinom.
+D0012,(1) not,y,minor,"'spolceller' is the established Swedish pathology term (spolcellig). Unflagged: 'revisor' (auditor) for accountant, irrelevant to answer."
+D0013,(1) not; (2) not,y,none,'buckal' is the Swedish dental spelling; 'buckolinguala' correct.
+D0014,(1) not,y,none,"'buckal' is standard Swedish spelling; 'buckalslemhinna' acceptable. Options slightly unparallel in definiteness, negligible."
+D0015,(1) not,y,minor,"'O2-saturation' acceptable Swedish. Unflagged: 'stora, illaluktande avföringar' awkward plural, minor."
+D0016,(1) not; (2) not,y,minor,"'hälta' is a valid Swedish noun. Minor: '(MRI)' and '(ESR)' kept instead of Swedish MR, SR."
+D0017,(1) not,y,minor,'ciklosporin' is the Swedish INN spelling (FASS). Minor: 'aspirin' rather than acetylsalicylsyra.
+D0018,(1) not,y,none,'aktiviteter i dagliga livet' is the established ADL term; translation accurate.
+D0019,(1) not,y,none,'Prostaglandin E2' is the standard Swedish name; dinoproston is the drug name only.
+D0020,(1) not,y,none,'grönkvistsfraktur' is an accepted variant of grönkvistfraktur; translation accurate.
+D0021,(1) not,y,none,'relining' is a loanword used in Swedish prosthodontics alongside rebasering; meaning clear.
+D0022,(1) not,y,minor,'Synovial inflammation' uses Swedish adjective synovial; acceptable. Minor: 'av vänster mediala menisk' inflection slip.
+D0023,(1) real/minor,y,minor,"'bath salts' left English; Swedish 'badsalter' exists, but parenthetical 'syntetiska katinoner' clarifies."
+D0024,(1) real/minor,y,minor,"'bilateralt expiratoriskt ronki' agreement error (should be bilaterala expiratoriska); meaning clear. Source 'lymphoprotein' corrected to lymfopoietin, harmless."
+D0025,(1) real/minor; (2) not,y,minor,'malnutrition av mikronäringsämnen' awkward (brist på mikronäringsämnen); distractor still clear. 'malnutrition' is Swedish.
+D0026,(1) not; (2) not; (3) not; (4) not; (5) not; (6) not; (7) not; (8) not,y,none,"'hypersonor' means increased resonance, correct; 'axillarlinjen' is standard Swedish. Translation accurate."
+D0027,(1) not; (2) not,y,none,NSIPHS name kept as in source (no Swedish term); 'pankreassvansen' correct compound. Source garbles preserved.
+D0028,(1) not,y,none,'antidot' is common gender ('en antidot'); flag wrong.
+D0029,(1) real/minor,y,minor,'infraorbitala randen' silently corrects source typo 'intraorbital'; experts read it the same way.
+D0030,(1) not,y,none,'rubella' is standard in Swedish medical language.
+D0031,(1) not,y,minor,'rubella' is standard Swedish. Minor: 'screening tests' rendered just 'test'.
+D0032,(1) not,y,none,'Pressor Escape' is a quoted named phenomenon kept from source; options accurate.
+D0033,(1) not,y,none,'indicerade' is correct; flag self-contradictory.
+D0034,(1) not,y,minor,"'i dagliga livet' is the ADL term. Unflagged: 'allmänläkare, som är oroad' attaches concern to doctor instead of son, minor."
+D0035,(1) real/minor; (2) real/minor; (3) real/minor; (4) real/minor,y,minor,"PPI names in English spelling (Pantoprazole etc.); Swedish -prazol forms. Recognisable, answer unaffected."
+D0036,(1) real/minor,y,minor,'clopidogrel' should be Swedish INN 'klopidogrel' (trial name aside). Also 'aspirin' kept; minor.
+D0037,(1) real/minor,y,minor,'interlobära' silently corrects source 'intralobar'; answer (TTN) unchanged.
+D0038,(1) real/minor,y,minor,"'HIV-viral load' half English (virusmängd); widely understood, answer unaffected."
+D0039,(1) not,y,none,'bulimia nervosa' is the official Swedish diagnosis name.
+D0040,(1) not,y,none,'renal' is a Swedish adjective; translation accurate.
+D0041,(1) not,y,none,'renal' is a Swedish adjective; translation accurate.
+D0042,(1) not; (2) real/minor,y,minor,'kroniskt obstruktiv lungsjukdom' is the established form. 'resultatskommunikation' has a superfluous joining s.
+D0043,(1) not; (2) not,y,minor,'carcinom' and 'resecerat' are accepted Swedish. Unflagged: 'eventuell recidiv' should be 'eventuellt recidiv'.
+D0044,(1) real/minor,y,minor,'hydrokarbonringar' drops source's odd 'hydroxy'; steroid answer unaffected.
+D0045,(1) real/minor; (2) real/minor,y,minor,"'Nifedipine', 'Amlodipine' English spelling; Swedish nifedipin, amlodipin."
+D0046,(1) not,y,none,'sömnspolar' is the established Swedish term for sleep spindles.
+D0047,(1) real/minor,y,minor,'morbror' specifies maternal side not in source; irrelevant to answer.
+D0048,(1) not; (2) not,y,none,'portal hypertension' and 'ockult' are standard Swedish.
+D0049,(1) not,y,none,'acicoumarin' preserves the source's (garbled) drug name; no Swedish form to use.
+D0050,(1) real/minor,y,minor,"'valbenazine' should be 'valbenazin'. Also 'benztropin' vs Swedish INN bensatropin, minor."
+D0051,(1) not,y,none,Source is garbled; 'har blivit för vid' is a reasonable reading of 'wider than planned'.
+D0052,(1) not,y,none,'ventrikeltömning' is the standard Swedish term for gastric emptying.
+D0053,(1) real/minor; (2) real/minor,y,minor,"'Duloxetine', 'Trazodone' English spelling; Swedish duloxetin, trazodon."
